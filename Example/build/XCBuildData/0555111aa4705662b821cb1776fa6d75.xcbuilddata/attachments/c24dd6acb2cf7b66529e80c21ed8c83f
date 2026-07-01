@@ -1,0 +1,4 @@
+
+module ABTastyQAssistant.__Swift {
+  exclude header "ABTastyQAssistant-Swift.h"
+}

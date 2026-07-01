@@ -1,0 +1,5 @@
+ extern const unsigned char FlagShipVersionString[];
+ extern const double FlagShipVersionNumber;
+
+ const unsigned char FlagShipVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:FlagShip  PROJECT:Pods-1" "\n";
+ const double FlagShipVersionNumber __attribute__ ((used)) = (double)1.;

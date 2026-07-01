@@ -1,0 +1,55 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e9877a04b8c4afcdc6cb788a8893e6852c9"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98e84f50d77a28e7380725cf89977b490b"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98400bf90dd7a569dbb454a16c2c26e010"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98ce0d989d2756ff65c629cb710bcc785e"
+    }
+  ],
+  "containerPath" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/Pods.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/adel/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/adel/Library/Developer/Xcode/DerivedData/Pods-dukigblwrljfeaftiahldpzvqcmp/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/adel/Library/Developer/Xcode/DerivedData/Pods-dukigblwrljfeaftiahldpzvqcmp/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

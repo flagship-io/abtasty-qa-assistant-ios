@@ -1,0 +1,6 @@
+framework module ABTastyQAssistant {
+  umbrella header "ABTastyQAssistant-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,9 @@
+Target dependency graph (4 targets)
+Target 'Pods-ABTastyQAssistant_Tests' in project 'Pods'
+➜ Explicit dependency on target 'Pods-ABTastyQAssistant_Example' in project 'Pods'
+Target 'Pods-ABTastyQAssistant_Example' in project 'Pods'
+➜ Explicit dependency on target 'ABTastyQAssistant' in project 'Pods'
+➜ Explicit dependency on target 'FlagShip' in project 'Pods'
+Target 'ABTastyQAssistant' in project 'Pods'
+➜ Explicit dependency on target 'FlagShip' in project 'Pods'
+Target 'FlagShip' in project 'Pods' (no dependencies)

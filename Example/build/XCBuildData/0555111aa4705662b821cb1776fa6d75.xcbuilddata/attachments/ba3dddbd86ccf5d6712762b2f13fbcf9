@@ -1,0 +1,23 @@
+{
+  "version": 0,
+  "use-external-names": false,
+  "case-sensitive": false,
+  "roots": [{
+    "type": "directory",
+    "name": "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Release-iphoneos/ABTastyQAssistant/ABTastyQAssistant.framework/Modules",
+    "contents": [{
+      "type": "file",
+      "name": "module.modulemap",
+      "external-contents": "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/ABTastyQAssistant.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    "type": "directory",
+    "name": "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Release-iphoneos/ABTastyQAssistant/ABTastyQAssistant.framework/Headers",
+    "contents": [{
+      "type": "file",
+      "name": "ABTastyQAssistant-Swift.h",
+      "external-contents": "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/ABTastyQAssistant.build/unextended-interface-header.h",
+    }]
+  }]
+}

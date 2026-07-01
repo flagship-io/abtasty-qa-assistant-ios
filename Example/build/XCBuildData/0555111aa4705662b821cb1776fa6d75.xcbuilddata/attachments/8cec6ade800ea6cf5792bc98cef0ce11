@@ -1,0 +1,436 @@
+{
+  "" : {
+    "const-values" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FlagShip-primary.swiftconstvalues",
+    "dependencies" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FlagShip-primary.d",
+    "diagnostics" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FlagShip-primary.dia",
+    "emit-module-dependencies" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FlagShip-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FlagShip-primary-emit-module.dia",
+    "pch" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FlagShip-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FlagShip-primary.swiftdeps"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/API/FSConstant.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSConstant.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSConstant.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSConstant.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/API/FSService+Bucketing.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSService+Bucketing.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSService+Bucketing.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSService+Bucketing.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/API/FSService+Request.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSService+Request.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSService+Request.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSService+Request.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/API/FSService.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSService.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSService.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSService.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/API/FSSettings.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSSettings.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSSettings.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSSettings.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Audience/FSDevice.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDevice.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDevice.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDevice.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Audience/FlagshipContext.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FlagshipContext.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FlagshipContext.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FlagshipContext.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Audience/FlagshipContextManager.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FlagshipContextManager.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FlagshipContextManager.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FlagshipContextManager.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Cache/FSCacheDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSCacheDelegate.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSCacheDelegate.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSCacheDelegate.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Cache/FSCacheManager.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSCacheManager.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSCacheManager.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSCacheManager.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Cache/FSDefaultCache.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDefaultCache.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDefaultCache.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDefaultCache.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Configs/FSConfigManager.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSConfigManager.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSConfigManager.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSConfigManager.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Configs/FSTrackingManagerConfig.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTrackingManagerConfig.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTrackingManagerConfig.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTrackingManagerConfig.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Configs/FlagshipConfig.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FlagshipConfig.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FlagshipConfig.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FlagshipConfig.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Core/FSExposedFlag.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSExposedFlag.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSExposedFlag.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSExposedFlag.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Core/FSFlagMetadata.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSFlagMetadata.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSFlagMetadata.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSFlagMetadata.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Core/FSStatus.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSStatus.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSStatus.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSStatus.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Core/FSVisitor+Campaigns.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitor+Campaigns.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitor+Campaigns.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitor+Campaigns.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Core/FSVisitor+EmotionAI.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitor+EmotionAI.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitor+EmotionAI.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitor+EmotionAI.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Core/FSVisitor+Flags.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitor+Flags.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitor+Flags.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitor+Flags.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Core/FSVisitor+Reconcilliation.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitor+Reconcilliation.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitor+Reconcilliation.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitor+Reconcilliation.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Core/FSVisitor+objc.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitor+objc.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitor+objc.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitor+objc.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Core/FSVisitor.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitor.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitor.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitor.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Core/FSVisitorBuilder.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitorBuilder.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitorBuilder.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitorBuilder.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Core/FSVisitorExposed.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitorExposed.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitorExposed.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitorExposed.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Core/Flag/FSFlag+Additions.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSFlag+Additions.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSFlag+Additions.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSFlag+Additions.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Core/Flag/FSFlag.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSFlag.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSFlag.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSFlag.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Core/Flagship+EmotionAI.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/Flagship+EmotionAI.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/Flagship+EmotionAI.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/Flagship+EmotionAI.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Core/Flagship.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/Flagship.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/Flagship.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/Flagship.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Decision/Bucketing/FSBucketingManager.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSBucketingManager.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSBucketingManager.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSBucketingManager.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Decision/Bucketing/FSPollingScript.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSPollingScript.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSPollingScript.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSPollingScript.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Decision/Bucketing/FSTargetingManager.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTargetingManager.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTargetingManager.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTargetingManager.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Decision/FSDecisionManager.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDecisionManager.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDecisionManager.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDecisionManager.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/FSEmotionAI/FSDataUsageTracking+EmotionAI.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDataUsageTracking+EmotionAI.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDataUsageTracking+EmotionAI.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDataUsageTracking+EmotionAI.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/FSEmotionAI/FSEmotionAI.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSEmotionAI.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSEmotionAI.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSEmotionAI.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/FSEmotionAI/FSEmotionEvent.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSEmotionEvent.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSEmotionEvent.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSEmotionEvent.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/FSEmotionAI/FSEmotionPageView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSEmotionPageView.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSEmotionPageView.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSEmotionPageView.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/FSEmotionAI/FSPollingScore.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSPollingScore.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSPollingScore.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSPollingScore.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/FSEmotionAI/FSWindow.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSWindow.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSWindow.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSWindow.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Logger/FSError.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSError.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSError.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSError.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Logger/FSLogManager.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSLogManager.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSLogManager.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSLogManager.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Logger/FlagshipConstants.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FlagshipConstants.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FlagshipConstants.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FlagshipConstants.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Logger/FlagshipLogManager.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FlagshipLogManager.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FlagshipLogManager.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FlagshipLogManager.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Models/FSAccountSettings.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSAccountSettings.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSAccountSettings.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSAccountSettings.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Models/FSBucket.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSBucket.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSBucket.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSBucket.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Models/FSCacheVisitor.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSCacheVisitor.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSCacheVisitor.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSCacheVisitor.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Models/FSCampaign.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSCampaign.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSCampaign.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSCampaign.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Models/FSCampaigns.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSCampaigns.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSCampaigns.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSCampaigns.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Models/FSContext.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSContext.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSContext.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSContext.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Models/FSModification.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSModification.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSModification.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSModification.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Models/FSModifications.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSModifications.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSModifications.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSModifications.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Models/FSTargets.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTargets.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTargets.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTargets.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Models/FSTroubleshooting.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTroubleshooting.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTroubleshooting.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTroubleshooting.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Models/Tracking/FSBatch.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSBatch.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSBatch.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSBatch.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Models/Tracking/FSCacheHit.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSCacheHit.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSCacheHit.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSCacheHit.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Models/Tracking/FSHits.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSHits.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSHits.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSHits.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Models/Tracking/FSSegment.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSSegment.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSSegment.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSSegment.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Models/Tracking/FSTracking+Codable.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTracking+Codable.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTracking+Codable.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTracking+Codable.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Models/Tracking/FSTracking.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTracking.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTracking.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTracking.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Storage/FSBucketCache.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSBucketCache.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSBucketCache.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSBucketCache.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Storage/FSQLiteWrapper.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSQLiteWrapper.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSQLiteWrapper.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSQLiteWrapper.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Storage/FSStorage.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSStorage.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSStorage.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSStorage.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Storage/FSStorageManager.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSStorageManager.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSStorageManager.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSStorageManager.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Storage/FSTrackingDbMgt.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTrackingDbMgt.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTrackingDbMgt.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTrackingDbMgt.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Storage/FSVisitorDbMgt.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitorDbMgt.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitorDbMgt.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSVisitorDbMgt.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Strategy/FSDefaultStrategy.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDefaultStrategy.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDefaultStrategy.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDefaultStrategy.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Strategy/FSNoConsentStrategy.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSNoConsentStrategy.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSNoConsentStrategy.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSNoConsentStrategy.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Strategy/FSNotReadyStrategy.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSNotReadyStrategy.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSNotReadyStrategy.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSNotReadyStrategy.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Strategy/FSPanicStrategy.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSPanicStrategy.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSPanicStrategy.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSPanicStrategy.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Tools/Data+PrettyPrint.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/Data+PrettyPrint.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/Data+PrettyPrint.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/Data+PrettyPrint.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Tools/FSGenerator.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSGenerator.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSGenerator.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSGenerator.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Tools/FSTools.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTools.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTools.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTools.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Tools/FlagShipVersion.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FlagShipVersion.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FlagShipVersion.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FlagShipVersion.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Tools/decode-json-swift.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/decode-json-swift.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/decode-json-swift.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/decode-json-swift.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Tools/murmurhash3.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/murmurhash3.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/murmurhash3.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/murmurhash3.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Tracking/Batch/FSBatchManager.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSBatchManager.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSBatchManager.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSBatchManager.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Tracking/Batch/FSPoolQueue.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSPoolQueue.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSPoolQueue.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSPoolQueue.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Tracking/FSITrackingManager.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSITrackingManager.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSITrackingManager.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSITrackingManager.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Tracking/FSTrackingManager.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTrackingManager.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTrackingManager.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSTrackingManager.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Tracking/TrackingStrategies/FSContinuousTrackingManager.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSContinuousTrackingManager.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSContinuousTrackingManager.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSContinuousTrackingManager.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Tracking/TrackingStrategies/FSPeriodicTrackingManager.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSPeriodicTrackingManager.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSPeriodicTrackingManager.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSPeriodicTrackingManager.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Troubleshooting/FSDataReportUsage.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDataReportUsage.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDataReportUsage.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDataReportUsage.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Troubleshooting/FSDataUsageTracking+Criticals.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDataUsageTracking+Criticals.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDataUsageTracking+Criticals.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDataUsageTracking+Criticals.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Troubleshooting/FSDataUsageTracking+Tools.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDataUsageTracking+Tools.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDataUsageTracking+Tools.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDataUsageTracking+Tools.o"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/Pods/FlagShip/FlagShip/Source/Troubleshooting/FSDataUsageTracking.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDataUsageTracking.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDataUsageTracking.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/Objects-normal/arm64/FSDataUsageTracking.o"
+  }
+}

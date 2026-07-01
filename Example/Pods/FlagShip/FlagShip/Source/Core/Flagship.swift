@@ -1,0 +1,171 @@
+//
+//  Flagship.swift
+//  Flagship
+//
+//  Created by Adel on 31/08/2021.
+
+import Foundation
+
+public class Flagship: NSObject {
+    let fsQueue = DispatchQueue(label: "flagship.queue", attributes: .concurrent)
+    
+    var envId: String?
+    // apiKey
+    var apiKey: String?
+    
+    // Current visitor
+    @objc public private(set) var sharedVisitor: FSVisitor?
+    // Enabale Log
+    var enableLogs: Bool = true
+    // Polling script
+    var pollingScript: FSPollingScript?
+    // Last init timestamps
+    var lastInitializationTimestamp: String
+    
+    // Emotion AI collect is enabled
+    var eaiCollectEnabled: Bool = false
+    var eaiActivationEnabled: Bool = false
+    
+    // If the qa assistant tool is connected or not
+    var isQAAssistantConnected: Bool = false
+    
+    var currentStatus: FSSdkStatus {
+        get {
+            return fsQueue.sync {
+                _currentStatus
+            }
+        }
+        set {
+            fsQueue.async(flags: .barrier) {
+                self._currentStatus = newValue
+            }
+        }
+    }
+
+    private var _currentStatus: FSSdkStatus = .SDK_NOT_INITIALIZED
+    
+    // Configuration
+    private var _currentConfig: FlagshipConfig = FSConfigBuilder().build()
+
+    var currentConfig: FlagshipConfig {
+        get { fsQueue.sync { _currentConfig } }
+        set { fsQueue.async(flags: .barrier) { self._currentConfig = newValue } }
+    }
+    
+    /// Synchronously update the current configuration.
+    /// Used during SDK start to ensure the config is visible before updating status.
+    private func setCurrentConfigSync(_ config: FlagshipConfig) {
+        fsQueue.sync(flags: .barrier) {
+            self._currentConfig = config
+        }
+    }
+    
+    // Shared instace
+    @objc public static let sharedInstance: Flagship = {
+        let instance = Flagship()
+        // setup code
+        return instance
+    }()
+
+    override private init() {
+        lastInitializationTimestamp = FSTools.getUtcTimestamp()
+    }
+    
+    @objc public func start(envId: String, apiKey: String, config: FlagshipConfig? = nil) {
+        let resolvedConfig = config ?? FSConfigBuilder().build()
+        
+        // Check the environmentId
+        if FSTools.chekcXidEnvironment(envId) {
+            Flagship.sharedInstance.envId = envId
+            
+        } else {
+            Flagship.sharedInstance.updateStatus(.SDK_NOT_INITIALIZED)
+ 
+            FlagshipLogManager.Log(level: .ALL, tag: .INITIALIZATION, messageToDisplay: FSLogMessage.ERROR_INIT_SDK)
+            return
+        }
+        
+        // Set the apiKey
+        self.apiKey = apiKey
+        
+        // Set configuration
+        Flagship.sharedInstance.setCurrentConfigSync(resolvedConfig)
+        
+        switch resolvedConfig.mode { case .DECISION_API:
+            Flagship.sharedInstance.updateStatus(.SDK_INITIALIZED)
+        case .BUCKETING:
+            // Init the polling script
+            pollingScript = FSPollingScript(pollingTime: resolvedConfig.pollingTime)
+            // Update status depend on the buckeitng file
+            Flagship.sharedInstance.updateStatus(FSStorageManager.bucketingScriptAlreadyAvailable() ? .SDK_INITIALIZED : .SDK_INITIALIZING)
+        }
+        
+        FlagshipLogManager.Log(level: .ALL, tag: .INITIALIZATION, messageToDisplay: FSLogMessage.INIT_SDK(FlagShipVersion))
+    }
+    
+    func newVisitor(_ visitorId: String, context: [String: Any] = [:], hasConsented: Bool = true, isAuthenticated: Bool, pOnFlagStatusChanged: OnFlagStatusChanged, pOnFlagStatusFetchRequired: OnFlagStatusFetchRequired, pOnFlagStatusFetched: OnFlagStatusFetched) -> FSVisitor {
+        let newVisitor = FSVisitor(aVisitorId: visitorId, aContext: context, aConfigManager: FSConfigManager(visitorId, config: currentConfig), aHasConsented: hasConsented,
+                                   aIsAuthenticated: isAuthenticated,
+                                   pOnFlagStatusChanged: pOnFlagStatusChanged,
+                                   pOnFlagStatusFetchRequired: pOnFlagStatusFetchRequired,
+                                   pOnFlagStatusFetched: pOnFlagStatusFetched)
+        
+        // Define strategy
+        newVisitor.strategy = FSStrategy(newVisitor)
+        
+        if hasConsented {
+            newVisitor.strategy?.getStrategy().lookupHits()
+        } else {
+            // user not consent then flush the cache related
+            newVisitor.strategy?.getStrategy().flushVisitor()
+        }
+        
+        // Send consent hit
+        newVisitor.sendHitConsent(hasConsented)
+        
+        // Config data usage tracking
+        FSDataUsageTracking.sharedInstance.configureWithVisitor(pVisitor: newVisitor)
+    
+        return newVisitor
+    }
+    
+    // Set the shared visitor
+    public func setSharedVisitor(_ visitor: FSVisitor) {
+        Flagship.sharedInstance.sharedVisitor = visitor
+    }
+    
+    // Reset the sdk
+    func reset() {
+        fsQueue.sync(flags: .barrier) {
+            self.sharedVisitor = nil
+            self._currentStatus = .SDK_NOT_INITIALIZED
+            self._currentConfig = FSConfigBuilder().build()
+        }
+    }
+    
+    // Create new visitor
+    @objc public func newVisitor(visitorId: String, hasConsented: Bool, instanceType: Instance = .SHARED_INSTANCE) -> FSVisitorBuilder {
+        return FSVisitorBuilder(visitorId, hasConsented, instanceType: instanceType)
+    }
+    
+    // Get status
+    public func getStatus() -> FSSdkStatus {
+        return currentStatus
+    }
+    
+    // Update status
+    func updateStatus(_ newStatus: FSSdkStatus) {
+        var callbackListener: ((FSSdkStatus) -> Void)?
+        fsQueue.sync(flags: .barrier) {
+            guard newStatus != self._currentStatus else { return }
+            self._currentStatus = newStatus
+            callbackListener = self._currentConfig.onSdkStatusChanged
+        }
+        callbackListener?(newStatus)
+    }
+    
+    // When close is called will trigger all hits present in batch
+    @objc public func close() {
+        Flagship.sharedInstance.sharedVisitor?.configManager.trackingManager?.batchManager.batchFromQueue()
+    }
+}

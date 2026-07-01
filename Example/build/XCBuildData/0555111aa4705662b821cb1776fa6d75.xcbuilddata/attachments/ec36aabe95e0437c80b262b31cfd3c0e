@@ -1,0 +1,4 @@
+
+module FlagShip.__Swift {
+  exclude header "FlagShip-Swift.h"
+}

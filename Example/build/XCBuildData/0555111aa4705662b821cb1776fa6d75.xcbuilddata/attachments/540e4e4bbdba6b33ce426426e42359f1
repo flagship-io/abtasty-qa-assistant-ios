@@ -1,0 +1,16 @@
+{
+  "" : {
+    "const-values" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/ABTastyQAssistant.build/Objects-normal/arm64/ABTastyQAssistant-primary.swiftconstvalues",
+    "dependencies" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/ABTastyQAssistant.build/Objects-normal/arm64/ABTastyQAssistant-primary.d",
+    "diagnostics" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/ABTastyQAssistant.build/Objects-normal/arm64/ABTastyQAssistant-primary.dia",
+    "emit-module-dependencies" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/ABTastyQAssistant.build/Objects-normal/arm64/ABTastyQAssistant-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/ABTastyQAssistant.build/Objects-normal/arm64/ABTastyQAssistant-primary-emit-module.dia",
+    "pch" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/ABTastyQAssistant.build/Objects-normal/arm64/ABTastyQAssistant-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/ABTastyQAssistant.build/Objects-normal/arm64/ABTastyQAssistant-primary.swiftdeps"
+  },
+  "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/ABTastyQAssistant/Classes/ABTastyQAAssistant.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/ABTastyQAssistant.build/Objects-normal/arm64/ABTastyQAAssistant.o",
+    "llvm-bc" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/ABTastyQAssistant.build/Objects-normal/arm64/ABTastyQAAssistant.bc",
+    "object" : "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/ABTastyQAssistant.build/Objects-normal/arm64/ABTastyQAAssistant.o"
+  }
+}

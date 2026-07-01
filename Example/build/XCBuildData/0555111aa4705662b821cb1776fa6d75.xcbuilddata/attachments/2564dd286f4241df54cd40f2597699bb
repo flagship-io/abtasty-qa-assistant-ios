@@ -1,0 +1,5 @@
+
+module FlagShip.Swift {
+  header "FlagShip-Swift.h"
+  requires objc
+}

@@ -1,0 +1,5 @@
+ extern const unsigned char ABTastyQAssistantVersionString[];
+ extern const double ABTastyQAssistantVersionNumber;
+
+ const unsigned char ABTastyQAssistantVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:ABTastyQAssistant  PROJECT:Pods-1" "\n";
+ const double ABTastyQAssistantVersionNumber __attribute__ ((used)) = (double)1.;

@@ -1,0 +1,23 @@
+{
+  "version": 0,
+  "use-external-names": false,
+  "case-sensitive": false,
+  "roots": [{
+    "type": "directory",
+    "name": "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Release-iphoneos/FlagShip/FlagShip.framework/Modules",
+    "contents": [{
+      "type": "file",
+      "name": "module.modulemap",
+      "external-contents": "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    "type": "directory",
+    "name": "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Release-iphoneos/FlagShip/FlagShip.framework/Headers",
+    "contents": [{
+      "type": "file",
+      "name": "FlagShip-Swift.h",
+      "external-contents": "/Users/adel/Documents/githubProject/abtasty-qa-assistant-ios-dev/Example/build/Pods.build/Release-iphoneos/FlagShip.build/unextended-interface-header.h",
+    }]
+  }]
+}

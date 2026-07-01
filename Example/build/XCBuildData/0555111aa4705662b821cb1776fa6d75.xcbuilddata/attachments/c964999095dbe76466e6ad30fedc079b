@@ -1,0 +1,5 @@
+
+module ABTastyQAssistant.Swift {
+  header "ABTastyQAssistant-Swift.h"
+  requires objc
+}

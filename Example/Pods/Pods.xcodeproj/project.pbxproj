@@ -1,0 +1,1573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0234949CD477F88533C690D4D4FD5860 /* QAVariationViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D44667A771A7A281DE3A8222DE599CC /* QAVariationViewCell.swift */; };
+		02D7031AA093CA89F09F594E5EF1336F /* QAModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DD587877A113BD376F2EEEF645DADC /* QAModels.swift */; };
+		0488E9E316E6C728570D0DF534FD4160 /* FSITrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FDFAF7955FBED15026401612BFD645 /* FSITrackingManager.swift */; };
+		04FF27D850EFC4F78C9D5A1D6B1D8976 /* QAVariationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6829D410A9BB56A103D3CDCDA7A4076F /* QAVariationsView.swift */; };
+		05F2D0C0DD4DF725929380AF0D7A7475 /* FSFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE33BD25CB04C7AD215127B3FB8773 /* FSFlag.swift */; };
+		07F594038A88F03E62B3B4D4DBC0C670 /* FlagshipLogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018063FD9AB4958F1D80AF25722403B4 /* FlagshipLogManager.swift */; };
+		0C8CDE4FF76937B8190B2B6921DB3138 /* FSVisitor+Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2253E90BDAECFCF7DECF183F2A8CAED /* FSVisitor+Flags.swift */; };
+		0D5DBA4E06AEC0B4A2221F1D16E9D1F3 /* QAVariationsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F95C7F9D8D19C33759E269B2E2D55541 /* QAVariationsView.xib */; };
+		11BEBF4109C8B2F66CB24D025F12F977 /* FSDataReportUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15300CE6E75DBD67F6A42871BE611EB5 /* FSDataReportUsage.swift */; };
+		1401232FC804BEDCD5A85D47B99941BE /* FlagShip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 636D6AFE390FEA9692F364CDF1401A87 /* FlagShip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1613BE5E2ED2DA6B23D1ECB15A8C59B0 /* FSCacheDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503A265B4E5B0BEF96815D41295F7A8F /* FSCacheDelegate.swift */; };
+		16B55D2B5D03F1CBB78699592C03409C /* FSTracking+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37ED5ED2D3F1E0C0ED43911F21B8AF7 /* FSTracking+Codable.swift */; };
+		18D819F3BBC14A030DA4EAD3A63254E7 /* FlagshipContextManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC304D175B6A8BC3602C88ABD6B8DF5 /* FlagshipContextManager.swift */; };
+		19CFFCF9109C8A11E7ECB4E1C235BC18 /* FSBatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE21556695AF8263B9D35E6DBA79A58D /* FSBatchManager.swift */; };
+		1BCA7A2D91868B37BB478E749047D673 /* FSEmotionEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51277AC3208AA31F3C69C4173C6A0EB8 /* FSEmotionEvent.swift */; };
+		1FBAC8DDAC91B89A89521627A29B7346 /* FSWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D3595E64F0070128AAB78908DF1233 /* FSWindow.swift */; };
+		2062200C00AEBCB7F28C289959B6B10B /* FlagShip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BCE99B128FCC5A21FBD93FF64A42F0 /* FlagShip-dummy.m */; };
+		216358AA37357EBBEA2812AAD31D0C03 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85850BED0766F6C87EF2778D6BC54F99 /* Lato-Regular.ttf */; };
+		239DD4E3511E2C22955D7044670C56A2 /* ABTastyQAssistant-ABTastyQAssistant in Resources */ = {isa = PBXBuildFile; fileRef = 0F6BB5A1E37A62FA324A7D7E760A0291 /* ABTastyQAssistant-ABTastyQAssistant */; };
+		25CF71A8F2D696EF22B0955EB5B15F2C /* FSTargetingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C24A97AE0017D3D1591FDE8E40A0FB8 /* FSTargetingManager.swift */; };
+		264EFB93BC39C1E1D2869392D2E4F4C5 /* ABTastyQAAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC76EFEBBB8FF902E27D105080C524B /* ABTastyQAAssistant.swift */; };
+		26D8A3DB415429F11241E3CD1AACF0F4 /* FSCampaign.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE010C9D7ACB237895CC8255D0D20FBB /* FSCampaign.swift */; };
+		31231EBE715639433837D3D918C85BE6 /* FSFlag+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934280B3B8CF31E577225CDDD3B55263 /* FSFlag+Additions.swift */; };
+		32DAD235963C6DA463B75EF7695EDD31 /* FSBatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA9D8324C13B8B7E281BDE6B5E62CFA /* FSBatch.swift */; };
+		332B3DE7F468DEDC5CFC21C71585CD64 /* murmurhash3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEAB4FFB53F2C2CB8B1D2845C2AD915 /* murmurhash3.swift */; };
+		34B40C4231A3CF51BCE74EBE0DBF908C /* FSCacheVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3928128753C9DAC4D29E5D35CB5822 /* FSCacheVisitor.swift */; };
+		35DC9C2B240EFAA20DCFA046593816CE /* QAVariationSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FF9E52E85E91104689F1909EFCFC46A /* QAVariationSectionView.xib */; };
+		3DC2C6CE0F8A8D5BBB7884C6F78BF6CF /* FlagshipContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8A5EB579C696AA22F82405F2429D26 /* FlagshipContext.swift */; };
+		40280CC2633447A30EBDE5C5FE253829 /* FSPeriodicTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5938BFE4474353FC172E35D77D9D27FF /* FSPeriodicTrackingManager.swift */; };
+		44F2C2B4AA4FCAF64C4BFABA1CC783DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */; };
+		45DF420DFBBF5307490C08DC56374D66 /* Pods-ABTastyQAssistant_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF1B56C5AABE020FF0325AD3EE066870 /* Pods-ABTastyQAssistant_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		487C0D2414A03578A0DDCF90577051F3 /* FSQAMessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B960248DD206256E39742A49CC669 /* FSQAMessageService.swift */; };
+		4A4C035724AFA2C9884B16561CD1E9DD /* Pods-ABTastyQAssistant_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ACE5072177B3AC153FB9BA222F16E4B /* Pods-ABTastyQAssistant_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AF8B0C5FFCE830326B80FC8457222C3 /* FSVisitorBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0071448E5FD1AF99F0491E705A01EA46 /* FSVisitorBuilder.swift */; };
+		4BE4472C24BE53C171976FA078F88D96 /* QAColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31D5FCA0030E45E307ECE4B0DCD6E74 /* QAColorPalette.swift */; };
+		4C3D7AC4146EB4388607A32D3A1CE959 /* FSCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271FF6E44F23B645637746521636EA15 /* FSCacheManager.swift */; };
+		4D74BAD2FB7F6E30BCAFB7F11928E276 /* FSVisitor+Reconcilliation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689399DA0AD0DE254E2D3264F3E739BE /* FSVisitor+Reconcilliation.swift */; };
+		4E0D93623B31416F06355EF487136BB3 /* FSVisitor+EmotionAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E95EE8C2DBA0C61E1544424A5A0F24 /* FSVisitor+EmotionAI.swift */; };
+		4EC922F5C151B082C6346D2D53F81441 /* FSConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972EA116E486860524E86DAB2F2F916E /* FSConstant.swift */; };
+		50792008B9000A7CCCFD64E2FACF749B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		53B1FDA8E78608E52025EE2D2759B255 /* FSService+Bucketing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B705F606DD814C40DB5497F3215A8 /* FSService+Bucketing.swift */; };
+		555018745FFF6F7F32518301221F444D /* QAVariationViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73062B00011C65501AC06F63BB735674 /* QAVariationViewCtrl.swift */; };
+		590F9480276F6D5BD5338047BC5E466D /* FlagshipConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EA618DC246EDFA88AD5BA84D21B58F /* FlagshipConfig.swift */; };
+		591E0B8052261B8D4DCC5A0847CEE545 /* FlagshipConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EBCA850A13C6000F261ACD7957C2E3 /* FlagshipConstants.swift */; };
+		59466EF042E88403694281B26D8E1DB9 /* FSService+Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F5FF49C9423560FD5F27597438A291 /* FSService+Request.swift */; };
+		5998F7ECE034A14CF49B68B59D5F6CDE /* FSHits.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8744FB723899CA67750B06C50C58F42 /* FSHits.swift */; };
+		5AC429402F7C6ECC8F5CA13C5FE41008 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60B3C84ECD9F42FA9AF2692A2B0AFB26 /* Lato-Bold.ttf */; };
+		5BA461CEFDD6B9153AE313A7D998FE2A /* QAVariationSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A72459F8E2740CBBC76013170B4F8A /* QAVariationSectionView.swift */; };
+		5C3A44DC06196B467EBFA5C5DAF65270 /* FSSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AFEC26475482BC25286832427DB583 /* FSSettings.swift */; };
+		5CA385EBF4DD01B93BFAAF3BED57CB67 /* FSVisitor+Campaigns.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6704DF653ED1D9450D683E526B4DC4B /* FSVisitor+Campaigns.swift */; };
+		5DD2EC23EC9657D1282A5CA21B334918 /* ABTastyQAssistant-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E95C7D1AD938C05CDA5CE742B0C2721 /* ABTastyQAssistant-dummy.m */; };
+		5EC078FBA459D4C8FB2483FED8F4497E /* FSQAssistantStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC031612197B115994350E9E21AA1780 /* FSQAssistantStrategy.swift */; };
+		5F044B45BE0A5C684A7B52E650538A89 /* FSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FFA0AA095E18F567A9AB90CA03129A /* FSService.swift */; };
+		5FD9CB7DBF71B1AA4C8B6D48B30EECBA /* FSPollingScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0A92DA1EFD079923CFD99D9BEC01A /* FSPollingScore.swift */; };
+		618352BF47685DD65AC3CBF80A87CD4C /* FSNoConsentStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2A456129D1179D7E2B939BE67EDC7A /* FSNoConsentStrategy.swift */; };
+		62CEB57C43995E6C0335B2ED4CCFE680 /* Pods-ABTastyQAssistant_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC29215773BB5C011A7224C579D7740 /* Pods-ABTastyQAssistant_Example-dummy.m */; };
+		63A08F0A24320400776BA5383625D530 /* QATargetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EEDF053563F039E0DE3DFF569DC966 /* QATargetingView.swift */; };
+		6A2D48A8BBBA774EA45001B0437BFC55 /* FlagShipVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DFA847202D834B541B7D7BA47B75F /* FlagShipVersion.swift */; };
+		6CFEB59CE1F9E98BBB370F6279B0F266 /* FSQLiteWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9BC5865B33D574E6832E70148F6EB7 /* FSQLiteWrapper.swift */; };
+		6E2D8638E6EFF2A7B1FEAE579B5C3331 /* FSTrackingManagerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E17FDAF758277A8A765B45EA7E6F057 /* FSTrackingManagerConfig.swift */; };
+		74E1DA155ABBD3515CD1C43B408EEE3A /* FSTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5BB9DE27A8AE7119E9F424E6AC1712 /* FSTrackingManager.swift */; };
+		752BBFA542679FEE6976EBC9E9AF9D56 /* FSStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A6069F5857A453E805FB27312C37E /* FSStorage.swift */; };
+		785094388D93E9DAB2399D2AF254FA3D /* QACampaignDetailsViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B62A84176FCC56702821BDED785E80 /* QACampaignDetailsViewCtrl.swift */; };
+		7929F8E4C17F162B87C9E31B12C15A1C /* FSTroubleshooting.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA18990D8A1A078752AF5D6656A982BD /* FSTroubleshooting.swift */; };
+		7FD9124F62D8636F140C24D3BE0A04F8 /* Bundle+Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5111653CB09330A9F9A4F3BFDC9FD16 /* Bundle+Fonts.swift */; };
+		829ED325F05D342904D5C4A0C4CFEB1D /* FSCacheHit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54C565A04B1B66A3CF1AB94A4BBF110 /* FSCacheHit.swift */; };
+		8617FF73081DEC8ADAB13C4A183EF1EC /* FSDefaultStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0646A62B42DB74F2EF97A6AA37A57547 /* FSDefaultStrategy.swift */; };
+		864E204D2A5979E089BA14808EB7B447 /* FSDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6495024777F526273A8594C47E134E3B /* FSDevice.swift */; };
+		87784ECAEC2321CB9BA6FE44706E61A2 /* FSPollingScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A62AE14FC118787BCA91C6A531F9F2F /* FSPollingScript.swift */; };
+		8A75A9241252C57E3228284FEB94B0E8 /* BucketingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6A6C66770A9017E5A83D15DB7A07E3 /* BucketingResponse.swift */; };
+		8C8AA71D01BB0D51E5BACD6167679468 /* UIFont+Lato.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE651F62448C6B92D11F4BEA2E24ABEF /* UIFont+Lato.swift */; };
+		8F414914B61D9013F144702DE12D85DA /* FSPanicStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393E31D8D6E2A611A9AC86310755F250 /* FSPanicStrategy.swift */; };
+		99C7711D96C7833B84C0B9B4876FBD73 /* ABTastyQAssistant.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3341FDF498B176CE94962D38C55F408 /* ABTastyQAssistant.xcassets */; };
+		9A49C90E342057F69A1FD39859191946 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		9B46E4D2C0A4D226B0CFB3DCEA80DAE5 /* FSStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C440B387080204015F957D467588777 /* FSStorageManager.swift */; };
+		A0CE0BCC9712CFBE0E539C3A809E9461 /* QAContextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF71691A86E724C924E1549B6E6848 /* QAContextViewController.swift */; };
+		A1DC62E32AFFEF084813BC759B0E5C2B /* Flagship+EmotionAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5584AFA3A73281581E5D894AA1DEAF71 /* Flagship+EmotionAI.swift */; };
+		A6F4D97A97D47A5955819D743758FED6 /* FSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3A2B4206E00B0AB2C7226D4E2C36B9 /* FSError.swift */; };
+		A8074C70D05A6E98CE1AB738E9A37CA9 /* FSBucketCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D7124B71DBA6894171D3C9E6EE1EF /* FSBucketCache.swift */; };
+		AAF86F3BDE0DF9226BAC41595BC71D78 /* FSModifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6784A496FE4412C193F50555A65B55F /* FSModifications.swift */; };
+		AF0485ED1BE4001EABCF9C7D3B0438C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		AF175DBDEA9B344F42DC28C6949733AA /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 5C53ACFA034EC3256BF7606C646D9C9B /* Fonts */; };
+		AF680B213B5531AE9B3236C4CC3D37E7 /* Data+PrettyPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E1F4914F0AB50DBE8D2AEE2D34DDDE /* Data+PrettyPrint.swift */; };
+		AFD9778A7A9CEBE2A6990B0577ED4C7B /* FSModification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159B21F87847C25ACEAFFD6231C3609F /* FSModification.swift */; };
+		B0E22A2E1638BFAF59814CA102264269 /* FSGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2F5D8E39A6977A49A5FC503F169EF4 /* FSGenerator.swift */; };
+		B101CC7BDD92ACB0D0C9B5959A1C3792 /* Pods-ABTastyQAssistant_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3641103FC3FD50E0B4CC62DC8C6B70C8 /* Pods-ABTastyQAssistant_Tests-dummy.m */; };
+		B170052A9D8AE759297A012AE80FC209 /* BundleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6D6AEF41BD1E405C7727D5AA99E465 /* BundleImageView.swift */; };
+		B1F07958C14ADFB6EF276FA902B7B10C /* QAAssistant.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A71CC81AB20368A4F87B433D7C66F4 /* QAAssistant.storyboard */; };
+		B381FC47065007CFC64649A28CDE138A /* FSConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A0D0EF1A122511CD6607B9C8545043 /* FSConfigManager.swift */; };
+		B4DFB081978C782888FF416DBDB71273 /* FSBucketingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E86AA37617A463353FC5CD65FB2250 /* FSBucketingManager.swift */; };
+		B6866C7188C1605B5A0B0E40A18B2150 /* QAAllocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114D0FAF4EB62AFB38B8DD2C5CD1DA7A /* QAAllocationView.swift */; };
+		B7611D73AFB492CB6120EA7C2F474A20 /* FSDataUsageTracking+EmotionAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414CCE507F03960E62193CD2EE87F3FB /* FSDataUsageTracking+EmotionAI.swift */; };
+		B7A31C232D29713A71A7A63ED3FF6C83 /* FSLogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82460EF2E2B44C3116E2081CC74E5B9E /* FSLogManager.swift */; };
+		B98BD519F1AA79A6E3C5434142CC0122 /* ABTastyQAssistant-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 419B08363EA342BCE6B6139BE4D79791 /* ABTastyQAssistant-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA0F63A0A88F4C0A923656D1D4CF7B2C /* FSDecisionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633484EE5AD4B2C3F480C76C5C31BA01 /* FSDecisionManager.swift */; };
+		BEF853D658ADEF6DA8CA9F57FB135F1F /* FSVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C7EFD0BAE59F929E1E0D59788D7856 /* FSVisitor.swift */; };
+		C11F77D4AFF7E072D77B541E115E6446 /* FSFlagMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = E666D979D35674BA59D458D68D7E1332 /* FSFlagMetadata.swift */; };
+		C5A8DDEFFCC396A90A9EC1EB4BE656B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		C669FBFE1490191B3A957D07BDC657C1 /* FSVisitorExposed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97DE96516AC1236343726B5F6B8F2DE /* FSVisitorExposed.swift */; };
+		C6734D1B65A4DE7A15D8FB88E2FBF4B6 /* FSDefaultCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30564E61FE467DEB1A8FA9D6C4A317 /* FSDefaultCache.swift */; };
+		C8C9748BAFD2F9AFE5B37CD2F85E1146 /* FSSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE88A0EABC9BF43A205F5681F9FE65B8 /* FSSegment.swift */; };
+		CB963491DEE6ADC6C6AFA346A0928FC1 /* FSExposedFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029E383B6562AF908F3D55796B7EEDD4 /* FSExposedFlag.swift */; };
+		CD581601C288A92259B2D3FA7EDDD788 /* FSCampaigns.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71755C0C1D6D18BB121E46D2DE7959F /* FSCampaigns.swift */; };
+		CF6B294A4700B8A9E248E9522502DFAF /* FSDataUsageTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91366FEB205E4610E55E4D3CD51F46FF /* FSDataUsageTracking.swift */; };
+		D03F08F94B03F511CB23F8239CA780B7 /* QATargetingEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D241CCDC79F6CBFB5502959EC2ED70E /* QATargetingEvaluator.swift */; };
+		D16B4C55125EA9A85ECC3F129EFF2102 /* decode-json-swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C784AA1754AF4079BFA8832D9088E /* decode-json-swift.swift */; };
+		D1EBFA4121477C145926B853EC8C4AB1 /* FSEmotionAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62903B63981B979F2328F1024C0EA99C /* FSEmotionAI.swift */; };
+		D4EDB27D7183C522BC6A905F24B51426 /* FSVisitorDbMgt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499AA0334DB405B96DCFCC9CDA204E9F /* FSVisitorDbMgt.swift */; };
+		D7FAAE7374C362CFA489925DDE3EFDD6 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C68169832EBF816345369BDCE06065E1 /* Lato-Italic.ttf */; };
+		DD563AC6311C7BFD2973D0907C2504A6 /* FSStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7737F291F5F5A7C08953B955CA89F52F /* FSStatus.swift */; };
+		DD61687F14FBA292C0E062754CC10F8F /* FSContinuousTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDD610524606F0D20B7A2207428CABD /* FSContinuousTrackingManager.swift */; };
+		E42C3A2B1BE33F5A3BAFA8810EDCF955 /* QAssistantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3020CA1A879ABCE7C7E71FB4944FB10A /* QAssistantService.swift */; };
+		E4D3EB4D839B0845E91C4A562CA8F735 /* FSTargets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5C5FEFE1CE880876B482835C71717 /* FSTargets.swift */; };
+		E50592743A2A41CF5765D3800344F062 /* FSTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5A58B74EB76E667B36926FE9A54F87 /* FSTracking.swift */; };
+		E5E8C4BD65AC8F9797B0828021DF35E8 /* FSVisitor+objc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B77373580AFD78D97AE925AE444023 /* FSVisitor+objc.swift */; };
+		E8DE22754E5ABF79432561FF10F33282 /* FSPoolQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB235380C1CBC00A8E4E214AE5D43ED4 /* FSPoolQueue.swift */; };
+		E98D70A488E4D0622CB6BBEF52FD841D /* FSDataUsageTracking+Criticals.swift in Sources */ = {isa = PBXBuildFile; fileRef = D052F0B18F45EC3684D429DDD2C3D4B3 /* FSDataUsageTracking+Criticals.swift */; };
+		EBB661D6315FCDB52A2A54BB8489BE4E /* QACampaignsTableViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF4BE0ABDF272CD02647D1DF1EB403 /* QACampaignsTableViewCtrl.swift */; };
+		EC4A30D5BA5705F14C04DAA5A4150BD6 /* QAEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AC79480E29515EE2FE526123060917 /* QAEventsViewController.swift */; };
+		ED404E68B93DFC2B6CF1DC799B84382A /* FSTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C55176FAAA30A55416790B534FFC3B /* FSTools.swift */; };
+		ED5D771D2BEAF0BB1FE95E7FFBA80C8A /* FSEmotionPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1BFD5A687DC7402DB2847CA50FA0D8 /* FSEmotionPageView.swift */; };
+		EED0DBCB0EFC487DF4A5463D99919BD6 /* FSDataUsageTracking+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12882C9A97F168295343FC5E4387EC52 /* FSDataUsageTracking+Tools.swift */; };
+		F0D357CF4DBF99B0CF668AC47749F237 /* FSTrackingDbMgt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6239C7B0AB40BD9EB49D75B9CB384CA4 /* FSTrackingDbMgt.swift */; };
+		F0ED23032D1C1054BE6916A2C76F2E1C /* FSContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120D81F6CDCCEC84C72ADFEECA47BBC2 /* FSContext.swift */; };
+		F16C5C2493BA22BE78B0772999D2554B /* Flagship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62000791728C80AF062C89BB2AD8E714 /* Flagship.swift */; };
+		F3A275FE879520144289DBD2BAE3E239 /* QAssistantHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217EB70AC63A41CA7FCA171FA0A0E8A8 /* QAssistantHomeViewController.swift */; };
+		F567CEA6C59531D660DFD19906A16E74 /* FSAccountSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348F0FBA2ADE5815DD44ADFA1E8D059 /* FSAccountSettings.swift */; };
+		F90B79BCFE29D20D438D6AA1E30BD740 /* FSBucket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2468BE1300F6BFE1683C3B056C6D96 /* FSBucket.swift */; };
+		F98F68A5676E4319C4CDEB58EB239263 /* FSNotReadyStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AFB208198C94D7FB2CC5EEF4BE4B61 /* FSNotReadyStrategy.swift */; };
+		FCB02D22AB646F873ABEB682994D4E51 /* QACampaignTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464BA20F474D76ADEFC5189101A89AE9 /* QACampaignTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C4CDCB3D36B5A5463D72ACFF97AFDD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03D127D44D65E4C5FBDF4F1C1D0CA8B7;
+			remoteInfo = "ABTastyQAssistant-ABTastyQAssistant";
+		};
+		64935C9DD2F74DDC3282F15E5D4F950D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D899975D25DAC4B611F10D83547B7094;
+			remoteInfo = FlagShip;
+		};
+		A240CE6C8426B10BA4C31EE197DB7A18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D899975D25DAC4B611F10D83547B7094;
+			remoteInfo = FlagShip;
+		};
+		D265E67B21BAAD7A2BED7D4AB296BDBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B20FDC5F922F4125E7DE169906DB70D;
+			remoteInfo = ABTastyQAssistant;
+		};
+		D968208103D000DAA51D742F98E02BD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D899975D25DAC4B611F10D83547B7094;
+			remoteInfo = FlagShip;
+		};
+		FB315C4A7556F1722A234B37709A8E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B20FDC5F922F4125E7DE169906DB70D;
+			remoteInfo = ABTastyQAssistant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0071448E5FD1AF99F0491E705A01EA46 /* FSVisitorBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSVisitorBuilder.swift; path = FlagShip/Source/Core/FSVisitorBuilder.swift; sourceTree = "<group>"; };
+		018063FD9AB4958F1D80AF25722403B4 /* FlagshipLogManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagshipLogManager.swift; path = FlagShip/Source/Logger/FlagshipLogManager.swift; sourceTree = "<group>"; };
+		01A82AF24E937C97444E088278B77580 /* Pods-ABTastyQAssistant_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABTastyQAssistant_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		029E383B6562AF908F3D55796B7EEDD4 /* FSExposedFlag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSExposedFlag.swift; path = FlagShip/Source/Core/FSExposedFlag.swift; sourceTree = "<group>"; };
+		0646A62B42DB74F2EF97A6AA37A57547 /* FSDefaultStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSDefaultStrategy.swift; path = FlagShip/Source/Strategy/FSDefaultStrategy.swift; sourceTree = "<group>"; };
+		0B8A5EB579C696AA22F82405F2429D26 /* FlagshipContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagshipContext.swift; path = FlagShip/Source/Audience/FlagshipContext.swift; sourceTree = "<group>"; };
+		0EC29215773BB5C011A7224C579D7740 /* Pods-ABTastyQAssistant_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABTastyQAssistant_Example-dummy.m"; sourceTree = "<group>"; };
+		0F666C797C85ADEFBB8870F92382C66E /* ABTastyQAssistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABTastyQAssistant.release.xcconfig; sourceTree = "<group>"; };
+		0F6BB5A1E37A62FA324A7D7E760A0291 /* ABTastyQAssistant-ABTastyQAssistant */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ABTastyQAssistant-ABTastyQAssistant"; path = ABTastyQAssistant.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		10EA618DC246EDFA88AD5BA84D21B58F /* FlagshipConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagshipConfig.swift; path = FlagShip/Source/Configs/FlagshipConfig.swift; sourceTree = "<group>"; };
+		114D0FAF4EB62AFB38B8DD2C5CD1DA7A /* QAAllocationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QAAllocationView.swift; path = ABTastyQAssistant/Views/QAAllocationView.swift; sourceTree = "<group>"; };
+		11720C33E4A7773189DF06B45C6DECFE /* ABTastyQAssistant.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ABTastyQAssistant.modulemap; sourceTree = "<group>"; };
+		11A0D0EF1A122511CD6607B9C8545043 /* FSConfigManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSConfigManager.swift; path = FlagShip/Source/Configs/FSConfigManager.swift; sourceTree = "<group>"; };
+		120D81F6CDCCEC84C72ADFEECA47BBC2 /* FSContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSContext.swift; path = FlagShip/Source/Models/FSContext.swift; sourceTree = "<group>"; };
+		12882C9A97F168295343FC5E4387EC52 /* FSDataUsageTracking+Tools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSDataUsageTracking+Tools.swift"; path = "FlagShip/Source/Troubleshooting/FSDataUsageTracking+Tools.swift"; sourceTree = "<group>"; };
+		1371224957867258FC175C6846FB563E /* Pods-ABTastyQAssistant_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ABTastyQAssistant_Example.modulemap"; sourceTree = "<group>"; };
+		15300CE6E75DBD67F6A42871BE611EB5 /* FSDataReportUsage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSDataReportUsage.swift; path = FlagShip/Source/Troubleshooting/FSDataReportUsage.swift; sourceTree = "<group>"; };
+		159B21F87847C25ACEAFFD6231C3609F /* FSModification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSModification.swift; path = FlagShip/Source/Models/FSModification.swift; sourceTree = "<group>"; };
+		16B5C5FEFE1CE880876B482835C71717 /* FSTargets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSTargets.swift; path = FlagShip/Source/Models/FSTargets.swift; sourceTree = "<group>"; };
+		1AB7CEB332E73056BAE3294B10DB0BF6 /* Pods-ABTastyQAssistant_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ABTastyQAssistant_Tests"; path = Pods_ABTastyQAssistant_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B46463C659177C10047D19389E311FC /* Pods-ABTastyQAssistant_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABTastyQAssistant_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1C24A97AE0017D3D1591FDE8E40A0FB8 /* FSTargetingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSTargetingManager.swift; path = FlagShip/Source/Decision/Bucketing/FSTargetingManager.swift; sourceTree = "<group>"; };
+		217EB70AC63A41CA7FCA171FA0A0E8A8 /* QAssistantHomeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QAssistantHomeViewController.swift; path = ABTastyQAssistant/Controllers/QAssistantHomeViewController.swift; sourceTree = "<group>"; };
+		2442D5D1741E4EFAE1C4F92339592B3D /* FlagShip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlagShip-Info.plist"; sourceTree = "<group>"; };
+		24BE7D7E28D0984BE21A43A0163870E9 /* FlagShip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlagShip.debug.xcconfig; sourceTree = "<group>"; };
+		271FF6E44F23B645637746521636EA15 /* FSCacheManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSCacheManager.swift; path = FlagShip/Source/Cache/FSCacheManager.swift; sourceTree = "<group>"; };
+		2A9BC5865B33D574E6832E70148F6EB7 /* FSQLiteWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSQLiteWrapper.swift; path = FlagShip/Source/Storage/FSQLiteWrapper.swift; sourceTree = "<group>"; };
+		2AFF71691A86E724C924E1549B6E6848 /* QAContextViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QAContextViewController.swift; path = ABTastyQAssistant/Controllers/QAContextViewController.swift; sourceTree = "<group>"; };
+		2BC76EFEBBB8FF902E27D105080C524B /* ABTastyQAAssistant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABTastyQAAssistant.swift; path = ABTastyQAssistant/ABTastyQAAssistant.swift; sourceTree = "<group>"; };
+		2CEBCC7C45AEDED69C7AC19F117D1789 /* ABTastyQAssistant */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ABTastyQAssistant; path = ABTastyQAssistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D8E766150482FBEBA1611324CECDA16 /* Pods-ABTastyQAssistant_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABTastyQAssistant_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2E3928128753C9DAC4D29E5D35CB5822 /* FSCacheVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSCacheVisitor.swift; path = FlagShip/Source/Models/FSCacheVisitor.swift; sourceTree = "<group>"; };
+		3020CA1A879ABCE7C7E71FB4944FB10A /* QAssistantService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QAssistantService.swift; path = ABTastyQAssistant/Services/QAssistantService.swift; sourceTree = "<group>"; };
+		31AC79480E29515EE2FE526123060917 /* QAEventsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QAEventsViewController.swift; path = ABTastyQAssistant/Controllers/QAEventsViewController.swift; sourceTree = "<group>"; };
+		34FFA0AA095E18F567A9AB90CA03129A /* FSService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSService.swift; path = FlagShip/Source/API/FSService.swift; sourceTree = "<group>"; };
+		3641103FC3FD50E0B4CC62DC8C6B70C8 /* Pods-ABTastyQAssistant_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABTastyQAssistant_Tests-dummy.m"; sourceTree = "<group>"; };
+		393B960248DD206256E39742A49CC669 /* FSQAMessageService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSQAMessageService.swift; path = FlagShip/Source/ServiceLocator/FSQAMessageService.swift; sourceTree = "<group>"; };
+		393E31D8D6E2A611A9AC86310755F250 /* FSPanicStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPanicStrategy.swift; path = FlagShip/Source/Strategy/FSPanicStrategy.swift; sourceTree = "<group>"; };
+		3A62AE14FC118787BCA91C6A531F9F2F /* FSPollingScript.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPollingScript.swift; path = FlagShip/Source/Decision/Bucketing/FSPollingScript.swift; sourceTree = "<group>"; };
+		3ACE5072177B3AC153FB9BA222F16E4B /* Pods-ABTastyQAssistant_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABTastyQAssistant_Example-umbrella.h"; sourceTree = "<group>"; };
+		3B9C784AA1754AF4079BFA8832D9088E /* decode-json-swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "decode-json-swift.swift"; path = "FlagShip/Source/Tools/decode-json-swift.swift"; sourceTree = "<group>"; };
+		3EBF4BE0ABDF272CD02647D1DF1EB403 /* QACampaignsTableViewCtrl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QACampaignsTableViewCtrl.swift; path = ABTastyQAssistant/Controllers/QACampaignsTableViewCtrl.swift; sourceTree = "<group>"; };
+		414CCE507F03960E62193CD2EE87F3FB /* FSDataUsageTracking+EmotionAI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSDataUsageTracking+EmotionAI.swift"; path = "FlagShip/Source/FSEmotionAI/FSDataUsageTracking+EmotionAI.swift"; sourceTree = "<group>"; };
+		419B08363EA342BCE6B6139BE4D79791 /* ABTastyQAssistant-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABTastyQAssistant-umbrella.h"; sourceTree = "<group>"; };
+		4348F0FBA2ADE5815DD44ADFA1E8D059 /* FSAccountSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSAccountSettings.swift; path = FlagShip/Source/Models/FSAccountSettings.swift; sourceTree = "<group>"; };
+		43EBCA850A13C6000F261ACD7957C2E3 /* FlagshipConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagshipConstants.swift; path = FlagShip/Source/Logger/FlagshipConstants.swift; sourceTree = "<group>"; };
+		464BA20F474D76ADEFC5189101A89AE9 /* QACampaignTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QACampaignTableViewCell.swift; path = ABTastyQAssistant/Views/QACampaignTableViewCell.swift; sourceTree = "<group>"; };
+		46BCE99B128FCC5A21FBD93FF64A42F0 /* FlagShip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlagShip-dummy.m"; sourceTree = "<group>"; };
+		499AA0334DB405B96DCFCC9CDA204E9F /* FSVisitorDbMgt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSVisitorDbMgt.swift; path = FlagShip/Source/Storage/FSVisitorDbMgt.swift; sourceTree = "<group>"; };
+		4A6A6C66770A9017E5A83D15DB7A07E3 /* BucketingResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BucketingResponse.swift; path = ABTastyQAssistant/Models/BucketingResponse.swift; sourceTree = "<group>"; };
+		4D44667A771A7A281DE3A8222DE599CC /* QAVariationViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QAVariationViewCell.swift; path = ABTastyQAssistant/Views/QAVariationViewCell.swift; sourceTree = "<group>"; };
+		4FF9E52E85E91104689F1909EFCFC46A /* QAVariationSectionView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = QAVariationSectionView.xib; path = ABTastyQAssistant/Views/QAVariationSectionView.xib; sourceTree = "<group>"; };
+		503A265B4E5B0BEF96815D41295F7A8F /* FSCacheDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSCacheDelegate.swift; path = FlagShip/Source/Cache/FSCacheDelegate.swift; sourceTree = "<group>"; };
+		50DD587877A113BD376F2EEEF645DADC /* QAModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QAModels.swift; path = ABTastyQAssistant/Models/QAModels.swift; sourceTree = "<group>"; };
+		51277AC3208AA31F3C69C4173C6A0EB8 /* FSEmotionEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSEmotionEvent.swift; path = FlagShip/Source/FSEmotionAI/FSEmotionEvent.swift; sourceTree = "<group>"; };
+		52D3595E64F0070128AAB78908DF1233 /* FSWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSWindow.swift; path = FlagShip/Source/FSEmotionAI/FSWindow.swift; sourceTree = "<group>"; };
+		5584AFA3A73281581E5D894AA1DEAF71 /* Flagship+EmotionAI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Flagship+EmotionAI.swift"; path = "FlagShip/Source/Core/Flagship+EmotionAI.swift"; sourceTree = "<group>"; };
+		57C55176FAAA30A55416790B534FFC3B /* FSTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSTools.swift; path = FlagShip/Source/Tools/FSTools.swift; sourceTree = "<group>"; };
+		57DE33BD25CB04C7AD215127B3FB8773 /* FSFlag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSFlag.swift; path = FlagShip/Source/Core/Flag/FSFlag.swift; sourceTree = "<group>"; };
+		5938BFE4474353FC172E35D77D9D27FF /* FSPeriodicTrackingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPeriodicTrackingManager.swift; path = FlagShip/Source/Tracking/TrackingStrategies/FSPeriodicTrackingManager.swift; sourceTree = "<group>"; };
+		5C440B387080204015F957D467588777 /* FSStorageManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSStorageManager.swift; path = FlagShip/Source/Storage/FSStorageManager.swift; sourceTree = "<group>"; };
+		5C53ACFA034EC3256BF7606C646D9C9B /* Fonts */ = {isa = PBXFileReference; includeInIndex = 1; name = Fonts; path = ABTastyQAssistant/Assets/Fonts; sourceTree = "<group>"; };
+		5E6D6AEF41BD1E405C7727D5AA99E465 /* BundleImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BundleImageView.swift; path = ABTastyQAssistant/Views/BundleImageView.swift; sourceTree = "<group>"; };
+		60AFB208198C94D7FB2CC5EEF4BE4B61 /* FSNotReadyStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSNotReadyStrategy.swift; path = FlagShip/Source/Strategy/FSNotReadyStrategy.swift; sourceTree = "<group>"; };
+		60B3C84ECD9F42FA9AF2692A2B0AFB26 /* Lato-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Lato-Bold.ttf"; path = "ABTastyQAssistant/Assets/Fonts/Lato-Bold.ttf"; sourceTree = "<group>"; };
+		60B77373580AFD78D97AE925AE444023 /* FSVisitor+objc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSVisitor+objc.swift"; path = "FlagShip/Source/Core/FSVisitor+objc.swift"; sourceTree = "<group>"; };
+		62000791728C80AF062C89BB2AD8E714 /* Flagship.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flagship.swift; path = FlagShip/Source/Core/Flagship.swift; sourceTree = "<group>"; };
+		6239C7B0AB40BD9EB49D75B9CB384CA4 /* FSTrackingDbMgt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSTrackingDbMgt.swift; path = FlagShip/Source/Storage/FSTrackingDbMgt.swift; sourceTree = "<group>"; };
+		62903B63981B979F2328F1024C0EA99C /* FSEmotionAI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSEmotionAI.swift; path = FlagShip/Source/FSEmotionAI/FSEmotionAI.swift; sourceTree = "<group>"; };
+		633484EE5AD4B2C3F480C76C5C31BA01 /* FSDecisionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSDecisionManager.swift; path = FlagShip/Source/Decision/FSDecisionManager.swift; sourceTree = "<group>"; };
+		636D6AFE390FEA9692F364CDF1401A87 /* FlagShip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlagShip-umbrella.h"; sourceTree = "<group>"; };
+		637CDD2242530212EDB6AF04439CBEDC /* ABTastyQAssistant-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ABTastyQAssistant-Info.plist"; sourceTree = "<group>"; };
+		6495024777F526273A8594C47E134E3B /* FSDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSDevice.swift; path = FlagShip/Source/Audience/FSDevice.swift; sourceTree = "<group>"; };
+		659DFA847202D834B541B7D7BA47B75F /* FlagShipVersion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagShipVersion.swift; path = FlagShip/Source/Tools/FlagShipVersion.swift; sourceTree = "<group>"; };
+		67A71CC81AB20368A4F87B433D7C66F4 /* QAAssistant.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = QAAssistant.storyboard; path = ABTastyQAssistant/Controllers/QAAssistant.storyboard; sourceTree = "<group>"; };
+		6829D410A9BB56A103D3CDCDA7A4076F /* QAVariationsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QAVariationsView.swift; path = ABTastyQAssistant/Views/QAVariationsView.swift; sourceTree = "<group>"; };
+		689399DA0AD0DE254E2D3264F3E739BE /* FSVisitor+Reconcilliation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSVisitor+Reconcilliation.swift"; path = "FlagShip/Source/Core/FSVisitor+Reconcilliation.swift"; sourceTree = "<group>"; };
+		6D241CCDC79F6CBFB5502959EC2ED70E /* QATargetingEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QATargetingEvaluator.swift; path = ABTastyQAssistant/Tools/QATargetingEvaluator.swift; sourceTree = "<group>"; };
+		73062B00011C65501AC06F63BB735674 /* QAVariationViewCtrl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QAVariationViewCtrl.swift; path = ABTastyQAssistant/Views/QAVariationViewCtrl.swift; sourceTree = "<group>"; };
+		753A55679DF7F6DE4EA042A40B7CD54C /* Pods-ABTastyQAssistant_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABTastyQAssistant_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7737F291F5F5A7C08953B955CA89F52F /* FSStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSStatus.swift; path = FlagShip/Source/Core/FSStatus.swift; sourceTree = "<group>"; };
+		7C209E3827BE1C20BC6677E8A7BAF880 /* Pods-ABTastyQAssistant_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABTastyQAssistant_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7D1D7124B71DBA6894171D3C9E6EE1EF /* FSBucketCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSBucketCache.swift; path = FlagShip/Source/Storage/FSBucketCache.swift; sourceTree = "<group>"; };
+		7E17FDAF758277A8A765B45EA7E6F057 /* FSTrackingManagerConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSTrackingManagerConfig.swift; path = FlagShip/Source/Configs/FSTrackingManagerConfig.swift; sourceTree = "<group>"; };
+		7E95C7D1AD938C05CDA5CE742B0C2721 /* ABTastyQAssistant-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ABTastyQAssistant-dummy.m"; sourceTree = "<group>"; };
+		8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		82460EF2E2B44C3116E2081CC74E5B9E /* FSLogManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSLogManager.swift; path = FlagShip/Source/Logger/FSLogManager.swift; sourceTree = "<group>"; };
+		85850BED0766F6C87EF2778D6BC54F99 /* Lato-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Lato-Regular.ttf"; path = "ABTastyQAssistant/Assets/Fonts/Lato-Regular.ttf"; sourceTree = "<group>"; };
+		8C2468BE1300F6BFE1683C3B056C6D96 /* FSBucket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSBucket.swift; path = FlagShip/Source/Models/FSBucket.swift; sourceTree = "<group>"; };
+		8CDD610524606F0D20B7A2207428CABD /* FSContinuousTrackingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSContinuousTrackingManager.swift; path = FlagShip/Source/Tracking/TrackingStrategies/FSContinuousTrackingManager.swift; sourceTree = "<group>"; };
+		8D05487FC8E9FB8D792F26E79BA298CD /* ResourceBundle-ABTastyQAssistant-ABTastyQAssistant-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ABTastyQAssistant-ABTastyQAssistant-Info.plist"; sourceTree = "<group>"; };
+		8E2F5D8E39A6977A49A5FC503F169EF4 /* FSGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSGenerator.swift; path = FlagShip/Source/Tools/FSGenerator.swift; sourceTree = "<group>"; };
+		8E4B2C79A74BEB82982BE8D5C8DFAF25 /* FlagShip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlagShip.release.xcconfig; sourceTree = "<group>"; };
+		8FA9D8324C13B8B7E281BDE6B5E62CFA /* FSBatch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSBatch.swift; path = FlagShip/Source/Models/Tracking/FSBatch.swift; sourceTree = "<group>"; };
+		90912826B434EEACCD90C8ADB53E149A /* ABTastyQAssistant-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABTastyQAssistant-prefix.pch"; sourceTree = "<group>"; };
+		90AFEC26475482BC25286832427DB583 /* FSSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSSettings.swift; path = FlagShip/Source/API/FSSettings.swift; sourceTree = "<group>"; };
+		91366FEB205E4610E55E4D3CD51F46FF /* FSDataUsageTracking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSDataUsageTracking.swift; path = FlagShip/Source/Troubleshooting/FSDataUsageTracking.swift; sourceTree = "<group>"; };
+		91A72459F8E2740CBBC76013170B4F8A /* QAVariationSectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QAVariationSectionView.swift; path = ABTastyQAssistant/Views/QAVariationSectionView.swift; sourceTree = "<group>"; };
+		934280B3B8CF31E577225CDDD3B55263 /* FSFlag+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSFlag+Additions.swift"; path = "FlagShip/Source/Core/Flag/FSFlag+Additions.swift"; sourceTree = "<group>"; };
+		9720298F4C1B1D3AA9CF096F312CC870 /* ABTastyQAssistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABTastyQAssistant.debug.xcconfig; sourceTree = "<group>"; };
+		972EA116E486860524E86DAB2F2F916E /* FSConstant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSConstant.swift; path = FlagShip/Source/API/FSConstant.swift; sourceTree = "<group>"; };
+		97C7EFD0BAE59F929E1E0D59788D7856 /* FSVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSVisitor.swift; path = FlagShip/Source/Core/FSVisitor.swift; sourceTree = "<group>"; };
+		97EEDF053563F039E0DE3DFF569DC966 /* QATargetingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QATargetingView.swift; path = ABTastyQAssistant/Views/QATargetingView.swift; sourceTree = "<group>"; };
+		9883BF81162740CAC56EF1CE2702AB57 /* Pods-ABTastyQAssistant_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ABTastyQAssistant_Example"; path = Pods_ABTastyQAssistant_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98FDFAF7955FBED15026401612BFD645 /* FSITrackingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSITrackingManager.swift; path = FlagShip/Source/Tracking/FSITrackingManager.swift; sourceTree = "<group>"; };
+		9A2F9EBA1580A3D25DA3F61CF226378B /* Pods-ABTastyQAssistant_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABTastyQAssistant_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B5BB9DE27A8AE7119E9F424E6AC1712 /* FSTrackingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSTrackingManager.swift; path = FlagShip/Source/Tracking/FSTrackingManager.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F3A2B4206E00B0AB2C7226D4E2C36B9 /* FSError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSError.swift; path = FlagShip/Source/Logger/FSError.swift; sourceTree = "<group>"; };
+		A0E95EE8C2DBA0C61E1544424A5A0F24 /* FSVisitor+EmotionAI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSVisitor+EmotionAI.swift"; path = "FlagShip/Source/Core/FSVisitor+EmotionAI.swift"; sourceTree = "<group>"; };
+		A1E86AA37617A463353FC5CD65FB2250 /* FSBucketingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSBucketingManager.swift; path = FlagShip/Source/Decision/Bucketing/FSBucketingManager.swift; sourceTree = "<group>"; };
+		A2253E90BDAECFCF7DECF183F2A8CAED /* FSVisitor+Flags.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSVisitor+Flags.swift"; path = "FlagShip/Source/Core/FSVisitor+Flags.swift"; sourceTree = "<group>"; };
+		A5D973BFE9D37D7295C2ECF4D632B9D2 /* Pods-ABTastyQAssistant_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABTastyQAssistant_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A6F5FF49C9423560FD5F27597438A291 /* FSService+Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSService+Request.swift"; path = "FlagShip/Source/API/FSService+Request.swift"; sourceTree = "<group>"; };
+		AC1BFD5A687DC7402DB2847CA50FA0D8 /* FSEmotionPageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSEmotionPageView.swift; path = FlagShip/Source/FSEmotionAI/FSEmotionPageView.swift; sourceTree = "<group>"; };
+		AE88A0EABC9BF43A205F5681F9FE65B8 /* FSSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSSegment.swift; path = FlagShip/Source/Models/Tracking/FSSegment.swift; sourceTree = "<group>"; };
+		AF1B56C5AABE020FF0325AD3EE066870 /* Pods-ABTastyQAssistant_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABTastyQAssistant_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B0E1F4914F0AB50DBE8D2AEE2D34DDDE /* Data+PrettyPrint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+PrettyPrint.swift"; path = "FlagShip/Source/Tools/Data+PrettyPrint.swift"; sourceTree = "<group>"; };
+		B6704DF653ED1D9450D683E526B4DC4B /* FSVisitor+Campaigns.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSVisitor+Campaigns.swift"; path = "FlagShip/Source/Core/FSVisitor+Campaigns.swift"; sourceTree = "<group>"; };
+		BAEAB4FFB53F2C2CB8B1D2845C2AD915 /* murmurhash3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = murmurhash3.swift; path = FlagShip/Source/Tools/murmurhash3.swift; sourceTree = "<group>"; };
+		BB235380C1CBC00A8E4E214AE5D43ED4 /* FSPoolQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPoolQueue.swift; path = FlagShip/Source/Tracking/Batch/FSPoolQueue.swift; sourceTree = "<group>"; };
+		BCA5F80777FCDA0F3BE49401597AF5ED /* FlagShip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlagShip.modulemap; sourceTree = "<group>"; };
+		BD30564E61FE467DEB1A8FA9D6C4A317 /* FSDefaultCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSDefaultCache.swift; path = FlagShip/Source/Cache/FSDefaultCache.swift; sourceTree = "<group>"; };
+		C37ED5ED2D3F1E0C0ED43911F21B8AF7 /* FSTracking+Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSTracking+Codable.swift"; path = "FlagShip/Source/Models/Tracking/FSTracking+Codable.swift"; sourceTree = "<group>"; };
+		C5111653CB09330A9F9A4F3BFDC9FD16 /* Bundle+Fonts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Fonts.swift"; path = "ABTastyQAssistant/Tools/Bundle+Fonts.swift"; sourceTree = "<group>"; };
+		C68169832EBF816345369BDCE06065E1 /* Lato-Italic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Lato-Italic.ttf"; path = "ABTastyQAssistant/Assets/Fonts/Lato-Italic.ttf"; sourceTree = "<group>"; };
+		C71755C0C1D6D18BB121E46D2DE7959F /* FSCampaigns.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSCampaigns.swift; path = FlagShip/Source/Models/FSCampaigns.swift; sourceTree = "<group>"; };
+		C95704C4AE4465E549ED17EEEEFD6ED9 /* Pods-ABTastyQAssistant_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABTastyQAssistant_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CC5A58B74EB76E667B36926FE9A54F87 /* FSTracking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSTracking.swift; path = FlagShip/Source/Models/Tracking/FSTracking.swift; sourceTree = "<group>"; };
+		CE010C9D7ACB237895CC8255D0D20FBB /* FSCampaign.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSCampaign.swift; path = FlagShip/Source/Models/FSCampaign.swift; sourceTree = "<group>"; };
+		D052F0B18F45EC3684D429DDD2C3D4B3 /* FSDataUsageTracking+Criticals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSDataUsageTracking+Criticals.swift"; path = "FlagShip/Source/Troubleshooting/FSDataUsageTracking+Criticals.swift"; sourceTree = "<group>"; };
+		D31D5FCA0030E45E307ECE4B0DCD6E74 /* QAColorPalette.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QAColorPalette.swift; path = ABTastyQAssistant/Tools/QAColorPalette.swift; sourceTree = "<group>"; };
+		D3B62A84176FCC56702821BDED785E80 /* QACampaignDetailsViewCtrl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QACampaignDetailsViewCtrl.swift; path = ABTastyQAssistant/Controllers/QACampaignDetailsViewCtrl.swift; sourceTree = "<group>"; };
+		D58B6ADA0602B6B32AD48EFE474CE0BB /* Pods-ABTastyQAssistant_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABTastyQAssistant_Example-Info.plist"; sourceTree = "<group>"; };
+		D7E0A92DA1EFD079923CFD99D9BEC01A /* FSPollingScore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPollingScore.swift; path = FlagShip/Source/FSEmotionAI/FSPollingScore.swift; sourceTree = "<group>"; };
+		DEAA312D14234831082399AF8657DE31 /* FlagShip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlagShip-prefix.pch"; sourceTree = "<group>"; };
+		E503BC575BEDC3C57C1926175F24FD50 /* Pods-ABTastyQAssistant_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABTastyQAssistant_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E5875301E4C3FC9155ED25E6F8E357A5 /* Pods-ABTastyQAssistant_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABTastyQAssistant_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E666D979D35674BA59D458D68D7E1332 /* FSFlagMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSFlagMetadata.swift; path = FlagShip/Source/Core/FSFlagMetadata.swift; sourceTree = "<group>"; };
+		E8744FB723899CA67750B06C50C58F42 /* FSHits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSHits.swift; path = FlagShip/Source/Models/Tracking/FSHits.swift; sourceTree = "<group>"; };
+		EA18990D8A1A078752AF5D6656A982BD /* FSTroubleshooting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSTroubleshooting.swift; path = FlagShip/Source/Models/FSTroubleshooting.swift; sourceTree = "<group>"; };
+		ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		ED0119196D4BF4F29B445385A429F716 /* FlagShip */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlagShip; path = FlagShip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE21556695AF8263B9D35E6DBA79A58D /* FSBatchManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSBatchManager.swift; path = FlagShip/Source/Tracking/Batch/FSBatchManager.swift; sourceTree = "<group>"; };
+		EF1A6069F5857A453E805FB27312C37E /* FSStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSStorage.swift; path = FlagShip/Source/Storage/FSStorage.swift; sourceTree = "<group>"; };
+		F0664B0399E3E69144B2CC7A53A20ECA /* Pods-ABTastyQAssistant_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABTastyQAssistant_Tests-Info.plist"; sourceTree = "<group>"; };
+		F18B705F606DD814C40DB5497F3215A8 /* FSService+Bucketing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSService+Bucketing.swift"; path = "FlagShip/Source/API/FSService+Bucketing.swift"; sourceTree = "<group>"; };
+		F3341FDF498B176CE94962D38C55F408 /* ABTastyQAssistant.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = ABTastyQAssistant.xcassets; path = ABTastyQAssistant/Assets/ABTastyQAssistant.xcassets; sourceTree = "<group>"; };
+		F54C565A04B1B66A3CF1AB94A4BBF110 /* FSCacheHit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSCacheHit.swift; path = FlagShip/Source/Models/Tracking/FSCacheHit.swift; sourceTree = "<group>"; };
+		F6784A496FE4412C193F50555A65B55F /* FSModifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSModifications.swift; path = FlagShip/Source/Models/FSModifications.swift; sourceTree = "<group>"; };
+		F95C7F9D8D19C33759E269B2E2D55541 /* QAVariationsView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = QAVariationsView.xib; path = ABTastyQAssistant/Views/QAVariationsView.xib; sourceTree = "<group>"; };
+		F97DE96516AC1236343726B5F6B8F2DE /* FSVisitorExposed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSVisitorExposed.swift; path = FlagShip/Source/Core/FSVisitorExposed.swift; sourceTree = "<group>"; };
+		FAC304D175B6A8BC3602C88ABD6B8DF5 /* FlagshipContextManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagshipContextManager.swift; path = FlagShip/Source/Audience/FlagshipContextManager.swift; sourceTree = "<group>"; };
+		FB281AB9BF14B022703B383160D98840 /* Pods-ABTastyQAssistant_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ABTastyQAssistant_Tests.modulemap"; sourceTree = "<group>"; };
+		FB2A456129D1179D7E2B939BE67EDC7A /* FSNoConsentStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSNoConsentStrategy.swift; path = FlagShip/Source/Strategy/FSNoConsentStrategy.swift; sourceTree = "<group>"; };
+		FC031612197B115994350E9E21AA1780 /* FSQAssistantStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSQAssistantStrategy.swift; path = FlagShip/Source/Strategy/FSQAssistantStrategy.swift; sourceTree = "<group>"; };
+		FE651F62448C6B92D11F4BEA2E24ABEF /* UIFont+Lato.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+Lato.swift"; path = "ABTastyQAssistant/Tools/UIFont+Lato.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17A566CB894423BA5CB81E602DFD06BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A8DDEFFCC396A90A9EC1EB4BE656B3 /* Foundation.framework in Frameworks */,
+				44F2C2B4AA4FCAF64C4BFABA1CC783DB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E9D382724664DCC0029586DCCA0F9C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDEF6A41E9684C70B0B344DD4AB5E74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50792008B9000A7CCCFD64E2FACF749B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C963A20F07B37479AA5D999AF1E892A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A49C90E342057F69A1FD39859191946 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0560EBC846874D430ACDCB090C5551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0485ED1BE4001EABCF9C7D3B0438C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DE6440B6853131A80C53DDA34375AAB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16AE48EF01AC83ED4F54E8B113C0A3B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CEBCC7C45AEDED69C7AC19F117D1789 /* ABTastyQAssistant */,
+				0F6BB5A1E37A62FA324A7D7E760A0291 /* ABTastyQAssistant-ABTastyQAssistant */,
+				ED0119196D4BF4F29B445385A429F716 /* FlagShip */,
+				9883BF81162740CAC56EF1CE2702AB57 /* Pods-ABTastyQAssistant_Example */,
+				1AB7CEB332E73056BAE3294B10DB0BF6 /* Pods-ABTastyQAssistant_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1838B5C8E8B0D9571E6679FDB5949952 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24F3CFD75D7D7192F5C88F280F7C981A /* Pods-ABTastyQAssistant_Example */,
+				F31A979DA5D1772B869DF800DD564F8F /* Pods-ABTastyQAssistant_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1DE6440B6853131A80C53DDA34375AAB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */,
+				ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		24F3CFD75D7D7192F5C88F280F7C981A /* Pods-ABTastyQAssistant_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1371224957867258FC175C6846FB563E /* Pods-ABTastyQAssistant_Example.modulemap */,
+				9A2F9EBA1580A3D25DA3F61CF226378B /* Pods-ABTastyQAssistant_Example-acknowledgements.markdown */,
+				E503BC575BEDC3C57C1926175F24FD50 /* Pods-ABTastyQAssistant_Example-acknowledgements.plist */,
+				0EC29215773BB5C011A7224C579D7740 /* Pods-ABTastyQAssistant_Example-dummy.m */,
+				1B46463C659177C10047D19389E311FC /* Pods-ABTastyQAssistant_Example-frameworks.sh */,
+				D58B6ADA0602B6B32AD48EFE474CE0BB /* Pods-ABTastyQAssistant_Example-Info.plist */,
+				3ACE5072177B3AC153FB9BA222F16E4B /* Pods-ABTastyQAssistant_Example-umbrella.h */,
+				A5D973BFE9D37D7295C2ECF4D632B9D2 /* Pods-ABTastyQAssistant_Example.debug.xcconfig */,
+				7C209E3827BE1C20BC6677E8A7BAF880 /* Pods-ABTastyQAssistant_Example.release.xcconfig */,
+			);
+			name = "Pods-ABTastyQAssistant_Example";
+			path = "Target Support Files/Pods-ABTastyQAssistant_Example";
+			sourceTree = "<group>";
+		};
+		6F2B8A2B7B098D398812D2CDCDFA94B4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F3341FDF498B176CE94962D38C55F408 /* ABTastyQAssistant.xcassets */,
+				5C53ACFA034EC3256BF7606C646D9C9B /* Fonts */,
+				60B3C84ECD9F42FA9AF2692A2B0AFB26 /* Lato-Bold.ttf */,
+				C68169832EBF816345369BDCE06065E1 /* Lato-Italic.ttf */,
+				85850BED0766F6C87EF2778D6BC54F99 /* Lato-Regular.ttf */,
+				67A71CC81AB20368A4F87B433D7C66F4 /* QAAssistant.storyboard */,
+				4FF9E52E85E91104689F1909EFCFC46A /* QAVariationSectionView.xib */,
+				F95C7F9D8D19C33759E269B2E2D55541 /* QAVariationsView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DE72F76C74947EF2C275EDFDB730DF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88223A45629CA19480905161FB9F41B9 /* ABTastyQAssistant */,
+				9A63860D9E5428C4383BE43BE65465F4 /* FlagShip */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		88223A45629CA19480905161FB9F41B9 /* ABTastyQAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				2BC76EFEBBB8FF902E27D105080C524B /* ABTastyQAAssistant.swift */,
+				4A6A6C66770A9017E5A83D15DB7A07E3 /* BucketingResponse.swift */,
+				C5111653CB09330A9F9A4F3BFDC9FD16 /* Bundle+Fonts.swift */,
+				5E6D6AEF41BD1E405C7727D5AA99E465 /* BundleImageView.swift */,
+				114D0FAF4EB62AFB38B8DD2C5CD1DA7A /* QAAllocationView.swift */,
+				D3B62A84176FCC56702821BDED785E80 /* QACampaignDetailsViewCtrl.swift */,
+				3EBF4BE0ABDF272CD02647D1DF1EB403 /* QACampaignsTableViewCtrl.swift */,
+				464BA20F474D76ADEFC5189101A89AE9 /* QACampaignTableViewCell.swift */,
+				D31D5FCA0030E45E307ECE4B0DCD6E74 /* QAColorPalette.swift */,
+				2AFF71691A86E724C924E1549B6E6848 /* QAContextViewController.swift */,
+				31AC79480E29515EE2FE526123060917 /* QAEventsViewController.swift */,
+				50DD587877A113BD376F2EEEF645DADC /* QAModels.swift */,
+				217EB70AC63A41CA7FCA171FA0A0E8A8 /* QAssistantHomeViewController.swift */,
+				3020CA1A879ABCE7C7E71FB4944FB10A /* QAssistantService.swift */,
+				6D241CCDC79F6CBFB5502959EC2ED70E /* QATargetingEvaluator.swift */,
+				97EEDF053563F039E0DE3DFF569DC966 /* QATargetingView.swift */,
+				91A72459F8E2740CBBC76013170B4F8A /* QAVariationSectionView.swift */,
+				6829D410A9BB56A103D3CDCDA7A4076F /* QAVariationsView.swift */,
+				4D44667A771A7A281DE3A8222DE599CC /* QAVariationViewCell.swift */,
+				73062B00011C65501AC06F63BB735674 /* QAVariationViewCtrl.swift */,
+				FE651F62448C6B92D11F4BEA2E24ABEF /* UIFont+Lato.swift */,
+				6F2B8A2B7B098D398812D2CDCDFA94B4 /* Resources */,
+				CAA8E28190E0CA6DD248B7FDC344AEDD /* Support Files */,
+			);
+			name = ABTastyQAssistant;
+			path = ABTastyQAssistant;
+			sourceTree = "<group>";
+		};
+		9A63860D9E5428C4383BE43BE65465F4 /* FlagShip */ = {
+			isa = PBXGroup;
+			children = (
+				B0E1F4914F0AB50DBE8D2AEE2D34DDDE /* Data+PrettyPrint.swift */,
+				3B9C784AA1754AF4079BFA8832D9088E /* decode-json-swift.swift */,
+				62000791728C80AF062C89BB2AD8E714 /* Flagship.swift */,
+				5584AFA3A73281581E5D894AA1DEAF71 /* Flagship+EmotionAI.swift */,
+				10EA618DC246EDFA88AD5BA84D21B58F /* FlagshipConfig.swift */,
+				43EBCA850A13C6000F261ACD7957C2E3 /* FlagshipConstants.swift */,
+				0B8A5EB579C696AA22F82405F2429D26 /* FlagshipContext.swift */,
+				FAC304D175B6A8BC3602C88ABD6B8DF5 /* FlagshipContextManager.swift */,
+				018063FD9AB4958F1D80AF25722403B4 /* FlagshipLogManager.swift */,
+				659DFA847202D834B541B7D7BA47B75F /* FlagShipVersion.swift */,
+				4348F0FBA2ADE5815DD44ADFA1E8D059 /* FSAccountSettings.swift */,
+				8FA9D8324C13B8B7E281BDE6B5E62CFA /* FSBatch.swift */,
+				EE21556695AF8263B9D35E6DBA79A58D /* FSBatchManager.swift */,
+				8C2468BE1300F6BFE1683C3B056C6D96 /* FSBucket.swift */,
+				7D1D7124B71DBA6894171D3C9E6EE1EF /* FSBucketCache.swift */,
+				A1E86AA37617A463353FC5CD65FB2250 /* FSBucketingManager.swift */,
+				503A265B4E5B0BEF96815D41295F7A8F /* FSCacheDelegate.swift */,
+				F54C565A04B1B66A3CF1AB94A4BBF110 /* FSCacheHit.swift */,
+				271FF6E44F23B645637746521636EA15 /* FSCacheManager.swift */,
+				2E3928128753C9DAC4D29E5D35CB5822 /* FSCacheVisitor.swift */,
+				CE010C9D7ACB237895CC8255D0D20FBB /* FSCampaign.swift */,
+				C71755C0C1D6D18BB121E46D2DE7959F /* FSCampaigns.swift */,
+				11A0D0EF1A122511CD6607B9C8545043 /* FSConfigManager.swift */,
+				972EA116E486860524E86DAB2F2F916E /* FSConstant.swift */,
+				120D81F6CDCCEC84C72ADFEECA47BBC2 /* FSContext.swift */,
+				8CDD610524606F0D20B7A2207428CABD /* FSContinuousTrackingManager.swift */,
+				15300CE6E75DBD67F6A42871BE611EB5 /* FSDataReportUsage.swift */,
+				91366FEB205E4610E55E4D3CD51F46FF /* FSDataUsageTracking.swift */,
+				D052F0B18F45EC3684D429DDD2C3D4B3 /* FSDataUsageTracking+Criticals.swift */,
+				414CCE507F03960E62193CD2EE87F3FB /* FSDataUsageTracking+EmotionAI.swift */,
+				12882C9A97F168295343FC5E4387EC52 /* FSDataUsageTracking+Tools.swift */,
+				633484EE5AD4B2C3F480C76C5C31BA01 /* FSDecisionManager.swift */,
+				BD30564E61FE467DEB1A8FA9D6C4A317 /* FSDefaultCache.swift */,
+				0646A62B42DB74F2EF97A6AA37A57547 /* FSDefaultStrategy.swift */,
+				6495024777F526273A8594C47E134E3B /* FSDevice.swift */,
+				62903B63981B979F2328F1024C0EA99C /* FSEmotionAI.swift */,
+				51277AC3208AA31F3C69C4173C6A0EB8 /* FSEmotionEvent.swift */,
+				AC1BFD5A687DC7402DB2847CA50FA0D8 /* FSEmotionPageView.swift */,
+				9F3A2B4206E00B0AB2C7226D4E2C36B9 /* FSError.swift */,
+				029E383B6562AF908F3D55796B7EEDD4 /* FSExposedFlag.swift */,
+				57DE33BD25CB04C7AD215127B3FB8773 /* FSFlag.swift */,
+				934280B3B8CF31E577225CDDD3B55263 /* FSFlag+Additions.swift */,
+				E666D979D35674BA59D458D68D7E1332 /* FSFlagMetadata.swift */,
+				8E2F5D8E39A6977A49A5FC503F169EF4 /* FSGenerator.swift */,
+				E8744FB723899CA67750B06C50C58F42 /* FSHits.swift */,
+				98FDFAF7955FBED15026401612BFD645 /* FSITrackingManager.swift */,
+				82460EF2E2B44C3116E2081CC74E5B9E /* FSLogManager.swift */,
+				159B21F87847C25ACEAFFD6231C3609F /* FSModification.swift */,
+				F6784A496FE4412C193F50555A65B55F /* FSModifications.swift */,
+				FB2A456129D1179D7E2B939BE67EDC7A /* FSNoConsentStrategy.swift */,
+				60AFB208198C94D7FB2CC5EEF4BE4B61 /* FSNotReadyStrategy.swift */,
+				393E31D8D6E2A611A9AC86310755F250 /* FSPanicStrategy.swift */,
+				5938BFE4474353FC172E35D77D9D27FF /* FSPeriodicTrackingManager.swift */,
+				D7E0A92DA1EFD079923CFD99D9BEC01A /* FSPollingScore.swift */,
+				3A62AE14FC118787BCA91C6A531F9F2F /* FSPollingScript.swift */,
+				BB235380C1CBC00A8E4E214AE5D43ED4 /* FSPoolQueue.swift */,
+				393B960248DD206256E39742A49CC669 /* FSQAMessageService.swift */,
+				FC031612197B115994350E9E21AA1780 /* FSQAssistantStrategy.swift */,
+				2A9BC5865B33D574E6832E70148F6EB7 /* FSQLiteWrapper.swift */,
+				AE88A0EABC9BF43A205F5681F9FE65B8 /* FSSegment.swift */,
+				34FFA0AA095E18F567A9AB90CA03129A /* FSService.swift */,
+				F18B705F606DD814C40DB5497F3215A8 /* FSService+Bucketing.swift */,
+				A6F5FF49C9423560FD5F27597438A291 /* FSService+Request.swift */,
+				90AFEC26475482BC25286832427DB583 /* FSSettings.swift */,
+				7737F291F5F5A7C08953B955CA89F52F /* FSStatus.swift */,
+				EF1A6069F5857A453E805FB27312C37E /* FSStorage.swift */,
+				5C440B387080204015F957D467588777 /* FSStorageManager.swift */,
+				1C24A97AE0017D3D1591FDE8E40A0FB8 /* FSTargetingManager.swift */,
+				16B5C5FEFE1CE880876B482835C71717 /* FSTargets.swift */,
+				57C55176FAAA30A55416790B534FFC3B /* FSTools.swift */,
+				CC5A58B74EB76E667B36926FE9A54F87 /* FSTracking.swift */,
+				C37ED5ED2D3F1E0C0ED43911F21B8AF7 /* FSTracking+Codable.swift */,
+				6239C7B0AB40BD9EB49D75B9CB384CA4 /* FSTrackingDbMgt.swift */,
+				9B5BB9DE27A8AE7119E9F424E6AC1712 /* FSTrackingManager.swift */,
+				7E17FDAF758277A8A765B45EA7E6F057 /* FSTrackingManagerConfig.swift */,
+				EA18990D8A1A078752AF5D6656A982BD /* FSTroubleshooting.swift */,
+				97C7EFD0BAE59F929E1E0D59788D7856 /* FSVisitor.swift */,
+				B6704DF653ED1D9450D683E526B4DC4B /* FSVisitor+Campaigns.swift */,
+				A0E95EE8C2DBA0C61E1544424A5A0F24 /* FSVisitor+EmotionAI.swift */,
+				A2253E90BDAECFCF7DECF183F2A8CAED /* FSVisitor+Flags.swift */,
+				60B77373580AFD78D97AE925AE444023 /* FSVisitor+objc.swift */,
+				689399DA0AD0DE254E2D3264F3E739BE /* FSVisitor+Reconcilliation.swift */,
+				0071448E5FD1AF99F0491E705A01EA46 /* FSVisitorBuilder.swift */,
+				499AA0334DB405B96DCFCC9CDA204E9F /* FSVisitorDbMgt.swift */,
+				F97DE96516AC1236343726B5F6B8F2DE /* FSVisitorExposed.swift */,
+				52D3595E64F0070128AAB78908DF1233 /* FSWindow.swift */,
+				BAEAB4FFB53F2C2CB8B1D2845C2AD915 /* murmurhash3.swift */,
+				A4D87D169AC7B8F4F242626CC6C3804E /* Support Files */,
+			);
+			name = FlagShip;
+			path = FlagShip;
+			sourceTree = "<group>";
+		};
+		A4D87D169AC7B8F4F242626CC6C3804E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCA5F80777FCDA0F3BE49401597AF5ED /* FlagShip.modulemap */,
+				46BCE99B128FCC5A21FBD93FF64A42F0 /* FlagShip-dummy.m */,
+				2442D5D1741E4EFAE1C4F92339592B3D /* FlagShip-Info.plist */,
+				DEAA312D14234831082399AF8657DE31 /* FlagShip-prefix.pch */,
+				636D6AFE390FEA9692F364CDF1401A87 /* FlagShip-umbrella.h */,
+				24BE7D7E28D0984BE21A43A0163870E9 /* FlagShip.debug.xcconfig */,
+				8E4B2C79A74BEB82982BE8D5C8DFAF25 /* FlagShip.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FlagShip";
+			sourceTree = "<group>";
+		};
+		CAA8E28190E0CA6DD248B7FDC344AEDD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11720C33E4A7773189DF06B45C6DECFE /* ABTastyQAssistant.modulemap */,
+				7E95C7D1AD938C05CDA5CE742B0C2721 /* ABTastyQAssistant-dummy.m */,
+				637CDD2242530212EDB6AF04439CBEDC /* ABTastyQAssistant-Info.plist */,
+				90912826B434EEACCD90C8ADB53E149A /* ABTastyQAssistant-prefix.pch */,
+				419B08363EA342BCE6B6139BE4D79791 /* ABTastyQAssistant-umbrella.h */,
+				9720298F4C1B1D3AA9CF096F312CC870 /* ABTastyQAssistant.debug.xcconfig */,
+				0F666C797C85ADEFBB8870F92382C66E /* ABTastyQAssistant.release.xcconfig */,
+				8D05487FC8E9FB8D792F26E79BA298CD /* ResourceBundle-ABTastyQAssistant-ABTastyQAssistant-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ABTastyQAssistant";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				7DE72F76C74947EF2C275EDFDB730DF2 /* Pods */,
+				16AE48EF01AC83ED4F54E8B113C0A3B6 /* Products */,
+				1838B5C8E8B0D9571E6679FDB5949952 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F31A979DA5D1772B869DF800DD564F8F /* Pods-ABTastyQAssistant_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FB281AB9BF14B022703B383160D98840 /* Pods-ABTastyQAssistant_Tests.modulemap */,
+				753A55679DF7F6DE4EA042A40B7CD54C /* Pods-ABTastyQAssistant_Tests-acknowledgements.markdown */,
+				2D8E766150482FBEBA1611324CECDA16 /* Pods-ABTastyQAssistant_Tests-acknowledgements.plist */,
+				3641103FC3FD50E0B4CC62DC8C6B70C8 /* Pods-ABTastyQAssistant_Tests-dummy.m */,
+				E5875301E4C3FC9155ED25E6F8E357A5 /* Pods-ABTastyQAssistant_Tests-frameworks.sh */,
+				F0664B0399E3E69144B2CC7A53A20ECA /* Pods-ABTastyQAssistant_Tests-Info.plist */,
+				AF1B56C5AABE020FF0325AD3EE066870 /* Pods-ABTastyQAssistant_Tests-umbrella.h */,
+				01A82AF24E937C97444E088278B77580 /* Pods-ABTastyQAssistant_Tests.debug.xcconfig */,
+				C95704C4AE4465E549ED17EEEEFD6ED9 /* Pods-ABTastyQAssistant_Tests.release.xcconfig */,
+			);
+			name = "Pods-ABTastyQAssistant_Tests";
+			path = "Target Support Files/Pods-ABTastyQAssistant_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		29938F170DCB05FC6B24B6DDED6B2A91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4C035724AFA2C9884B16561CD1E9DD /* Pods-ABTastyQAssistant_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D393101C8E529478BAA95BF5EBE614 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DF420DFBBF5307490C08DC56374D66 /* Pods-ABTastyQAssistant_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2DAEC97C0BCD1B399F4F9C66DF54259 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98BD519F1AA79A6E3C5434142CC0122 /* ABTastyQAssistant-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63F59FBCDD95B0F1AC688F0BF66077E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1401232FC804BEDCD5A85D47B99941BE /* FlagShip-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03D127D44D65E4C5FBDF4F1C1D0CA8B7 /* ABTastyQAssistant-ABTastyQAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286F5E3C833A8E94691123C6479146FD /* Build configuration list for PBXNativeTarget "ABTastyQAssistant-ABTastyQAssistant" */;
+			buildPhases = (
+				D009E6B274D0A61144DFC08170A5DD9C /* Sources */,
+				4E9D382724664DCC0029586DCCA0F9C3 /* Frameworks */,
+				229FAF565886B5464813232921649A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ABTastyQAssistant-ABTastyQAssistant";
+			productName = ABTastyQAssistant;
+			productReference = 0F6BB5A1E37A62FA324A7D7E760A0291 /* ABTastyQAssistant-ABTastyQAssistant */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2B20FDC5F922F4125E7DE169906DB70D /* ABTastyQAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC27DCE878605D3B065082AE752FC923 /* Build configuration list for PBXNativeTarget "ABTastyQAssistant" */;
+			buildPhases = (
+				E2DAEC97C0BCD1B399F4F9C66DF54259 /* Headers */,
+				6FCF2AD22B38AE3DD9D66A3BAE6505DD /* Sources */,
+				17A566CB894423BA5CB81E602DFD06BA /* Frameworks */,
+				B96DD16BB8D61236486A2BB1D385CF25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D33C6EA4194D333298B4A1A242E853C /* PBXTargetDependency */,
+				011643FEED1C4EE9E31819027D119D94 /* PBXTargetDependency */,
+			);
+			name = ABTastyQAssistant;
+			productName = ABTastyQAssistant;
+			productReference = 2CEBCC7C45AEDED69C7AC19F117D1789 /* ABTastyQAssistant */;
+			productType = "com.apple.product-type.framework";
+		};
+		3391171B99E636F3564C735424D388C0 /* Pods-ABTastyQAssistant_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21F4FD1295AB0C7FF916C76BFA6AC91 /* Build configuration list for PBXNativeTarget "Pods-ABTastyQAssistant_Tests" */;
+			buildPhases = (
+				44D393101C8E529478BAA95BF5EBE614 /* Headers */,
+				4C2E2C2A3D133C820FE5E797F57A3D74 /* Sources */,
+				C963A20F07B37479AA5D999AF1E892A9 /* Frameworks */,
+				60B67E19A41C796AC272DF0FE2594B2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE237CEA85808DEF2FBC63B7568DA3ED /* PBXTargetDependency */,
+				6159837F97F18D768AAB74677E399888 /* PBXTargetDependency */,
+			);
+			name = "Pods-ABTastyQAssistant_Tests";
+			productName = Pods_ABTastyQAssistant_Tests;
+			productReference = 1AB7CEB332E73056BAE3294B10DB0BF6 /* Pods-ABTastyQAssistant_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D899975D25DAC4B611F10D83547B7094 /* FlagShip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 549C15D83A79DCB3A2C33846ABE7FBC6 /* Build configuration list for PBXNativeTarget "FlagShip" */;
+			buildPhases = (
+				E63F59FBCDD95B0F1AC688F0BF66077E /* Headers */,
+				C91A33E47FD8417419C709A3A811455A /* Sources */,
+				6BDEF6A41E9684C70B0B344DD4AB5E74 /* Frameworks */,
+				2561092D21425D049471DF8253EC376A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlagShip;
+			productName = FlagShip;
+			productReference = ED0119196D4BF4F29B445385A429F716 /* FlagShip */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD91ED6A9A52D29E3A1BEBBBF669CC2B /* Pods-ABTastyQAssistant_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5D1799FAFDB7712D5CE79A155BFCB41 /* Build configuration list for PBXNativeTarget "Pods-ABTastyQAssistant_Example" */;
+			buildPhases = (
+				29938F170DCB05FC6B24B6DDED6B2A91 /* Headers */,
+				894C28A74B43ECBF78F918253711229C /* Sources */,
+				FA0560EBC846874D430ACDCB090C5551 /* Frameworks */,
+				0438EEC9244B407A7F4B6E47698AF65A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0023042B69822738BC49AB0DC5EC96A /* PBXTargetDependency */,
+				038F625853A7CF91770B40ACDB7F9882 /* PBXTargetDependency */,
+			);
+			name = "Pods-ABTastyQAssistant_Example";
+			productName = Pods_ABTastyQAssistant_Example;
+			productReference = 9883BF81162740CAC56EF1CE2702AB57 /* Pods-ABTastyQAssistant_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 16AE48EF01AC83ED4F54E8B113C0A3B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B20FDC5F922F4125E7DE169906DB70D /* ABTastyQAssistant */,
+				03D127D44D65E4C5FBDF4F1C1D0CA8B7 /* ABTastyQAssistant-ABTastyQAssistant */,
+				D899975D25DAC4B611F10D83547B7094 /* FlagShip */,
+				FD91ED6A9A52D29E3A1BEBBBF669CC2B /* Pods-ABTastyQAssistant_Example */,
+				3391171B99E636F3564C735424D388C0 /* Pods-ABTastyQAssistant_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0438EEC9244B407A7F4B6E47698AF65A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229FAF565886B5464813232921649A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C7711D96C7833B84C0B9B4876FBD73 /* ABTastyQAssistant.xcassets in Resources */,
+				AF175DBDEA9B344F42DC28C6949733AA /* Fonts in Resources */,
+				5AC429402F7C6ECC8F5CA13C5FE41008 /* Lato-Bold.ttf in Resources */,
+				D7FAAE7374C362CFA489925DDE3EFDD6 /* Lato-Italic.ttf in Resources */,
+				216358AA37357EBBEA2812AAD31D0C03 /* Lato-Regular.ttf in Resources */,
+				B1F07958C14ADFB6EF276FA902B7B10C /* QAAssistant.storyboard in Resources */,
+				35DC9C2B240EFAA20DCFA046593816CE /* QAVariationSectionView.xib in Resources */,
+				0D5DBA4E06AEC0B4A2221F1D16E9D1F3 /* QAVariationsView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2561092D21425D049471DF8253EC376A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B67E19A41C796AC272DF0FE2594B2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96DD16BB8D61236486A2BB1D385CF25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239DD4E3511E2C22955D7044670C56A2 /* ABTastyQAssistant-ABTastyQAssistant in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C2E2C2A3D133C820FE5E797F57A3D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B101CC7BDD92ACB0D0C9B5959A1C3792 /* Pods-ABTastyQAssistant_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FCF2AD22B38AE3DD9D66A3BAE6505DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264EFB93BC39C1E1D2869392D2E4F4C5 /* ABTastyQAAssistant.swift in Sources */,
+				5DD2EC23EC9657D1282A5CA21B334918 /* ABTastyQAssistant-dummy.m in Sources */,
+				8A75A9241252C57E3228284FEB94B0E8 /* BucketingResponse.swift in Sources */,
+				7FD9124F62D8636F140C24D3BE0A04F8 /* Bundle+Fonts.swift in Sources */,
+				B170052A9D8AE759297A012AE80FC209 /* BundleImageView.swift in Sources */,
+				B6866C7188C1605B5A0B0E40A18B2150 /* QAAllocationView.swift in Sources */,
+				785094388D93E9DAB2399D2AF254FA3D /* QACampaignDetailsViewCtrl.swift in Sources */,
+				EBB661D6315FCDB52A2A54BB8489BE4E /* QACampaignsTableViewCtrl.swift in Sources */,
+				FCB02D22AB646F873ABEB682994D4E51 /* QACampaignTableViewCell.swift in Sources */,
+				4BE4472C24BE53C171976FA078F88D96 /* QAColorPalette.swift in Sources */,
+				A0CE0BCC9712CFBE0E539C3A809E9461 /* QAContextViewController.swift in Sources */,
+				EC4A30D5BA5705F14C04DAA5A4150BD6 /* QAEventsViewController.swift in Sources */,
+				02D7031AA093CA89F09F594E5EF1336F /* QAModels.swift in Sources */,
+				F3A275FE879520144289DBD2BAE3E239 /* QAssistantHomeViewController.swift in Sources */,
+				E42C3A2B1BE33F5A3BAFA8810EDCF955 /* QAssistantService.swift in Sources */,
+				D03F08F94B03F511CB23F8239CA780B7 /* QATargetingEvaluator.swift in Sources */,
+				63A08F0A24320400776BA5383625D530 /* QATargetingView.swift in Sources */,
+				5BA461CEFDD6B9153AE313A7D998FE2A /* QAVariationSectionView.swift in Sources */,
+				04FF27D850EFC4F78C9D5A1D6B1D8976 /* QAVariationsView.swift in Sources */,
+				0234949CD477F88533C690D4D4FD5860 /* QAVariationViewCell.swift in Sources */,
+				555018745FFF6F7F32518301221F444D /* QAVariationViewCtrl.swift in Sources */,
+				8C8AA71D01BB0D51E5BACD6167679468 /* UIFont+Lato.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		894C28A74B43ECBF78F918253711229C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CEB57C43995E6C0335B2ED4CCFE680 /* Pods-ABTastyQAssistant_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C91A33E47FD8417419C709A3A811455A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF680B213B5531AE9B3236C4CC3D37E7 /* Data+PrettyPrint.swift in Sources */,
+				D16B4C55125EA9A85ECC3F129EFF2102 /* decode-json-swift.swift in Sources */,
+				F16C5C2493BA22BE78B0772999D2554B /* Flagship.swift in Sources */,
+				A1DC62E32AFFEF084813BC759B0E5C2B /* Flagship+EmotionAI.swift in Sources */,
+				2062200C00AEBCB7F28C289959B6B10B /* FlagShip-dummy.m in Sources */,
+				590F9480276F6D5BD5338047BC5E466D /* FlagshipConfig.swift in Sources */,
+				591E0B8052261B8D4DCC5A0847CEE545 /* FlagshipConstants.swift in Sources */,
+				3DC2C6CE0F8A8D5BBB7884C6F78BF6CF /* FlagshipContext.swift in Sources */,
+				18D819F3BBC14A030DA4EAD3A63254E7 /* FlagshipContextManager.swift in Sources */,
+				07F594038A88F03E62B3B4D4DBC0C670 /* FlagshipLogManager.swift in Sources */,
+				6A2D48A8BBBA774EA45001B0437BFC55 /* FlagShipVersion.swift in Sources */,
+				F567CEA6C59531D660DFD19906A16E74 /* FSAccountSettings.swift in Sources */,
+				32DAD235963C6DA463B75EF7695EDD31 /* FSBatch.swift in Sources */,
+				19CFFCF9109C8A11E7ECB4E1C235BC18 /* FSBatchManager.swift in Sources */,
+				F90B79BCFE29D20D438D6AA1E30BD740 /* FSBucket.swift in Sources */,
+				A8074C70D05A6E98CE1AB738E9A37CA9 /* FSBucketCache.swift in Sources */,
+				B4DFB081978C782888FF416DBDB71273 /* FSBucketingManager.swift in Sources */,
+				1613BE5E2ED2DA6B23D1ECB15A8C59B0 /* FSCacheDelegate.swift in Sources */,
+				829ED325F05D342904D5C4A0C4CFEB1D /* FSCacheHit.swift in Sources */,
+				4C3D7AC4146EB4388607A32D3A1CE959 /* FSCacheManager.swift in Sources */,
+				34B40C4231A3CF51BCE74EBE0DBF908C /* FSCacheVisitor.swift in Sources */,
+				26D8A3DB415429F11241E3CD1AACF0F4 /* FSCampaign.swift in Sources */,
+				CD581601C288A92259B2D3FA7EDDD788 /* FSCampaigns.swift in Sources */,
+				B381FC47065007CFC64649A28CDE138A /* FSConfigManager.swift in Sources */,
+				4EC922F5C151B082C6346D2D53F81441 /* FSConstant.swift in Sources */,
+				F0ED23032D1C1054BE6916A2C76F2E1C /* FSContext.swift in Sources */,
+				DD61687F14FBA292C0E062754CC10F8F /* FSContinuousTrackingManager.swift in Sources */,
+				11BEBF4109C8B2F66CB24D025F12F977 /* FSDataReportUsage.swift in Sources */,
+				CF6B294A4700B8A9E248E9522502DFAF /* FSDataUsageTracking.swift in Sources */,
+				E98D70A488E4D0622CB6BBEF52FD841D /* FSDataUsageTracking+Criticals.swift in Sources */,
+				B7611D73AFB492CB6120EA7C2F474A20 /* FSDataUsageTracking+EmotionAI.swift in Sources */,
+				EED0DBCB0EFC487DF4A5463D99919BD6 /* FSDataUsageTracking+Tools.swift in Sources */,
+				BA0F63A0A88F4C0A923656D1D4CF7B2C /* FSDecisionManager.swift in Sources */,
+				C6734D1B65A4DE7A15D8FB88E2FBF4B6 /* FSDefaultCache.swift in Sources */,
+				8617FF73081DEC8ADAB13C4A183EF1EC /* FSDefaultStrategy.swift in Sources */,
+				864E204D2A5979E089BA14808EB7B447 /* FSDevice.swift in Sources */,
+				D1EBFA4121477C145926B853EC8C4AB1 /* FSEmotionAI.swift in Sources */,
+				1BCA7A2D91868B37BB478E749047D673 /* FSEmotionEvent.swift in Sources */,
+				ED5D771D2BEAF0BB1FE95E7FFBA80C8A /* FSEmotionPageView.swift in Sources */,
+				A6F4D97A97D47A5955819D743758FED6 /* FSError.swift in Sources */,
+				CB963491DEE6ADC6C6AFA346A0928FC1 /* FSExposedFlag.swift in Sources */,
+				05F2D0C0DD4DF725929380AF0D7A7475 /* FSFlag.swift in Sources */,
+				31231EBE715639433837D3D918C85BE6 /* FSFlag+Additions.swift in Sources */,
+				C11F77D4AFF7E072D77B541E115E6446 /* FSFlagMetadata.swift in Sources */,
+				B0E22A2E1638BFAF59814CA102264269 /* FSGenerator.swift in Sources */,
+				5998F7ECE034A14CF49B68B59D5F6CDE /* FSHits.swift in Sources */,
+				0488E9E316E6C728570D0DF534FD4160 /* FSITrackingManager.swift in Sources */,
+				B7A31C232D29713A71A7A63ED3FF6C83 /* FSLogManager.swift in Sources */,
+				AFD9778A7A9CEBE2A6990B0577ED4C7B /* FSModification.swift in Sources */,
+				AAF86F3BDE0DF9226BAC41595BC71D78 /* FSModifications.swift in Sources */,
+				618352BF47685DD65AC3CBF80A87CD4C /* FSNoConsentStrategy.swift in Sources */,
+				F98F68A5676E4319C4CDEB58EB239263 /* FSNotReadyStrategy.swift in Sources */,
+				8F414914B61D9013F144702DE12D85DA /* FSPanicStrategy.swift in Sources */,
+				40280CC2633447A30EBDE5C5FE253829 /* FSPeriodicTrackingManager.swift in Sources */,
+				5FD9CB7DBF71B1AA4C8B6D48B30EECBA /* FSPollingScore.swift in Sources */,
+				87784ECAEC2321CB9BA6FE44706E61A2 /* FSPollingScript.swift in Sources */,
+				E8DE22754E5ABF79432561FF10F33282 /* FSPoolQueue.swift in Sources */,
+				487C0D2414A03578A0DDCF90577051F3 /* FSQAMessageService.swift in Sources */,
+				5EC078FBA459D4C8FB2483FED8F4497E /* FSQAssistantStrategy.swift in Sources */,
+				6CFEB59CE1F9E98BBB370F6279B0F266 /* FSQLiteWrapper.swift in Sources */,
+				C8C9748BAFD2F9AFE5B37CD2F85E1146 /* FSSegment.swift in Sources */,
+				5F044B45BE0A5C684A7B52E650538A89 /* FSService.swift in Sources */,
+				53B1FDA8E78608E52025EE2D2759B255 /* FSService+Bucketing.swift in Sources */,
+				59466EF042E88403694281B26D8E1DB9 /* FSService+Request.swift in Sources */,
+				5C3A44DC06196B467EBFA5C5DAF65270 /* FSSettings.swift in Sources */,
+				DD563AC6311C7BFD2973D0907C2504A6 /* FSStatus.swift in Sources */,
+				752BBFA542679FEE6976EBC9E9AF9D56 /* FSStorage.swift in Sources */,
+				9B46E4D2C0A4D226B0CFB3DCEA80DAE5 /* FSStorageManager.swift in Sources */,
+				25CF71A8F2D696EF22B0955EB5B15F2C /* FSTargetingManager.swift in Sources */,
+				E4D3EB4D839B0845E91C4A562CA8F735 /* FSTargets.swift in Sources */,
+				ED404E68B93DFC2B6CF1DC799B84382A /* FSTools.swift in Sources */,
+				E50592743A2A41CF5765D3800344F062 /* FSTracking.swift in Sources */,
+				16B55D2B5D03F1CBB78699592C03409C /* FSTracking+Codable.swift in Sources */,
+				F0D357CF4DBF99B0CF668AC47749F237 /* FSTrackingDbMgt.swift in Sources */,
+				74E1DA155ABBD3515CD1C43B408EEE3A /* FSTrackingManager.swift in Sources */,
+				6E2D8638E6EFF2A7B1FEAE579B5C3331 /* FSTrackingManagerConfig.swift in Sources */,
+				7929F8E4C17F162B87C9E31B12C15A1C /* FSTroubleshooting.swift in Sources */,
+				BEF853D658ADEF6DA8CA9F57FB135F1F /* FSVisitor.swift in Sources */,
+				5CA385EBF4DD01B93BFAAF3BED57CB67 /* FSVisitor+Campaigns.swift in Sources */,
+				4E0D93623B31416F06355EF487136BB3 /* FSVisitor+EmotionAI.swift in Sources */,
+				0C8CDE4FF76937B8190B2B6921DB3138 /* FSVisitor+Flags.swift in Sources */,
+				E5E8C4BD65AC8F9797B0828021DF35E8 /* FSVisitor+objc.swift in Sources */,
+				4D74BAD2FB7F6E30BCAFB7F11928E276 /* FSVisitor+Reconcilliation.swift in Sources */,
+				4AF8B0C5FFCE830326B80FC8457222C3 /* FSVisitorBuilder.swift in Sources */,
+				D4EDB27D7183C522BC6A905F24B51426 /* FSVisitorDbMgt.swift in Sources */,
+				C669FBFE1490191B3A957D07BDC657C1 /* FSVisitorExposed.swift in Sources */,
+				1FBAC8DDAC91B89A89521627A29B7346 /* FSWindow.swift in Sources */,
+				332B3DE7F468DEDC5CFC21C71585CD64 /* murmurhash3.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D009E6B274D0A61144DFC08170A5DD9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		011643FEED1C4EE9E31819027D119D94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlagShip;
+			target = D899975D25DAC4B611F10D83547B7094 /* FlagShip */;
+			targetProxy = A240CE6C8426B10BA4C31EE197DB7A18 /* PBXContainerItemProxy */;
+		};
+		038F625853A7CF91770B40ACDB7F9882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlagShip;
+			target = D899975D25DAC4B611F10D83547B7094 /* FlagShip */;
+			targetProxy = 64935C9DD2F74DDC3282F15E5D4F950D /* PBXContainerItemProxy */;
+		};
+		1D33C6EA4194D333298B4A1A242E853C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ABTastyQAssistant-ABTastyQAssistant";
+			target = 03D127D44D65E4C5FBDF4F1C1D0CA8B7 /* ABTastyQAssistant-ABTastyQAssistant */;
+			targetProxy = 1C4CDCB3D36B5A5463D72ACFF97AFDD7 /* PBXContainerItemProxy */;
+		};
+		6159837F97F18D768AAB74677E399888 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlagShip;
+			target = D899975D25DAC4B611F10D83547B7094 /* FlagShip */;
+			targetProxy = D968208103D000DAA51D742F98E02BD8 /* PBXContainerItemProxy */;
+		};
+		F0023042B69822738BC49AB0DC5EC96A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ABTastyQAssistant;
+			target = 2B20FDC5F922F4125E7DE169906DB70D /* ABTastyQAssistant */;
+			targetProxy = D265E67B21BAAD7A2BED7D4AB296BDBB /* PBXContainerItemProxy */;
+		};
+		FE237CEA85808DEF2FBC63B7568DA3ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ABTastyQAssistant;
+			target = 2B20FDC5F922F4125E7DE169906DB70D /* ABTastyQAssistant */;
+			targetProxy = FB315C4A7556F1722A234B37709A8E30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0875772620829CA3C8DF1E7E469FA024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9720298F4C1B1D3AA9CF096F312CC870 /* ABTastyQAssistant.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ABTastyQAssistant/ABTastyQAssistant-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/ABTastyQAssistant/ABTastyQAssistant-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ABTastyQAssistant/ABTastyQAssistant.modulemap";
+				PRODUCT_MODULE_NAME = ABTastyQAssistant;
+				PRODUCT_NAME = ABTastyQAssistant;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12829E1BE03BC3A289E81203D6545951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24BE7D7E28D0984BE21A43A0163870E9 /* FlagShip.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/FlagShip/FlagShip-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/FlagShip/FlagShip-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FlagShip/FlagShip.modulemap";
+				PRODUCT_MODULE_NAME = FlagShip;
+				PRODUCT_NAME = FlagShip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32539CFEB775A04F231023CB51FF5F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F666C797C85ADEFBB8870F92382C66E /* ABTastyQAssistant.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ABTastyQAssistant/ABTastyQAssistant-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/ABTastyQAssistant/ABTastyQAssistant-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ABTastyQAssistant/ABTastyQAssistant.modulemap";
+				PRODUCT_MODULE_NAME = ABTastyQAssistant;
+				PRODUCT_NAME = ABTastyQAssistant;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45CE01B2491AC0EAA8CA2D7E9F4FA757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F666C797C85ADEFBB8870F92382C66E /* ABTastyQAssistant.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ABTastyQAssistant";
+				IBSC_MODULE = ABTastyQAssistant;
+				INFOPLIST_FILE = "Target Support Files/ABTastyQAssistant/ResourceBundle-ABTastyQAssistant-ABTastyQAssistant-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_NAME = ABTastyQAssistant;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4A297C6BE79661D533434F1C0F69B4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D973BFE9D37D7295C2ECF4D632B9D2 /* Pods-ABTastyQAssistant_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ABTastyQAssistant_Example/Pods-ABTastyQAssistant_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ABTastyQAssistant_Example/Pods-ABTastyQAssistant_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5406E0D7278FAA1521839106C77C94B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01A82AF24E937C97444E088278B77580 /* Pods-ABTastyQAssistant_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ABTastyQAssistant_Tests/Pods-ABTastyQAssistant_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ABTastyQAssistant_Tests/Pods-ABTastyQAssistant_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9441287BB38A34BCED5B1A77B887E9B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C209E3827BE1C20BC6677E8A7BAF880 /* Pods-ABTastyQAssistant_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ABTastyQAssistant_Example/Pods-ABTastyQAssistant_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ABTastyQAssistant_Example/Pods-ABTastyQAssistant_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A4ABD29B7A2EDD9C2D171E1BE7B68F15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9720298F4C1B1D3AA9CF096F312CC870 /* ABTastyQAssistant.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ABTastyQAssistant";
+				IBSC_MODULE = ABTastyQAssistant;
+				INFOPLIST_FILE = "Target Support Files/ABTastyQAssistant/ResourceBundle-ABTastyQAssistant-ABTastyQAssistant-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_NAME = ABTastyQAssistant;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B63B2FD4E893986509D24DCFD67BB009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E4B2C79A74BEB82982BE8D5C8DFAF25 /* FlagShip.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/FlagShip/FlagShip-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/FlagShip/FlagShip-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FlagShip/FlagShip.modulemap";
+				PRODUCT_MODULE_NAME = FlagShip;
+				PRODUCT_NAME = FlagShip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C2B769C927FA3204B1671522187E47CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C95704C4AE4465E549ED17EEEEFD6ED9 /* Pods-ABTastyQAssistant_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ABTastyQAssistant_Tests/Pods-ABTastyQAssistant_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ABTastyQAssistant_Tests/Pods-ABTastyQAssistant_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		286F5E3C833A8E94691123C6479146FD /* Build configuration list for PBXNativeTarget "ABTastyQAssistant-ABTastyQAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4ABD29B7A2EDD9C2D171E1BE7B68F15 /* Debug */,
+				45CE01B2491AC0EAA8CA2D7E9F4FA757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		549C15D83A79DCB3A2C33846ABE7FBC6 /* Build configuration list for PBXNativeTarget "FlagShip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12829E1BE03BC3A289E81203D6545951 /* Debug */,
+				B63B2FD4E893986509D24DCFD67BB009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A21F4FD1295AB0C7FF916C76BFA6AC91 /* Build configuration list for PBXNativeTarget "Pods-ABTastyQAssistant_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5406E0D7278FAA1521839106C77C94B1 /* Debug */,
+				C2B769C927FA3204B1671522187E47CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5D1799FAFDB7712D5CE79A155BFCB41 /* Build configuration list for PBXNativeTarget "Pods-ABTastyQAssistant_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A297C6BE79661D533434F1C0F69B4A3 /* Debug */,
+				9441287BB38A34BCED5B1A77B887E9B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC27DCE878605D3B065082AE752FC923 /* Build configuration list for PBXNativeTarget "ABTastyQAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0875772620829CA3C8DF1E7E469FA024 /* Debug */,
+				32539CFEB775A04F231023CB51FF5F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
