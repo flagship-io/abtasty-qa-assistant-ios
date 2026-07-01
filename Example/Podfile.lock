@@ -4,28 +4,28 @@ PODS:
   - FlagShip (5.0.0)
 
 DEPENDENCIES:
-  - "ABTastyQAssistant (from `git@github.com:flagship-io/abtasty-qa-assistant-ios-dev.git`)"
+  - "ABTastyQAssistant (from `git@github.com:flagship-io/abtasty-qa-assistant-ios.git`)"
   - FlagShip (from `https://github.com/flagship-io/flagship-ios.git`, branch `preMaster`)
 
 EXTERNAL SOURCES:
   ABTastyQAssistant:
-    :git: "git@github.com:flagship-io/abtasty-qa-assistant-ios-dev.git"
+    :git: "git@github.com:flagship-io/abtasty-qa-assistant-ios.git"
   FlagShip:
     :branch: preMaster
     :git: https://github.com/flagship-io/flagship-ios.git
 
 CHECKOUT OPTIONS:
   ABTastyQAssistant:
-    :commit: 918636c6466527d00b7fb8df186c81883c489b67
-    :git: "git@github.com:flagship-io/abtasty-qa-assistant-ios-dev.git"
+    :commit: 087234fafe039df8303fd81bc46af4c8ca6e0107
+    :git: "git@github.com:flagship-io/abtasty-qa-assistant-ios.git"
   FlagShip:
     :commit: 88f34ae197339a0865725dd626602a9a2480ed19
     :git: https://github.com/flagship-io/flagship-ios.git
 
 SPEC CHECKSUMS:
-  ABTastyQAssistant: 3e304fdbc76e2d2ec6b0ccab5af93040aee48840
+  ABTastyQAssistant: 232f08ee03c1f5ce3f32279200e71f5436d19cbf
   FlagShip: a717c86fa2cd87c844fd8b42bd933069e570c4ae
 
-PODFILE CHECKSUM: 1620519fc0ea054340d253049b9ab589e569ec29
+PODFILE CHECKSUM: a8463053a2983abd5a2f7abde46e3ef5205d5dc3
 
 COCOAPODS: 1.16.2

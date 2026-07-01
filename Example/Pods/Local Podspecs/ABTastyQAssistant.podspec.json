@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "In-app QA overlay for inspecting ABTasty feature flags and campaigns at runtime.",
   "description": "ABTastyQAssistant is an in-app QA toolkit for iOS applications integrated with ABTasty.\nIt provides a lightweight overlay panel that lets QA teams and developers inspect feature flags,\ncampaigns, and targeting conditions at runtime — without needing to rebuild or access backend tools.\nBuilt on top of the Flagship SDK, it streamlines the testing and validation workflow directly on device.",
-  "homepage": "https://github.com/flagship-io/abtasty-qa-assistant-ios-dev",
+  "homepage": "https://github.com/flagship-io/abtasty-qa-assistant-ios",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Adel": "adel@abtasty.com"
   },
   "source": {
-    "git": "https://github.com/flagship-io/abtasty-qa-assistant-ios-dev.git",
+    "git": "https://github.com/flagship-io/abtasty-qa-assistant-ios.git",
     "tag": "0.1.0"
   },
   "platforms": {

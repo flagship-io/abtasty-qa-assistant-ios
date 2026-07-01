@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '15.0'
 
 def qa_assistant_pods
-  pod 'ABTastyQAssistant', :git => 'git@github.com:flagship-io/abtasty-qa-assistant-ios-dev.git'
+  pod 'ABTastyQAssistant', :git => 'git@github.com:flagship-io/abtasty-qa-assistant-ios.git'
   pod 'FlagShip', :git => 'https://github.com/flagship-io/flagship-ios.git', :branch => 'preMaster'
 end
 
