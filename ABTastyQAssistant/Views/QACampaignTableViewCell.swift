@@ -40,7 +40,7 @@ class QACampaignTableViewCell: UITableViewCell {
         tintColor = UIColor(red: 42/255, green: 42/255, blue: 60/255, alpha: 1)
 
         status?.isUserInteractionEnabled = false
-        status?.contentEdgeInsets = UIEdgeInsets(top: 4, left: 12, bottom: 2, right: 12)
+        status?.configuration?.contentInsets = NSDirectionalEdgeInsets(top: 4, leading: 12, bottom: 2, trailing: 12)
         status?.titleLabel?.font = UIFont.latoBold(size: 15)
 
         let title: String

@@ -65,10 +65,9 @@ class QAssistantHomeViewController: UIViewController {
             guard let self, let qaAssistant = self.qaAssistant else { return }
             guard let variations = notification.userInfo?[FSQANotificationKey.variations] as? [[String: String]] else { return }
 
-            let fetchedVariationIds = Set(variations.compactMap { $0["variationId"] })
             let fetchedCampaignIds = Set(variations.compactMap { $0["campaignId"] })
 
-            guard var cached = qaAssistant.cachedBucketingResponse else { return }
+            guard let cached = qaAssistant.cachedBucketingResponse else { return }
 
             let updated = cached.campaigns.map { campaign -> Campaign in
                 var c = campaign
