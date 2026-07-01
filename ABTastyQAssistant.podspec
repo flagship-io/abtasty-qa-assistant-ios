@@ -11,10 +11,10 @@ campaigns, and targeting conditions at runtime — without needing to rebuild or
 Built on top of the Flagship SDK, it streamlines the testing and validation workflow directly on device.
                      DESC
 
-  s.homepage         = 'https://github.com/flagship-io/abtasty-qa-assistant-ios-dev'
+  s.homepage         = 'https://github.com/flagship-io/abtasty-qa-assistant-ios'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Adel' => 'adel@abtasty.com' }
-  s.source           = { :git => 'https://github.com/flagship-io/abtasty-qa-assistant-ios-dev.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/flagship-io/abtasty-qa-assistant-ios.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '15.0'
   s.swift_version = '5.0'
