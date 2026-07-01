@@ -1,5 +1,5 @@
 PODS:
-  - ABTastyQAssistant (0.4.0):
+  - ABTastyQAssistant (0.5.0):
     - FlagShip (~> 5.0.0-beta)
   - FlagShip (5.0.0-beta.8)
 
@@ -12,7 +12,7 @@ SPEC REPOS:
     - FlagShip
 
 SPEC CHECKSUMS:
-  ABTastyQAssistant: d63020bbd4b175449a84fd06fc97d2513f2f640a
+  ABTastyQAssistant: b572194914d658e65bc7b4739cfdc74c4ba6f293
   FlagShip: 2339c5e6d614c6dc523a11c2f3bf4d8cb36e70af
 
 PODFILE CHECKSUM: f6d9c83aa7a11ce03af425e8037364c59dd70b69
