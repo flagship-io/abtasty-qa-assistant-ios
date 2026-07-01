@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ABTastyQAssistant'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'In-app QA overlay for inspecting ABTasty feature flags and campaigns at runtime.'
 
 
@@ -31,5 +31,5 @@ Built on top of the Flagship SDK, it streamlines the testing and validation work
   }
 
   s.frameworks = 'UIKit'
-  s.dependency 'FlagShip'
+  s.dependency 'FlagShip', '~> 5.0.0-beta.8'
 end
