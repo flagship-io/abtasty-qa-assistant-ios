@@ -510,7 +510,6 @@ Consider using a separate CocoaPods target, or a build configuration that exclud
 ## Additional Resources
 
 * [Flagship iOS SDK Documentation](https://docs.abtasty.com/server-side/sdks/ios/ios)
-* [ABTasty Platform Documentation](https://doc.abtasty.com/)
 * [Example Application](#example-application)
 * [GitHub Repository](https://github.com/flagship-io/abtasty-qa-assistant-ios)
 * [Report Issues](https://github.com/flagship-io/abtasty-qa-assistant-ios/issues)
