@@ -4,7 +4,11 @@
 //
 
 import XCTest
+#if canImport(FlagShip)
 import FlagShip
+#else
+import Flagship
+#endif
 @testable import ABTastyQAssistant
 
 final class QATargetingViewTests: XCTestCase {

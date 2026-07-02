@@ -3,7 +3,12 @@
 //  ABTastyQAssistant
 //
 
+#if canImport(FlagShip)
 import FlagShip
+#else
+import Flagship
+#endif
+import Foundation
 
 enum QATargetingEvaluator {
     static func isConditionMet(_ target: ItemTarget, in userContext: [String: Any]) -> Bool {
