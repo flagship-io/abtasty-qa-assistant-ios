@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ABTastyQAssistant'
-  s.version          = '0.8.0'
+  s.version          = '1.0.0'
   s.summary          = 'In-app QA overlay for inspecting ABTasty feature flags and campaigns at runtime.'
 
 
