@@ -1,5 +1,6 @@
 # ABTasty QA Assistant
 
+[![Unit Tests](https://github.com/flagship-io/abtasty-qa-assistant-ios/actions/workflows/tests.yml/badge.svg)](https://github.com/flagship-io/abtasty-qa-assistant-ios/actions/workflows/tests.yml)
 [![Version](https://img.shields.io/cocoapods/v/ABTastyQAssistant.svg?style=flat)](https://cocoapods.org/pods/ABTastyQAssistant)
 [![License](https://img.shields.io/cocoapods/l/ABTastyQAssistant.svg?style=flat)](https://cocoapods.org/pods/ABTastyQAssistant)
 [![Platform](https://img.shields.io/cocoapods/p/ABTastyQAssistant.svg?style=flat)](https://cocoapods.org/pods/ABTastyQAssistant)
