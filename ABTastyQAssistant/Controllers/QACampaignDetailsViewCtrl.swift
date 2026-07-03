@@ -5,7 +5,11 @@
 //  Created by Adel Ferguen on 26/05/2026.
 //
 
+#if canImport(FlagShip)
 import FlagShip
+#else
+import Flagship
+#endif
 import UIKit
 
 class QACampaignDetailsViewCtrl: UIViewController {

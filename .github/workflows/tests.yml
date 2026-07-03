@@ -1,0 +1,51 @@
+name: Unit Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  unit-tests:
+    name: Unit Tests
+    runs-on: macos-15
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Cache CocoaPods
+        uses: actions/cache@v4
+        with:
+          path: Example/Pods
+          key: ${{ runner.os }}-pods-${{ hashFiles('Example/Podfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-pods-
+
+      - name: Install CocoaPods dependencies
+        run: pod install --project-directory=Example
+
+      - name: Select iOS Simulator
+        id: simulator
+        run: |
+          DEVICE_NAME=$(xcrun simctl list devices available -j \
+            | jq -r '[.devices[] | .[] | select(.name | test("^iPhone"))] | .[-1].name')
+          echo "Using simulator: $DEVICE_NAME"
+          echo "device=$DEVICE_NAME" >> "$GITHUB_OUTPUT"
+
+      - name: Run unit tests
+        run: |
+          set -o pipefail
+          xcodebuild test \
+            -workspace Example/ABTastyQAssistant.xcworkspace \
+            -scheme ABTastyQAssistant-Tests \
+            -destination "platform=iOS Simulator,name=${{ steps.simulator.outputs.device }}" \
+            -resultBundlePath TestResults.xcresult
+
+      - name: Upload test results on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results
+          path: TestResults.xcresult

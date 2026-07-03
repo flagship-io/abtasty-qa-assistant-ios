@@ -1,9 +1,5 @@
 # ABTasty QA Assistant
 
-[![Version](https://img.shields.io/cocoapods/v/ABTastyQAssistant.svg?style=flat)](https://cocoapods.org/pods/ABTastyQAssistant)
-[![License](https://img.shields.io/cocoapods/l/ABTastyQAssistant.svg?style=flat)](https://cocoapods.org/pods/ABTastyQAssistant)
-[![Platform](https://img.shields.io/cocoapods/p/ABTastyQAssistant.svg?style=flat)](https://cocoapods.org/pods/ABTastyQAssistant)
-
 This package allows QA teams and developers to easily test campaigns, force variations, and verify flag values in real-time within iOS applications. [Using ABTasty QA Assistant](https://docs.abtasty.com/server-side/integrations/using-abtasty-qa-assistant)
 
 ### Table of Contents
@@ -22,7 +18,6 @@ This package allows QA teams and developers to easily test campaigns, force vari
 * [Best Practices](#best-practices)
 * [Troubleshooting](#troubleshooting)
 * [Additional Resources](#additional-resources)
-* [Example Application](#example-application)
 
 ---
 
@@ -509,7 +504,6 @@ Consider using a separate CocoaPods target, or a build configuration that exclud
 ## Additional Resources
 
 * [Flagship iOS SDK Documentation](https://docs.abtasty.com/server-side/sdks/ios/ios)
-* [Example Application](#example-application)
 * [GitHub Repository](https://github.com/flagship-io/abtasty-qa-assistant-ios)
 * [Report Issues](https://github.com/flagship-io/abtasty-qa-assistant-ios/issues)
 
@@ -534,11 +528,3 @@ The example demonstrates:
 * Live flag updates
 * Multiple flag types (string, number, VIP-targeted flags)
 * Context updates and hit tracking (screens, events, transactions)
-
-## Author
-
-Adel, adel@abtasty.com
-
-## License
-
-ABTastyQAssistant is available under the MIT license. See the [LICENSE](LICENSE) file for more info.

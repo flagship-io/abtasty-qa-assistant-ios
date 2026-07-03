@@ -3,7 +3,11 @@
 //  ABTastyQAssistant
 //
 
+#if canImport(FlagShip)
 import FlagShip
+#else
+import Flagship
+#endif
 import UIKit
 
 class QAContextViewController: UIViewController {

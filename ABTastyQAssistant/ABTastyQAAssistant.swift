@@ -1,4 +1,8 @@
+#if canImport(FlagShip)
 import FlagShip
+#else
+import Flagship
+#endif
 import UIKit
 public class ABTastyQAAssistant: NSObject {
     public let envId: String

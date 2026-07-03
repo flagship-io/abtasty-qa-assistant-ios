@@ -1,0 +1,15 @@
+{
+  "originHash" : "358fbc0f3fe0f101b452edbb8d913f504cddc7fdbca0920a9a78d547b3d5f4cd",
+  "pins" : [
+    {
+      "identity" : "flagship-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/flagship-io/flagship-ios.git",
+      "state" : {
+        "revision" : "c90cf657f3ffcee00ea465641c2060f805ccf39e",
+        "version" : "5.0.0-beta.8"
+      }
+    }
+  ],
+  "version" : 3
+}
