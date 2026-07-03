@@ -1,20 +1,23 @@
 PODS:
-  - ABTastyQAssistant (0.5.0):
+  - ABTastyQAssistant (0.8.0):
     - FlagShip (~> 5.0.0-beta)
   - FlagShip (5.0.0-beta.8)
 
 DEPENDENCIES:
-  - ABTastyQAssistant
+  - ABTastyQAssistant (from `../`)
 
 SPEC REPOS:
   trunk:
-    - ABTastyQAssistant
     - FlagShip
 
+EXTERNAL SOURCES:
+  ABTastyQAssistant:
+    :path: "../"
+
 SPEC CHECKSUMS:
-  ABTastyQAssistant: b572194914d658e65bc7b4739cfdc74c4ba6f293
+  ABTastyQAssistant: abcdce6d190de0a4b614ccd403b9d57e5c4cae63
   FlagShip: 2339c5e6d614c6dc523a11c2f3bf4d8cb36e70af
 
-PODFILE CHECKSUM: f6d9c83aa7a11ce03af425e8037364c59dd70b69
+PODFILE CHECKSUM: 6e28e045c73691d38489429083a3d369bc97309e
 
 COCOAPODS: 1.16.2

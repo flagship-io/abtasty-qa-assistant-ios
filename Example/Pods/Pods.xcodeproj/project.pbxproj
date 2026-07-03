@@ -7,175 +7,175 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0234949CD477F88533C690D4D4FD5860 /* QAVariationViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D44667A771A7A281DE3A8222DE599CC /* QAVariationViewCell.swift */; };
-		02D7031AA093CA89F09F594E5EF1336F /* QAModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DD587877A113BD376F2EEEF645DADC /* QAModels.swift */; };
-		0488E9E316E6C728570D0DF534FD4160 /* FSITrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FDFAF7955FBED15026401612BFD645 /* FSITrackingManager.swift */; };
-		04FF27D850EFC4F78C9D5A1D6B1D8976 /* QAVariationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6829D410A9BB56A103D3CDCDA7A4076F /* QAVariationsView.swift */; };
-		05F2D0C0DD4DF725929380AF0D7A7475 /* FSFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE33BD25CB04C7AD215127B3FB8773 /* FSFlag.swift */; };
-		07F594038A88F03E62B3B4D4DBC0C670 /* FlagshipLogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018063FD9AB4958F1D80AF25722403B4 /* FlagshipLogManager.swift */; };
-		0C8CDE4FF76937B8190B2B6921DB3138 /* FSVisitor+Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2253E90BDAECFCF7DECF183F2A8CAED /* FSVisitor+Flags.swift */; };
-		0D5DBA4E06AEC0B4A2221F1D16E9D1F3 /* QAVariationsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F95C7F9D8D19C33759E269B2E2D55541 /* QAVariationsView.xib */; };
-		11BEBF4109C8B2F66CB24D025F12F977 /* FSDataReportUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15300CE6E75DBD67F6A42871BE611EB5 /* FSDataReportUsage.swift */; };
-		1401232FC804BEDCD5A85D47B99941BE /* FlagShip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 636D6AFE390FEA9692F364CDF1401A87 /* FlagShip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1613BE5E2ED2DA6B23D1ECB15A8C59B0 /* FSCacheDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503A265B4E5B0BEF96815D41295F7A8F /* FSCacheDelegate.swift */; };
-		16B55D2B5D03F1CBB78699592C03409C /* FSTracking+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37ED5ED2D3F1E0C0ED43911F21B8AF7 /* FSTracking+Codable.swift */; };
-		18D819F3BBC14A030DA4EAD3A63254E7 /* FlagshipContextManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC304D175B6A8BC3602C88ABD6B8DF5 /* FlagshipContextManager.swift */; };
-		19CFFCF9109C8A11E7ECB4E1C235BC18 /* FSBatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE21556695AF8263B9D35E6DBA79A58D /* FSBatchManager.swift */; };
-		1BCA7A2D91868B37BB478E749047D673 /* FSEmotionEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51277AC3208AA31F3C69C4173C6A0EB8 /* FSEmotionEvent.swift */; };
-		1FBAC8DDAC91B89A89521627A29B7346 /* FSWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D3595E64F0070128AAB78908DF1233 /* FSWindow.swift */; };
-		2062200C00AEBCB7F28C289959B6B10B /* FlagShip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BCE99B128FCC5A21FBD93FF64A42F0 /* FlagShip-dummy.m */; };
-		216358AA37357EBBEA2812AAD31D0C03 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85850BED0766F6C87EF2778D6BC54F99 /* Lato-Regular.ttf */; };
+		009C0F37AE390899A4F57DD457F84019 /* FSDefaultCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450A03AD360C345401B9CB0F2250B3F7 /* FSDefaultCache.swift */; };
+		01D8CE4A1F698DE735F4CDA0659D9F88 /* FSModification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44832BE99E36926BB133DF86AF086A42 /* FSModification.swift */; };
+		02B6398107F90E51C06A95E35572A751 /* QAVariationViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1501A3B722CC5571FBB881F0BDBB74 /* QAVariationViewCtrl.swift */; };
+		03590B8937890756C965D1D01EF431D4 /* FSContinuousTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707B3230264A6CB375465FCDCE06A10C /* FSContinuousTrackingManager.swift */; };
+		054EC8915DC47FCE1343D2ED5E725339 /* FSVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C457326D3E05B17DCCCA3F726864D5 /* FSVisitor.swift */; };
+		05A9D7618DB22BC4489C9927D7B2ADAA /* FSTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3479431DDF9D3B2D0768DD4F609A67 /* FSTools.swift */; };
+		06885B135824B3A57F58BC1B880A5A62 /* UIFont+Lato.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572AB095CB33540610857EFCE36F1251 /* UIFont+Lato.swift */; };
+		0A2E2740A5BD77FA67F7AAEE2886D07F /* FSEmotionEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F861DD3E31FD3E359D292A67F895CFB /* FSEmotionEvent.swift */; };
+		0ABA3AC4ED231D9AD1581AE7687CF344 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 78ED0751DC3C6D77BDA9BA915A2002AF /* Fonts */; };
+		0CFFF9485F97101A445B5A5B7B313E81 /* FSTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4991B74BBA6565138A484AA58A8343 /* FSTrackingManager.swift */; };
+		0D4909A309396C39A4ED2683800CD7B4 /* FSTracking+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07989F6C4E8B1C6E5B45B40E2AA16CB /* FSTracking+Codable.swift */; };
+		113D6CE32B56306706222B1207B82326 /* FSExposedFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88516D0C775E3A108015D5A4D0474F92 /* FSExposedFlag.swift */; };
+		149D47032FA599BB2C2C1CE36FFCE75E /* FSConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C574D037033585C8360BCED279059C3 /* FSConfigManager.swift */; };
+		17F5852DA74911E771291BF980F0B768 /* FlagshipLogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B96E49460062DEEE853A012954A453 /* FlagshipLogManager.swift */; };
+		1B423DC679A387E3EF7DCCCB2404FEF1 /* FSStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3484713DA79C40C57477A1E99739AE /* FSStorageManager.swift */; };
+		1C7D9FBEC5D3AB33614606A38891FCE4 /* QAVariationSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF76B907CFE5D112F8083D586943CD43 /* QAVariationSectionView.xib */; };
+		1C9636CDBF45169F1F93F033886C48C8 /* QAssistantHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1527A1E86D008639A2811FC1B06C669E /* QAssistantHomeViewController.swift */; };
+		1CB17E3C5881B0648DB48935CC030E8F /* BundleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A363EF7D67422812C66297687C40BB /* BundleImageView.swift */; };
+		1E2B96BBF56A6E51AA7A58412EB8082A /* FSSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B410F9B5C1C1E0F92390DD2686BACF1 /* FSSettings.swift */; };
 		239DD4E3511E2C22955D7044670C56A2 /* ABTastyQAssistant-ABTastyQAssistant in Resources */ = {isa = PBXBuildFile; fileRef = 0F6BB5A1E37A62FA324A7D7E760A0291 /* ABTastyQAssistant-ABTastyQAssistant */; };
-		25CF71A8F2D696EF22B0955EB5B15F2C /* FSTargetingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C24A97AE0017D3D1591FDE8E40A0FB8 /* FSTargetingManager.swift */; };
-		264EFB93BC39C1E1D2869392D2E4F4C5 /* ABTastyQAAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC76EFEBBB8FF902E27D105080C524B /* ABTastyQAAssistant.swift */; };
-		26D8A3DB415429F11241E3CD1AACF0F4 /* FSCampaign.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE010C9D7ACB237895CC8255D0D20FBB /* FSCampaign.swift */; };
-		31231EBE715639433837D3D918C85BE6 /* FSFlag+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934280B3B8CF31E577225CDDD3B55263 /* FSFlag+Additions.swift */; };
-		32DAD235963C6DA463B75EF7695EDD31 /* FSBatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA9D8324C13B8B7E281BDE6B5E62CFA /* FSBatch.swift */; };
-		332B3DE7F468DEDC5CFC21C71585CD64 /* murmurhash3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEAB4FFB53F2C2CB8B1D2845C2AD915 /* murmurhash3.swift */; };
-		34B40C4231A3CF51BCE74EBE0DBF908C /* FSCacheVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3928128753C9DAC4D29E5D35CB5822 /* FSCacheVisitor.swift */; };
-		35DC9C2B240EFAA20DCFA046593816CE /* QAVariationSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FF9E52E85E91104689F1909EFCFC46A /* QAVariationSectionView.xib */; };
-		3DC2C6CE0F8A8D5BBB7884C6F78BF6CF /* FlagshipContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8A5EB579C696AA22F82405F2429D26 /* FlagshipContext.swift */; };
-		40280CC2633447A30EBDE5C5FE253829 /* FSPeriodicTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5938BFE4474353FC172E35D77D9D27FF /* FSPeriodicTrackingManager.swift */; };
+		2603C2EE4E67F647407A724B77F7C598 /* FSTargets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996FB6DD0BD642E0428DA4489C4289E2 /* FSTargets.swift */; };
+		2610DEB9DEC589CD1323B211D7229766 /* FlagshipContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DEC863578989A5B7C654AC56BE123C /* FlagshipContext.swift */; };
+		26E9F3901100E045ABB21CCA91394365 /* FSVisitor+Campaigns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09891D857C0A6E3181226F3FCD025A5B /* FSVisitor+Campaigns.swift */; };
+		26F28939AD77C170B38F5D4475AC2CA0 /* QATargetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD02F288AD86DC341832B03C199C18 /* QATargetingView.swift */; };
+		2A03C9C177EE516244A13F8AC6FF0AA1 /* FSEmotionAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980846A36940DF419E03F037F01D34A3 /* FSEmotionAI.swift */; };
+		2A74314864235A675DC95C9B36498E82 /* FSVisitorDbMgt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74B1B0AFEB7B0D2FC2086EE39BC706F /* FSVisitorDbMgt.swift */; };
+		2B96532BA55465B5B7FCA195D0D8148E /* QAColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = A835949CE5C6272E9D68AC90002F3622 /* QAColorPalette.swift */; };
+		2DDE38D9EB25F18B2D988FCE061C0B32 /* FSConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1EB2FD26B3A8E2A3F1DE337606AE29 /* FSConstant.swift */; };
+		2FDC86DE31CE8E7A40AD816F0E67AB4D /* FSLogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB387EC2B1E06D229EB7331743A8EF3 /* FSLogManager.swift */; };
+		2FEAADD731B2BE088ECB21CFD3B47CF4 /* QAAllocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD95CFCE754A7D82D88AE896DCA01CFA /* QAAllocationView.swift */; };
+		3203043A7CAAFFDA32F2D9ECC5700D78 /* decode-json-swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAFF603F0E67414521E9982C92C472C /* decode-json-swift.swift */; };
+		32BC9CF2213EC2439962A986405FFE1C /* FSVisitor+EmotionAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C5BE37EF1ABC16D4052E04CF00ABCF /* FSVisitor+EmotionAI.swift */; };
+		3369571F48748A7BBA23179E7203481E /* QAContextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC32DE38CE11D87139BD08A85703912 /* QAContextViewController.swift */; };
+		360EC2CE9EA1BE4D7F82A31320AA5992 /* FSTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC76653A44A28CE60BAAA0A9239B7F8 /* FSTracking.swift */; };
+		36245CBBDEA9D00778700B50A630C402 /* FSDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD8219C21E6B2C8CDF359DF91D52974 /* FSDevice.swift */; };
+		374D47BC16CD8BC220FCEAEDE7500391 /* FSPanicStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4148038DD365329ABFA8B16162BA24 /* FSPanicStrategy.swift */; };
+		3850F444EADB00F2DE8507AAD8AA511B /* FSCacheHit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCC17DE2AB10002A6B1B657EBB91235 /* FSCacheHit.swift */; };
+		39533DCCAA2913DEEDD77E01E28EB96C /* FSITrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2EB440263033FD6D4791C390ECBF7B /* FSITrackingManager.swift */; };
+		3B2EC830AF55FC43D013A20FD1F750FF /* FSQAssistantStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7550EDDBB89B085382E7B2FB06084038 /* FSQAssistantStrategy.swift */; };
+		3DBAC8C239DA9E2379CFDE5EB58D031E /* FSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08736A5BB47CD1CBA1A2FDB056F373A4 /* FSError.swift */; };
+		3E9440F79E785C84336F7D3CD53ACAE6 /* FSWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBDA2C2147A08C528671AABD781B7F2 /* FSWindow.swift */; };
+		42DB3DA6063C7B7C1456F2FFF155ECA7 /* Flagship+EmotionAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B29782E81B6F3E5BC0CF7F2FA3C26C /* Flagship+EmotionAI.swift */; };
+		44E0EEEA9968A2A38F6C8DD0F156A691 /* FSContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB29ABF3014F042DC3E7C67E97DFC2A /* FSContext.swift */; };
 		44F2C2B4AA4FCAF64C4BFABA1CC783DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */; };
 		45DF420DFBBF5307490C08DC56374D66 /* Pods-ABTastyQAssistant_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF1B56C5AABE020FF0325AD3EE066870 /* Pods-ABTastyQAssistant_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		487C0D2414A03578A0DDCF90577051F3 /* FSQAMessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B960248DD206256E39742A49CC669 /* FSQAMessageService.swift */; };
+		4767685F0EBA7C88F7D9ABFB85E2F151 /* FSDataUsageTracking+EmotionAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65B3057A6015B57C258A22884A2AF5 /* FSDataUsageTracking+EmotionAI.swift */; };
+		47EF168774EE3609260CAF7C71B136B8 /* FSNoConsentStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D73D4526C1FFA626F68B0173E377D53 /* FSNoConsentStrategy.swift */; };
+		4832E03607263E4A5314A19CC5AA4681 /* FSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051C3DDF16A3269B186FC45A62F42A6D /* FSService.swift */; };
 		4A4C035724AFA2C9884B16561CD1E9DD /* Pods-ABTastyQAssistant_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ACE5072177B3AC153FB9BA222F16E4B /* Pods-ABTastyQAssistant_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AF8B0C5FFCE830326B80FC8457222C3 /* FSVisitorBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0071448E5FD1AF99F0491E705A01EA46 /* FSVisitorBuilder.swift */; };
-		4BE4472C24BE53C171976FA078F88D96 /* QAColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31D5FCA0030E45E307ECE4B0DCD6E74 /* QAColorPalette.swift */; };
-		4C3D7AC4146EB4388607A32D3A1CE959 /* FSCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271FF6E44F23B645637746521636EA15 /* FSCacheManager.swift */; };
-		4D74BAD2FB7F6E30BCAFB7F11928E276 /* FSVisitor+Reconcilliation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689399DA0AD0DE254E2D3264F3E739BE /* FSVisitor+Reconcilliation.swift */; };
-		4E0D93623B31416F06355EF487136BB3 /* FSVisitor+EmotionAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E95EE8C2DBA0C61E1544424A5A0F24 /* FSVisitor+EmotionAI.swift */; };
-		4EC922F5C151B082C6346D2D53F81441 /* FSConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972EA116E486860524E86DAB2F2F916E /* FSConstant.swift */; };
-		50792008B9000A7CCCFD64E2FACF749B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
-		53B1FDA8E78608E52025EE2D2759B255 /* FSService+Bucketing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B705F606DD814C40DB5497F3215A8 /* FSService+Bucketing.swift */; };
-		555018745FFF6F7F32518301221F444D /* QAVariationViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73062B00011C65501AC06F63BB735674 /* QAVariationViewCtrl.swift */; };
-		590F9480276F6D5BD5338047BC5E466D /* FlagshipConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EA618DC246EDFA88AD5BA84D21B58F /* FlagshipConfig.swift */; };
-		591E0B8052261B8D4DCC5A0847CEE545 /* FlagshipConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EBCA850A13C6000F261ACD7957C2E3 /* FlagshipConstants.swift */; };
-		59466EF042E88403694281B26D8E1DB9 /* FSService+Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F5FF49C9423560FD5F27597438A291 /* FSService+Request.swift */; };
-		5998F7ECE034A14CF49B68B59D5F6CDE /* FSHits.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8744FB723899CA67750B06C50C58F42 /* FSHits.swift */; };
-		5AC429402F7C6ECC8F5CA13C5FE41008 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60B3C84ECD9F42FA9AF2692A2B0AFB26 /* Lato-Bold.ttf */; };
-		5BA461CEFDD6B9153AE313A7D998FE2A /* QAVariationSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A72459F8E2740CBBC76013170B4F8A /* QAVariationSectionView.swift */; };
-		5C3A44DC06196B467EBFA5C5DAF65270 /* FSSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AFEC26475482BC25286832427DB583 /* FSSettings.swift */; };
-		5CA385EBF4DD01B93BFAAF3BED57CB67 /* FSVisitor+Campaigns.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6704DF653ED1D9450D683E526B4DC4B /* FSVisitor+Campaigns.swift */; };
-		5DD2EC23EC9657D1282A5CA21B334918 /* ABTastyQAssistant-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E95C7D1AD938C05CDA5CE742B0C2721 /* ABTastyQAssistant-dummy.m */; };
-		5EC078FBA459D4C8FB2483FED8F4497E /* FSQAssistantStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC031612197B115994350E9E21AA1780 /* FSQAssistantStrategy.swift */; };
-		5F044B45BE0A5C684A7B52E650538A89 /* FSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FFA0AA095E18F567A9AB90CA03129A /* FSService.swift */; };
-		5FD9CB7DBF71B1AA4C8B6D48B30EECBA /* FSPollingScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0A92DA1EFD079923CFD99D9BEC01A /* FSPollingScore.swift */; };
-		618352BF47685DD65AC3CBF80A87CD4C /* FSNoConsentStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2A456129D1179D7E2B939BE67EDC7A /* FSNoConsentStrategy.swift */; };
+		4B1D294821D5ABD22BC38FCFB4A68589 /* QAVariationSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A459A1273DBABFF49A79A30AB8735B3B /* QAVariationSectionView.swift */; };
+		4FF8D5141F71F0A327D903B31A5A717B /* QAAssistant.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE86BA77BB00ABB765FFA9F1BC0EA091 /* QAAssistant.storyboard */; };
+		5041C770C265D0881011992EEBFC5849 /* FSFlag+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10586EB7707AADC89792472CE82C35FE /* FSFlag+Additions.swift */; };
+		55AEDDFF8229F49C9744C3502C334398 /* FSBatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60755265CACDB1D6FD8A6D4F44D09EC /* FSBatchManager.swift */; };
+		5764B5196FCBE871A0974056C0EE3F48 /* FSAccountSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540D6C8425D4B275B00D760A77C523D6 /* FSAccountSettings.swift */; };
+		585340F83E6A183DD8D1F650133CBC7B /* FSFlagMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE416A84B3DD9ECD5DEA9C25216FB4CB /* FSFlagMetadata.swift */; };
+		58ADAA17FF13B3DEB7F4DF8BC98933A1 /* FSDecisionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44459E900F61F92EB93C2EDDBA7FBC1F /* FSDecisionManager.swift */; };
+		598C39B544B93D402E2AED40A8BEE284 /* QAssistantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE814EE21126DE50D0CB832AD74AE2F /* QAssistantService.swift */; };
+		5BD756135AC7F448401EC03FDDAB43B5 /* ABTastyQAssistant.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C203A22B10C02F43802A255E52E0E7FF /* ABTastyQAssistant.xcassets */; };
+		5EDF19806065C3C52909A824E1801EED /* FSNotReadyStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A122C3AED99297F1CE16DBF8DEFBC2 /* FSNotReadyStrategy.swift */; };
+		5FCF978FC6CAC212263D00676F621894 /* FSPollingScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6A2DFDB721720A7D8196F103DB8BB /* FSPollingScript.swift */; };
+		6187AD0FFD8FDF4B92C8B079557DE59D /* FSGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8D15517CFE0CDB59767778B1BF21B6 /* FSGenerator.swift */; };
+		6273CA8B3D438D437885984CDE87D4F4 /* FSBucketCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0686A70345ACA2504ED591AE57A28D6 /* FSBucketCache.swift */; };
 		62CEB57C43995E6C0335B2ED4CCFE680 /* Pods-ABTastyQAssistant_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC29215773BB5C011A7224C579D7740 /* Pods-ABTastyQAssistant_Example-dummy.m */; };
-		63A08F0A24320400776BA5383625D530 /* QATargetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EEDF053563F039E0DE3DFF569DC966 /* QATargetingView.swift */; };
-		6A2D48A8BBBA774EA45001B0437BFC55 /* FlagShipVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659DFA847202D834B541B7D7BA47B75F /* FlagShipVersion.swift */; };
-		6CFEB59CE1F9E98BBB370F6279B0F266 /* FSQLiteWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9BC5865B33D574E6832E70148F6EB7 /* FSQLiteWrapper.swift */; };
-		6E2D8638E6EFF2A7B1FEAE579B5C3331 /* FSTrackingManagerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E17FDAF758277A8A765B45EA7E6F057 /* FSTrackingManagerConfig.swift */; };
-		74E1DA155ABBD3515CD1C43B408EEE3A /* FSTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5BB9DE27A8AE7119E9F424E6AC1712 /* FSTrackingManager.swift */; };
-		752BBFA542679FEE6976EBC9E9AF9D56 /* FSStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A6069F5857A453E805FB27312C37E /* FSStorage.swift */; };
-		785094388D93E9DAB2399D2AF254FA3D /* QACampaignDetailsViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B62A84176FCC56702821BDED785E80 /* QACampaignDetailsViewCtrl.swift */; };
-		7929F8E4C17F162B87C9E31B12C15A1C /* FSTroubleshooting.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA18990D8A1A078752AF5D6656A982BD /* FSTroubleshooting.swift */; };
-		7FD9124F62D8636F140C24D3BE0A04F8 /* Bundle+Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5111653CB09330A9F9A4F3BFDC9FD16 /* Bundle+Fonts.swift */; };
-		829ED325F05D342904D5C4A0C4CFEB1D /* FSCacheHit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54C565A04B1B66A3CF1AB94A4BBF110 /* FSCacheHit.swift */; };
-		8617FF73081DEC8ADAB13C4A183EF1EC /* FSDefaultStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0646A62B42DB74F2EF97A6AA37A57547 /* FSDefaultStrategy.swift */; };
-		864E204D2A5979E089BA14808EB7B447 /* FSDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6495024777F526273A8594C47E134E3B /* FSDevice.swift */; };
-		87784ECAEC2321CB9BA6FE44706E61A2 /* FSPollingScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A62AE14FC118787BCA91C6A531F9F2F /* FSPollingScript.swift */; };
-		8A75A9241252C57E3228284FEB94B0E8 /* BucketingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6A6C66770A9017E5A83D15DB7A07E3 /* BucketingResponse.swift */; };
-		8C8AA71D01BB0D51E5BACD6167679468 /* UIFont+Lato.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE651F62448C6B92D11F4BEA2E24ABEF /* UIFont+Lato.swift */; };
-		8F414914B61D9013F144702DE12D85DA /* FSPanicStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393E31D8D6E2A611A9AC86310755F250 /* FSPanicStrategy.swift */; };
-		99C7711D96C7833B84C0B9B4876FBD73 /* ABTastyQAssistant.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3341FDF498B176CE94962D38C55F408 /* ABTastyQAssistant.xcassets */; };
+		630627A2B7B07E273D205A3C1A872190 /* QAVariationsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A66ADD1712826EB5C4DDC8CF37ED19 /* QAVariationsView.xib */; };
+		631188CF9D06A4FF5F6246692F5D6665 /* Data+PrettyPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530B505022898D6AF849154C7155DE7E /* Data+PrettyPrint.swift */; };
+		667197BA4042166BA021F89698D39D10 /* murmurhash3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F516CFFA9DFABF2BD0C80171427600AF /* murmurhash3.swift */; };
+		6A97AE1008F580E5362DAA55BB1E1F94 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 052AEF530D2566B7031CFD6F33EE2A68 /* Lato-Italic.ttf */; };
+		6AC7C927013845273590F2ABA6A6F554 /* FSDataUsageTracking+Criticals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A858B193F12718EAAC7C888FF2D927 /* FSDataUsageTracking+Criticals.swift */; };
+		6F31EE2D1D74EE9D582CE68AD4BA0AED /* FSCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99241A873570CDCB6208B96F906ADF24 /* FSCacheManager.swift */; };
+		714386DDA38DA56A14DA27C411176EA2 /* Bundle+Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4264CF7B845FE90472DB5A6B9DC1A5 /* Bundle+Fonts.swift */; };
+		728396B063A35E5AD94B38B86EF1547F /* QATargetingEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2591DEEA35CB2CCF6E785F49C1AC7A0E /* QATargetingEvaluator.swift */; };
+		76705A6F51ED3E90E4E9DCE74B04689E /* FSEmotionPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23305A0A2C43E5E67DA0898E24AD392 /* FSEmotionPageView.swift */; };
+		7715E90F986CE1EFF44DBE7EC99BBA37 /* FSQLiteWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B99FFA9D4E206214BEF0F86E51B588 /* FSQLiteWrapper.swift */; };
+		7769C797D52485F0F4A0F3DD90814EA0 /* FSFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E77FC43A87617AD689CE06B91FF75A /* FSFlag.swift */; };
+		777A4A9C27FEB800D298C4D72107FD87 /* QACampaignTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A190F82E68E39EB8A95DE30C53EA2F6D /* QACampaignTableViewCell.swift */; };
+		7B59ECD7A437982FE9FFAF7D15D12366 /* Flagship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3386C79479AAD0134833F327CAEDEB83 /* Flagship.swift */; };
+		7B67F98491DC11D7C6A894578E521C7A /* FSTroubleshooting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCEFB67E2742AB402ABEE1AE94D8E5B /* FSTroubleshooting.swift */; };
+		814D5A079B5B927D90A4F7AFB4A25B6D /* FSPollingScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9136458E17755DAC422F80F822009220 /* FSPollingScore.swift */; };
+		8BA782EF523DC9AA802427FAE749C12F /* FSCampaigns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876D7407A6B17499D3684B5980BD2F3 /* FSCampaigns.swift */; };
+		8D489F9AA4095085299912E5F3061287 /* FlagshipConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8E7F61FCB574A6632F62D83230C87 /* FlagshipConstants.swift */; };
+		8DE6BBF8C0EC68B63C1D283CE8B4305B /* FlagshipConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C3D6AAF2D20FDAE9C660A21F8A6B3 /* FlagshipConfig.swift */; };
+		9140137A190F479B8514B47B735092CE /* FSBatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C39CBB3EC935D23C93D44DABF479C2 /* FSBatch.swift */; };
+		929DCA734C91D9053C4B6003A0A3D3C0 /* FSService+Bucketing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1370D263B12D859136F99D4A48FF06 /* FSService+Bucketing.swift */; };
+		9377E956754E89D3BA484E7F8C288780 /* FSBucket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFCA17ADB958C47B8E050DA14134EAF /* FSBucket.swift */; };
+		93AC5312CE8DECBB83C59ED8DDABBF49 /* QAEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAEC741D54F66885A926C4FD23CCCD9 /* QAEventsViewController.swift */; };
+		93DDBB0C4A87EDB32463B9DE53115A19 /* FlagShip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 769E743A1F45CB8334147088F1FC230C /* FlagShip-dummy.m */; };
+		954CAA83967699B1113057D765B08591 /* FSVisitorBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D600E1962FE75725CBD8E6C1FDFE6E /* FSVisitorBuilder.swift */; };
+		955C8C91DD8E39C085D78723E345510C /* QAVariationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB61B461C370436C275F89391297F36 /* QAVariationsView.swift */; };
+		967DD88F1688B4964E16BEB019680EF6 /* FSDataReportUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E030B8A592EB1AA2B0583744F7C7F /* FSDataReportUsage.swift */; };
+		99C0FC8E7E4E9F1401B3CEB78EEE027C /* FSBucketingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB2DDB9F522C64933E4D790B0899723 /* FSBucketingManager.swift */; };
 		9A49C90E342057F69A1FD39859191946 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
-		9B46E4D2C0A4D226B0CFB3DCEA80DAE5 /* FSStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C440B387080204015F957D467588777 /* FSStorageManager.swift */; };
-		A0CE0BCC9712CFBE0E539C3A809E9461 /* QAContextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF71691A86E724C924E1549B6E6848 /* QAContextViewController.swift */; };
-		A1DC62E32AFFEF084813BC759B0E5C2B /* Flagship+EmotionAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5584AFA3A73281581E5D894AA1DEAF71 /* Flagship+EmotionAI.swift */; };
-		A6F4D97A97D47A5955819D743758FED6 /* FSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3A2B4206E00B0AB2C7226D4E2C36B9 /* FSError.swift */; };
-		A8074C70D05A6E98CE1AB738E9A37CA9 /* FSBucketCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D7124B71DBA6894171D3C9E6EE1EF /* FSBucketCache.swift */; };
-		AAF86F3BDE0DF9226BAC41595BC71D78 /* FSModifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6784A496FE4412C193F50555A65B55F /* FSModifications.swift */; };
+		A35901040AAAC40DDD94FFA84CE0B71C /* FSModifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D4EE8F222A7E54F575D9D98638BB5A /* FSModifications.swift */; };
 		AF0485ED1BE4001EABCF9C7D3B0438C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
-		AF175DBDEA9B344F42DC28C6949733AA /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 5C53ACFA034EC3256BF7606C646D9C9B /* Fonts */; };
-		AF680B213B5531AE9B3236C4CC3D37E7 /* Data+PrettyPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E1F4914F0AB50DBE8D2AEE2D34DDDE /* Data+PrettyPrint.swift */; };
-		AFD9778A7A9CEBE2A6990B0577ED4C7B /* FSModification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159B21F87847C25ACEAFFD6231C3609F /* FSModification.swift */; };
-		B0E22A2E1638BFAF59814CA102264269 /* FSGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2F5D8E39A6977A49A5FC503F169EF4 /* FSGenerator.swift */; };
+		B042DD52DC9C20B01E323299EAF620D2 /* QACampaignDetailsViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B20CDA3BD2094A535947341056904 /* QACampaignDetailsViewCtrl.swift */; };
+		B0F019F402449EA93A253355684BC4D1 /* FSVisitorExposed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C90AA921DCD1B0FB970A66F0535B51 /* FSVisitorExposed.swift */; };
 		B101CC7BDD92ACB0D0C9B5959A1C3792 /* Pods-ABTastyQAssistant_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3641103FC3FD50E0B4CC62DC8C6B70C8 /* Pods-ABTastyQAssistant_Tests-dummy.m */; };
-		B170052A9D8AE759297A012AE80FC209 /* BundleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6D6AEF41BD1E405C7727D5AA99E465 /* BundleImageView.swift */; };
-		B1F07958C14ADFB6EF276FA902B7B10C /* QAAssistant.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A71CC81AB20368A4F87B433D7C66F4 /* QAAssistant.storyboard */; };
-		B381FC47065007CFC64649A28CDE138A /* FSConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A0D0EF1A122511CD6607B9C8545043 /* FSConfigManager.swift */; };
-		B4DFB081978C782888FF416DBDB71273 /* FSBucketingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E86AA37617A463353FC5CD65FB2250 /* FSBucketingManager.swift */; };
-		B6866C7188C1605B5A0B0E40A18B2150 /* QAAllocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114D0FAF4EB62AFB38B8DD2C5CD1DA7A /* QAAllocationView.swift */; };
-		B7611D73AFB492CB6120EA7C2F474A20 /* FSDataUsageTracking+EmotionAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414CCE507F03960E62193CD2EE87F3FB /* FSDataUsageTracking+EmotionAI.swift */; };
-		B7A31C232D29713A71A7A63ED3FF6C83 /* FSLogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82460EF2E2B44C3116E2081CC74E5B9E /* FSLogManager.swift */; };
-		B98BD519F1AA79A6E3C5434142CC0122 /* ABTastyQAssistant-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 419B08363EA342BCE6B6139BE4D79791 /* ABTastyQAssistant-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA0F63A0A88F4C0A923656D1D4CF7B2C /* FSDecisionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633484EE5AD4B2C3F480C76C5C31BA01 /* FSDecisionManager.swift */; };
-		BEF853D658ADEF6DA8CA9F57FB135F1F /* FSVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C7EFD0BAE59F929E1E0D59788D7856 /* FSVisitor.swift */; };
-		C11F77D4AFF7E072D77B541E115E6446 /* FSFlagMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = E666D979D35674BA59D458D68D7E1332 /* FSFlagMetadata.swift */; };
+		B3EC28E49C8AEFDDD01AF1F415233A85 /* FSPeriodicTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A684ED1F340182C253193BA44BE8D4D1 /* FSPeriodicTrackingManager.swift */; };
+		B479A8E51A67C8EBAAB40766175AEA4D /* FSTrackingDbMgt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197B4FC07147ED9AE5B64293670C2774 /* FSTrackingDbMgt.swift */; };
+		B88B0EAEA3A58B7F9F0F7CB52A505B30 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C9CAAC75A985D0D45A5F342FFD2BE93 /* Lato-Bold.ttf */; };
+		B98BD519F1AA79A6E3C5434142CC0122 /* ABTastyQAssistant-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BEE9B60B5AE4D630218EFD259700860 /* ABTastyQAssistant-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBE3DC2E8CB0E85B86D0D2D637EA2417 /* FlagshipContextManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C4126CD6DDB47A8254922654BA587A /* FlagshipContextManager.swift */; };
+		BD79AB59D822E8685586E3FA8495FDA5 /* FSVisitor+Reconcilliation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5094451C153283E3A9D5A9742A3C8551 /* FSVisitor+Reconcilliation.swift */; };
+		BDDCC2E6E25A43B63B2D44149330115F /* FSPoolQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A045DC5C8E16B7DD1D8D116C93535B7B /* FSPoolQueue.swift */; };
+		C047979128A0E40CECBAD6EAACC0E2CC /* FSStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FC7E4AD735584DD5BEFF61146804E3 /* FSStorage.swift */; };
+		C49D3FA562B57FE7817AEEBCA2B12A83 /* FSTargetingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6192222E71E29EAD2529FD040AC0281 /* FSTargetingManager.swift */; };
 		C5A8DDEFFCC396A90A9EC1EB4BE656B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
-		C669FBFE1490191B3A957D07BDC657C1 /* FSVisitorExposed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97DE96516AC1236343726B5F6B8F2DE /* FSVisitorExposed.swift */; };
-		C6734D1B65A4DE7A15D8FB88E2FBF4B6 /* FSDefaultCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30564E61FE467DEB1A8FA9D6C4A317 /* FSDefaultCache.swift */; };
-		C8C9748BAFD2F9AFE5B37CD2F85E1146 /* FSSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE88A0EABC9BF43A205F5681F9FE65B8 /* FSSegment.swift */; };
-		CB963491DEE6ADC6C6AFA346A0928FC1 /* FSExposedFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029E383B6562AF908F3D55796B7EEDD4 /* FSExposedFlag.swift */; };
-		CD581601C288A92259B2D3FA7EDDD788 /* FSCampaigns.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71755C0C1D6D18BB121E46D2DE7959F /* FSCampaigns.swift */; };
-		CF6B294A4700B8A9E248E9522502DFAF /* FSDataUsageTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91366FEB205E4610E55E4D3CD51F46FF /* FSDataUsageTracking.swift */; };
-		D03F08F94B03F511CB23F8239CA780B7 /* QATargetingEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D241CCDC79F6CBFB5502959EC2ED70E /* QATargetingEvaluator.swift */; };
-		D16B4C55125EA9A85ECC3F129EFF2102 /* decode-json-swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C784AA1754AF4079BFA8832D9088E /* decode-json-swift.swift */; };
-		D1EBFA4121477C145926B853EC8C4AB1 /* FSEmotionAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62903B63981B979F2328F1024C0EA99C /* FSEmotionAI.swift */; };
-		D4EDB27D7183C522BC6A905F24B51426 /* FSVisitorDbMgt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499AA0334DB405B96DCFCC9CDA204E9F /* FSVisitorDbMgt.swift */; };
-		D7FAAE7374C362CFA489925DDE3EFDD6 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C68169832EBF816345369BDCE06065E1 /* Lato-Italic.ttf */; };
-		DD563AC6311C7BFD2973D0907C2504A6 /* FSStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7737F291F5F5A7C08953B955CA89F52F /* FSStatus.swift */; };
-		DD61687F14FBA292C0E062754CC10F8F /* FSContinuousTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDD610524606F0D20B7A2207428CABD /* FSContinuousTrackingManager.swift */; };
-		E42C3A2B1BE33F5A3BAFA8810EDCF955 /* QAssistantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3020CA1A879ABCE7C7E71FB4944FB10A /* QAssistantService.swift */; };
-		E4D3EB4D839B0845E91C4A562CA8F735 /* FSTargets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5C5FEFE1CE880876B482835C71717 /* FSTargets.swift */; };
-		E50592743A2A41CF5765D3800344F062 /* FSTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5A58B74EB76E667B36926FE9A54F87 /* FSTracking.swift */; };
-		E5E8C4BD65AC8F9797B0828021DF35E8 /* FSVisitor+objc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B77373580AFD78D97AE925AE444023 /* FSVisitor+objc.swift */; };
-		E8DE22754E5ABF79432561FF10F33282 /* FSPoolQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB235380C1CBC00A8E4E214AE5D43ED4 /* FSPoolQueue.swift */; };
-		E98D70A488E4D0622CB6BBEF52FD841D /* FSDataUsageTracking+Criticals.swift in Sources */ = {isa = PBXBuildFile; fileRef = D052F0B18F45EC3684D429DDD2C3D4B3 /* FSDataUsageTracking+Criticals.swift */; };
-		EBB661D6315FCDB52A2A54BB8489BE4E /* QACampaignsTableViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF4BE0ABDF272CD02647D1DF1EB403 /* QACampaignsTableViewCtrl.swift */; };
-		EC4A30D5BA5705F14C04DAA5A4150BD6 /* QAEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AC79480E29515EE2FE526123060917 /* QAEventsViewController.swift */; };
-		ED404E68B93DFC2B6CF1DC799B84382A /* FSTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C55176FAAA30A55416790B534FFC3B /* FSTools.swift */; };
-		ED5D771D2BEAF0BB1FE95E7FFBA80C8A /* FSEmotionPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1BFD5A687DC7402DB2847CA50FA0D8 /* FSEmotionPageView.swift */; };
-		EED0DBCB0EFC487DF4A5463D99919BD6 /* FSDataUsageTracking+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12882C9A97F168295343FC5E4387EC52 /* FSDataUsageTracking+Tools.swift */; };
-		F0D357CF4DBF99B0CF668AC47749F237 /* FSTrackingDbMgt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6239C7B0AB40BD9EB49D75B9CB384CA4 /* FSTrackingDbMgt.swift */; };
-		F0ED23032D1C1054BE6916A2C76F2E1C /* FSContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120D81F6CDCCEC84C72ADFEECA47BBC2 /* FSContext.swift */; };
-		F16C5C2493BA22BE78B0772999D2554B /* Flagship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62000791728C80AF062C89BB2AD8E714 /* Flagship.swift */; };
-		F3A275FE879520144289DBD2BAE3E239 /* QAssistantHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217EB70AC63A41CA7FCA171FA0A0E8A8 /* QAssistantHomeViewController.swift */; };
-		F567CEA6C59531D660DFD19906A16E74 /* FSAccountSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348F0FBA2ADE5815DD44ADFA1E8D059 /* FSAccountSettings.swift */; };
-		F90B79BCFE29D20D438D6AA1E30BD740 /* FSBucket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2468BE1300F6BFE1683C3B056C6D96 /* FSBucket.swift */; };
-		F98F68A5676E4319C4CDEB58EB239263 /* FSNotReadyStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AFB208198C94D7FB2CC5EEF4BE4B61 /* FSNotReadyStrategy.swift */; };
-		FCB02D22AB646F873ABEB682994D4E51 /* QACampaignTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464BA20F474D76ADEFC5189101A89AE9 /* QACampaignTableViewCell.swift */; };
+		CAC82F54BFC4524366A2668826C67458 /* FSDataUsageTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBB8FD85BFEE2E71C6F4E3FC6474AAD /* FSDataUsageTracking.swift */; };
+		CC6B4102D0510B324D28604D78D07154 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		CFB2701C57578118A999675490D71599 /* FlagShipVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34F43AAE43FA978F5C8A7C5FF9C078A /* FlagShipVersion.swift */; };
+		D114E01C649F4A21E535055C20A2E5B7 /* FSTrackingManagerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB300CE37B895633322E4383EC22CEB /* FSTrackingManagerConfig.swift */; };
+		D326F56FFAE4E01DC83413EA487C252F /* ABTastyQAAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C358E2B7E39B28589CFE1D942E9835 /* ABTastyQAAssistant.swift */; };
+		D3C0559E27954EFF2ED3D5EE33DFBF2B /* FSVisitor+objc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F592D6819B768D7ADCF0EC996D5522B6 /* FSVisitor+objc.swift */; };
+		D909D3D95DE1BA5EBD56FAB2D57D2D8E /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11209A34E751A2D08D30213C717C3A8D /* Lato-Regular.ttf */; };
+		D9F16A96C0BB3DE4FE200BC8C27B0777 /* FSSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A2858EDC7E52D9A5728684602C6C61 /* FSSegment.swift */; };
+		DA1E3C5390ACAA9C69A0A48B22C6CD76 /* BucketingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD816B676AE705548EC2738AA889740 /* BucketingResponse.swift */; };
+		E0D4CCC13094B0892E18AAB1933FC88C /* FSService+Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10DADF49E1A36BF4B1B6AC5F16D4119 /* FSService+Request.swift */; };
+		E1F3E5C23A05DDFAA0529938DA0F6F39 /* FSCacheVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B8F2580726720E75A6E78FE059EF5E /* FSCacheVisitor.swift */; };
+		E4F7590FE265852A0D40AD3AECCFAA2F /* FSCampaign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A26D9983E2CE03B70E6F4A8E52815FC /* FSCampaign.swift */; };
+		EC37ACCAC9BDC469F623BA244662FFFE /* FSQAMessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC5D05B8622A1CA5384F8F346B34900 /* FSQAMessageService.swift */; };
+		ED8B25AD0F835D7379943454EC5B857F /* FSCacheDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D570EDA18DD185A60D8DC5A4BAFCF6DE /* FSCacheDelegate.swift */; };
+		F1812366DAF900410512481D107CA215 /* FSVisitor+Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C10E1C83460C56FB2A52E4DC27BC91E /* FSVisitor+Flags.swift */; };
+		F3140ADB610282AFC50262B9B9F1491A /* ABTastyQAssistant-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 424CC7A1E1F2E7F56DE40EC2EF41FE9D /* ABTastyQAssistant-dummy.m */; };
+		F34C70ECD943B7A16D17702D1D7982EA /* QAVariationViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DAE84F24FBA7625CC433E2CD69280B /* QAVariationViewCell.swift */; };
+		F4C68DCD95EEC054F5CF3B3A9121C446 /* FSStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BB4B7B45CF988DCA30C91FBA6274CF /* FSStatus.swift */; };
+		F81BC136978B306C0AE132F389632172 /* FlagShip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A5EC3AA0312A22558FCD726A0EE22E /* FlagShip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB58F614A886ED007D29737A045A2BB4 /* FSDefaultStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E62E03AA41DDB1079A6247EF75B9ED6 /* FSDefaultStrategy.swift */; };
+		FBD1A730E1E05EFAAF8A3FE0410BC049 /* FSHits.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DD81E6442A3E4B1A6564733CE7720 /* FSHits.swift */; };
+		FCABA25B74FB649CEE373670CEE8DD89 /* QAModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9105627A176C6C2FD02E96001B2BD /* QAModels.swift */; };
+		FCDF724956CA1B4C0345214566DD6516 /* FSDataUsageTracking+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F65B0AE60A58EADF069ABCDFB61CC2 /* FSDataUsageTracking+Tools.swift */; };
+		FCF6129CD0E8A32F11B097A102913215 /* QACampaignsTableViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F82BA7BB49A3DBA9FD3A941B6D6F7 /* QACampaignsTableViewCtrl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1C4CDCB3D36B5A5463D72ACFF97AFDD7 /* PBXContainerItemProxy */ = {
+		0F5817128DC7AE047E749C8742808FAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D899975D25DAC4B611F10D83547B7094;
+			remoteInfo = FlagShip;
+		};
+		398168E35601677E6D6FC87B10696325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D899975D25DAC4B611F10D83547B7094;
+			remoteInfo = FlagShip;
+		};
+		4E57E587DF5FD378B09D86A8498BDFFD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 03D127D44D65E4C5FBDF4F1C1D0CA8B7;
 			remoteInfo = "ABTastyQAssistant-ABTastyQAssistant";
 		};
-		64935C9DD2F74DDC3282F15E5D4F950D /* PBXContainerItemProxy */ = {
+		A045BA1CCB668F655BB511A48062F4CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D899975D25DAC4B611F10D83547B7094;
 			remoteInfo = FlagShip;
 		};
-		A240CE6C8426B10BA4C31EE197DB7A18 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D899975D25DAC4B611F10D83547B7094;
-			remoteInfo = FlagShip;
-		};
-		D265E67B21BAAD7A2BED7D4AB296BDBB /* PBXContainerItemProxy */ = {
+		C12B3AED78A32E6B8AA4B66C34BB77FF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2B20FDC5F922F4125E7DE169906DB70D;
 			remoteInfo = ABTastyQAssistant;
 		};
-		D968208103D000DAA51D742F98E02BD8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D899975D25DAC4B611F10D83547B7094;
-			remoteInfo = FlagShip;
-		};
-		FB315C4A7556F1722A234B37709A8E30 /* PBXContainerItemProxy */ = {
+		D85A661FDF99DD6C02BFE1058CC8458E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -185,163 +185,166 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0071448E5FD1AF99F0491E705A01EA46 /* FSVisitorBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSVisitorBuilder.swift; path = FlagShip/Source/Core/FSVisitorBuilder.swift; sourceTree = "<group>"; };
-		018063FD9AB4958F1D80AF25722403B4 /* FlagshipLogManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagshipLogManager.swift; path = FlagShip/Source/Logger/FlagshipLogManager.swift; sourceTree = "<group>"; };
 		01A82AF24E937C97444E088278B77580 /* Pods-ABTastyQAssistant_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABTastyQAssistant_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		029E383B6562AF908F3D55796B7EEDD4 /* FSExposedFlag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSExposedFlag.swift; path = FlagShip/Source/Core/FSExposedFlag.swift; sourceTree = "<group>"; };
-		0646A62B42DB74F2EF97A6AA37A57547 /* FSDefaultStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSDefaultStrategy.swift; path = FlagShip/Source/Strategy/FSDefaultStrategy.swift; sourceTree = "<group>"; };
-		0B8A5EB579C696AA22F82405F2429D26 /* FlagshipContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagshipContext.swift; path = FlagShip/Source/Audience/FlagshipContext.swift; sourceTree = "<group>"; };
+		04D6A2DFDB721720A7D8196F103DB8BB /* FSPollingScript.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPollingScript.swift; path = FlagShip/Source/Decision/Bucketing/FSPollingScript.swift; sourceTree = "<group>"; };
+		051C3DDF16A3269B186FC45A62F42A6D /* FSService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSService.swift; path = FlagShip/Source/API/FSService.swift; sourceTree = "<group>"; };
+		052AEF530D2566B7031CFD6F33EE2A68 /* Lato-Italic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		08736A5BB47CD1CBA1A2FDB056F373A4 /* FSError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSError.swift; path = FlagShip/Source/Logger/FSError.swift; sourceTree = "<group>"; };
+		09891D857C0A6E3181226F3FCD025A5B /* FSVisitor+Campaigns.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSVisitor+Campaigns.swift"; path = "FlagShip/Source/Core/FSVisitor+Campaigns.swift"; sourceTree = "<group>"; };
+		0A26D9983E2CE03B70E6F4A8E52815FC /* FSCampaign.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSCampaign.swift; path = FlagShip/Source/Models/FSCampaign.swift; sourceTree = "<group>"; };
 		0EC29215773BB5C011A7224C579D7740 /* Pods-ABTastyQAssistant_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABTastyQAssistant_Example-dummy.m"; sourceTree = "<group>"; };
-		0F666C797C85ADEFBB8870F92382C66E /* ABTastyQAssistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABTastyQAssistant.release.xcconfig; sourceTree = "<group>"; };
 		0F6BB5A1E37A62FA324A7D7E760A0291 /* ABTastyQAssistant-ABTastyQAssistant */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ABTastyQAssistant-ABTastyQAssistant"; path = ABTastyQAssistant.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		10EA618DC246EDFA88AD5BA84D21B58F /* FlagshipConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagshipConfig.swift; path = FlagShip/Source/Configs/FlagshipConfig.swift; sourceTree = "<group>"; };
-		114D0FAF4EB62AFB38B8DD2C5CD1DA7A /* QAAllocationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QAAllocationView.swift; path = ABTastyQAssistant/Views/QAAllocationView.swift; sourceTree = "<group>"; };
-		11720C33E4A7773189DF06B45C6DECFE /* ABTastyQAssistant.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ABTastyQAssistant.modulemap; sourceTree = "<group>"; };
-		11A0D0EF1A122511CD6607B9C8545043 /* FSConfigManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSConfigManager.swift; path = FlagShip/Source/Configs/FSConfigManager.swift; sourceTree = "<group>"; };
-		120D81F6CDCCEC84C72ADFEECA47BBC2 /* FSContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSContext.swift; path = FlagShip/Source/Models/FSContext.swift; sourceTree = "<group>"; };
-		12882C9A97F168295343FC5E4387EC52 /* FSDataUsageTracking+Tools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSDataUsageTracking+Tools.swift"; path = "FlagShip/Source/Troubleshooting/FSDataUsageTracking+Tools.swift"; sourceTree = "<group>"; };
+		10586EB7707AADC89792472CE82C35FE /* FSFlag+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSFlag+Additions.swift"; path = "FlagShip/Source/Core/Flag/FSFlag+Additions.swift"; sourceTree = "<group>"; };
+		11209A34E751A2D08D30213C717C3A8D /* Lato-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 		1371224957867258FC175C6846FB563E /* Pods-ABTastyQAssistant_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ABTastyQAssistant_Example.modulemap"; sourceTree = "<group>"; };
-		15300CE6E75DBD67F6A42871BE611EB5 /* FSDataReportUsage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSDataReportUsage.swift; path = FlagShip/Source/Troubleshooting/FSDataReportUsage.swift; sourceTree = "<group>"; };
-		159B21F87847C25ACEAFFD6231C3609F /* FSModification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSModification.swift; path = FlagShip/Source/Models/FSModification.swift; sourceTree = "<group>"; };
-		16B5C5FEFE1CE880876B482835C71717 /* FSTargets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSTargets.swift; path = FlagShip/Source/Models/FSTargets.swift; sourceTree = "<group>"; };
+		1527A1E86D008639A2811FC1B06C669E /* QAssistantHomeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QAssistantHomeViewController.swift; sourceTree = "<group>"; };
+		197B4FC07147ED9AE5B64293670C2774 /* FSTrackingDbMgt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSTrackingDbMgt.swift; path = FlagShip/Source/Storage/FSTrackingDbMgt.swift; sourceTree = "<group>"; };
 		1AB7CEB332E73056BAE3294B10DB0BF6 /* Pods-ABTastyQAssistant_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ABTastyQAssistant_Tests"; path = Pods_ABTastyQAssistant_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC5D05B8622A1CA5384F8F346B34900 /* FSQAMessageService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSQAMessageService.swift; path = FlagShip/Source/ServiceLocator/FSQAMessageService.swift; sourceTree = "<group>"; };
 		1B46463C659177C10047D19389E311FC /* Pods-ABTastyQAssistant_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABTastyQAssistant_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1C24A97AE0017D3D1591FDE8E40A0FB8 /* FSTargetingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSTargetingManager.swift; path = FlagShip/Source/Decision/Bucketing/FSTargetingManager.swift; sourceTree = "<group>"; };
-		217EB70AC63A41CA7FCA171FA0A0E8A8 /* QAssistantHomeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QAssistantHomeViewController.swift; path = ABTastyQAssistant/Controllers/QAssistantHomeViewController.swift; sourceTree = "<group>"; };
-		2442D5D1741E4EFAE1C4F92339592B3D /* FlagShip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlagShip-Info.plist"; sourceTree = "<group>"; };
-		24BE7D7E28D0984BE21A43A0163870E9 /* FlagShip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlagShip.debug.xcconfig; sourceTree = "<group>"; };
-		271FF6E44F23B645637746521636EA15 /* FSCacheManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSCacheManager.swift; path = FlagShip/Source/Cache/FSCacheManager.swift; sourceTree = "<group>"; };
-		2A9BC5865B33D574E6832E70148F6EB7 /* FSQLiteWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSQLiteWrapper.swift; path = FlagShip/Source/Storage/FSQLiteWrapper.swift; sourceTree = "<group>"; };
-		2AFF71691A86E724C924E1549B6E6848 /* QAContextViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QAContextViewController.swift; path = ABTastyQAssistant/Controllers/QAContextViewController.swift; sourceTree = "<group>"; };
-		2BC76EFEBBB8FF902E27D105080C524B /* ABTastyQAAssistant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABTastyQAAssistant.swift; path = ABTastyQAssistant/ABTastyQAAssistant.swift; sourceTree = "<group>"; };
+		1D8D15517CFE0CDB59767778B1BF21B6 /* FSGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSGenerator.swift; path = FlagShip/Source/Tools/FSGenerator.swift; sourceTree = "<group>"; };
+		1F65B3057A6015B57C258A22884A2AF5 /* FSDataUsageTracking+EmotionAI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSDataUsageTracking+EmotionAI.swift"; path = "FlagShip/Source/FSEmotionAI/FSDataUsageTracking+EmotionAI.swift"; sourceTree = "<group>"; };
+		1F9F82BA7BB49A3DBA9FD3A941B6D6F7 /* QACampaignsTableViewCtrl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QACampaignsTableViewCtrl.swift; sourceTree = "<group>"; };
+		21EE168B49184F78635319C22C34E015 /* FlagShip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlagShip-Info.plist"; sourceTree = "<group>"; };
+		2591DEEA35CB2CCF6E785F49C1AC7A0E /* QATargetingEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QATargetingEvaluator.swift; sourceTree = "<group>"; };
+		25B99FFA9D4E206214BEF0F86E51B588 /* FSQLiteWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSQLiteWrapper.swift; path = FlagShip/Source/Storage/FSQLiteWrapper.swift; sourceTree = "<group>"; };
+		28A5EC3AA0312A22558FCD726A0EE22E /* FlagShip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlagShip-umbrella.h"; sourceTree = "<group>"; };
+		2AE814EE21126DE50D0CB832AD74AE2F /* QAssistantService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QAssistantService.swift; sourceTree = "<group>"; };
+		2C1370D263B12D859136F99D4A48FF06 /* FSService+Bucketing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSService+Bucketing.swift"; path = "FlagShip/Source/API/FSService+Bucketing.swift"; sourceTree = "<group>"; };
+		2CAFF603F0E67414521E9982C92C472C /* decode-json-swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "decode-json-swift.swift"; path = "FlagShip/Source/Tools/decode-json-swift.swift"; sourceTree = "<group>"; };
 		2CEBCC7C45AEDED69C7AC19F117D1789 /* ABTastyQAssistant */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ABTastyQAssistant; path = ABTastyQAssistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D73D4526C1FFA626F68B0173E377D53 /* FSNoConsentStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSNoConsentStrategy.swift; path = FlagShip/Source/Strategy/FSNoConsentStrategy.swift; sourceTree = "<group>"; };
 		2D8E766150482FBEBA1611324CECDA16 /* Pods-ABTastyQAssistant_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABTastyQAssistant_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2E3928128753C9DAC4D29E5D35CB5822 /* FSCacheVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSCacheVisitor.swift; path = FlagShip/Source/Models/FSCacheVisitor.swift; sourceTree = "<group>"; };
-		3020CA1A879ABCE7C7E71FB4944FB10A /* QAssistantService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QAssistantService.swift; path = ABTastyQAssistant/Services/QAssistantService.swift; sourceTree = "<group>"; };
-		31AC79480E29515EE2FE526123060917 /* QAEventsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QAEventsViewController.swift; path = ABTastyQAssistant/Controllers/QAEventsViewController.swift; sourceTree = "<group>"; };
-		34FFA0AA095E18F567A9AB90CA03129A /* FSService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSService.swift; path = FlagShip/Source/API/FSService.swift; sourceTree = "<group>"; };
+		2E4264CF7B845FE90472DB5A6B9DC1A5 /* Bundle+Fonts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bundle+Fonts.swift"; sourceTree = "<group>"; };
+		2FC76653A44A28CE60BAAA0A9239B7F8 /* FSTracking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSTracking.swift; path = FlagShip/Source/Models/Tracking/FSTracking.swift; sourceTree = "<group>"; };
+		3386C79479AAD0134833F327CAEDEB83 /* Flagship.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flagship.swift; path = FlagShip/Source/Core/Flagship.swift; sourceTree = "<group>"; };
+		34C358E2B7E39B28589CFE1D942E9835 /* ABTastyQAAssistant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABTastyQAAssistant.swift; path = ABTastyQAssistant/ABTastyQAAssistant.swift; sourceTree = "<group>"; };
+		35FBFDD674E658763D9D9BF0237A8376 /* ResourceBundle-ABTastyQAssistant-ABTastyQAssistant-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ABTastyQAssistant-ABTastyQAssistant-Info.plist"; sourceTree = "<group>"; };
 		3641103FC3FD50E0B4CC62DC8C6B70C8 /* Pods-ABTastyQAssistant_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABTastyQAssistant_Tests-dummy.m"; sourceTree = "<group>"; };
-		393B960248DD206256E39742A49CC669 /* FSQAMessageService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSQAMessageService.swift; path = FlagShip/Source/ServiceLocator/FSQAMessageService.swift; sourceTree = "<group>"; };
-		393E31D8D6E2A611A9AC86310755F250 /* FSPanicStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPanicStrategy.swift; path = FlagShip/Source/Strategy/FSPanicStrategy.swift; sourceTree = "<group>"; };
-		3A62AE14FC118787BCA91C6A531F9F2F /* FSPollingScript.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPollingScript.swift; path = FlagShip/Source/Decision/Bucketing/FSPollingScript.swift; sourceTree = "<group>"; };
+		3876D7407A6B17499D3684B5980BD2F3 /* FSCampaigns.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSCampaigns.swift; path = FlagShip/Source/Models/FSCampaigns.swift; sourceTree = "<group>"; };
+		3A3484713DA79C40C57477A1E99739AE /* FSStorageManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSStorageManager.swift; path = FlagShip/Source/Storage/FSStorageManager.swift; sourceTree = "<group>"; };
 		3ACE5072177B3AC153FB9BA222F16E4B /* Pods-ABTastyQAssistant_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABTastyQAssistant_Example-umbrella.h"; sourceTree = "<group>"; };
-		3B9C784AA1754AF4079BFA8832D9088E /* decode-json-swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "decode-json-swift.swift"; path = "FlagShip/Source/Tools/decode-json-swift.swift"; sourceTree = "<group>"; };
-		3EBF4BE0ABDF272CD02647D1DF1EB403 /* QACampaignsTableViewCtrl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QACampaignsTableViewCtrl.swift; path = ABTastyQAssistant/Controllers/QACampaignsTableViewCtrl.swift; sourceTree = "<group>"; };
-		414CCE507F03960E62193CD2EE87F3FB /* FSDataUsageTracking+EmotionAI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSDataUsageTracking+EmotionAI.swift"; path = "FlagShip/Source/FSEmotionAI/FSDataUsageTracking+EmotionAI.swift"; sourceTree = "<group>"; };
-		419B08363EA342BCE6B6139BE4D79791 /* ABTastyQAssistant-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABTastyQAssistant-umbrella.h"; sourceTree = "<group>"; };
-		4348F0FBA2ADE5815DD44ADFA1E8D059 /* FSAccountSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSAccountSettings.swift; path = FlagShip/Source/Models/FSAccountSettings.swift; sourceTree = "<group>"; };
-		43EBCA850A13C6000F261ACD7957C2E3 /* FlagshipConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagshipConstants.swift; path = FlagShip/Source/Logger/FlagshipConstants.swift; sourceTree = "<group>"; };
-		464BA20F474D76ADEFC5189101A89AE9 /* QACampaignTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QACampaignTableViewCell.swift; path = ABTastyQAssistant/Views/QACampaignTableViewCell.swift; sourceTree = "<group>"; };
-		46BCE99B128FCC5A21FBD93FF64A42F0 /* FlagShip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlagShip-dummy.m"; sourceTree = "<group>"; };
-		499AA0334DB405B96DCFCC9CDA204E9F /* FSVisitorDbMgt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSVisitorDbMgt.swift; path = FlagShip/Source/Storage/FSVisitorDbMgt.swift; sourceTree = "<group>"; };
-		4A6A6C66770A9017E5A83D15DB7A07E3 /* BucketingResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BucketingResponse.swift; path = ABTastyQAssistant/Models/BucketingResponse.swift; sourceTree = "<group>"; };
-		4D44667A771A7A281DE3A8222DE599CC /* QAVariationViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QAVariationViewCell.swift; path = ABTastyQAssistant/Views/QAVariationViewCell.swift; sourceTree = "<group>"; };
-		4FF9E52E85E91104689F1909EFCFC46A /* QAVariationSectionView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = QAVariationSectionView.xib; path = ABTastyQAssistant/Views/QAVariationSectionView.xib; sourceTree = "<group>"; };
-		503A265B4E5B0BEF96815D41295F7A8F /* FSCacheDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSCacheDelegate.swift; path = FlagShip/Source/Cache/FSCacheDelegate.swift; sourceTree = "<group>"; };
-		50DD587877A113BD376F2EEEF645DADC /* QAModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QAModels.swift; path = ABTastyQAssistant/Models/QAModels.swift; sourceTree = "<group>"; };
-		51277AC3208AA31F3C69C4173C6A0EB8 /* FSEmotionEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSEmotionEvent.swift; path = FlagShip/Source/FSEmotionAI/FSEmotionEvent.swift; sourceTree = "<group>"; };
-		52D3595E64F0070128AAB78908DF1233 /* FSWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSWindow.swift; path = FlagShip/Source/FSEmotionAI/FSWindow.swift; sourceTree = "<group>"; };
-		5584AFA3A73281581E5D894AA1DEAF71 /* Flagship+EmotionAI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Flagship+EmotionAI.swift"; path = "FlagShip/Source/Core/Flagship+EmotionAI.swift"; sourceTree = "<group>"; };
-		57C55176FAAA30A55416790B534FFC3B /* FSTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSTools.swift; path = FlagShip/Source/Tools/FSTools.swift; sourceTree = "<group>"; };
-		57DE33BD25CB04C7AD215127B3FB8773 /* FSFlag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSFlag.swift; path = FlagShip/Source/Core/Flag/FSFlag.swift; sourceTree = "<group>"; };
-		5938BFE4474353FC172E35D77D9D27FF /* FSPeriodicTrackingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPeriodicTrackingManager.swift; path = FlagShip/Source/Tracking/TrackingStrategies/FSPeriodicTrackingManager.swift; sourceTree = "<group>"; };
-		5C440B387080204015F957D467588777 /* FSStorageManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSStorageManager.swift; path = FlagShip/Source/Storage/FSStorageManager.swift; sourceTree = "<group>"; };
-		5C53ACFA034EC3256BF7606C646D9C9B /* Fonts */ = {isa = PBXFileReference; includeInIndex = 1; name = Fonts; path = ABTastyQAssistant/Assets/Fonts; sourceTree = "<group>"; };
-		5E6D6AEF41BD1E405C7727D5AA99E465 /* BundleImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BundleImageView.swift; path = ABTastyQAssistant/Views/BundleImageView.swift; sourceTree = "<group>"; };
-		60AFB208198C94D7FB2CC5EEF4BE4B61 /* FSNotReadyStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSNotReadyStrategy.swift; path = FlagShip/Source/Strategy/FSNotReadyStrategy.swift; sourceTree = "<group>"; };
-		60B3C84ECD9F42FA9AF2692A2B0AFB26 /* Lato-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Lato-Bold.ttf"; path = "ABTastyQAssistant/Assets/Fonts/Lato-Bold.ttf"; sourceTree = "<group>"; };
-		60B77373580AFD78D97AE925AE444023 /* FSVisitor+objc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSVisitor+objc.swift"; path = "FlagShip/Source/Core/FSVisitor+objc.swift"; sourceTree = "<group>"; };
-		62000791728C80AF062C89BB2AD8E714 /* Flagship.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flagship.swift; path = FlagShip/Source/Core/Flagship.swift; sourceTree = "<group>"; };
-		6239C7B0AB40BD9EB49D75B9CB384CA4 /* FSTrackingDbMgt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSTrackingDbMgt.swift; path = FlagShip/Source/Storage/FSTrackingDbMgt.swift; sourceTree = "<group>"; };
-		62903B63981B979F2328F1024C0EA99C /* FSEmotionAI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSEmotionAI.swift; path = FlagShip/Source/FSEmotionAI/FSEmotionAI.swift; sourceTree = "<group>"; };
-		633484EE5AD4B2C3F480C76C5C31BA01 /* FSDecisionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSDecisionManager.swift; path = FlagShip/Source/Decision/FSDecisionManager.swift; sourceTree = "<group>"; };
-		636D6AFE390FEA9692F364CDF1401A87 /* FlagShip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlagShip-umbrella.h"; sourceTree = "<group>"; };
-		637CDD2242530212EDB6AF04439CBEDC /* ABTastyQAssistant-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ABTastyQAssistant-Info.plist"; sourceTree = "<group>"; };
-		6495024777F526273A8594C47E134E3B /* FSDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSDevice.swift; path = FlagShip/Source/Audience/FSDevice.swift; sourceTree = "<group>"; };
-		659DFA847202D834B541B7D7BA47B75F /* FlagShipVersion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagShipVersion.swift; path = FlagShip/Source/Tools/FlagShipVersion.swift; sourceTree = "<group>"; };
-		67A71CC81AB20368A4F87B433D7C66F4 /* QAAssistant.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = QAAssistant.storyboard; path = ABTastyQAssistant/Controllers/QAAssistant.storyboard; sourceTree = "<group>"; };
-		6829D410A9BB56A103D3CDCDA7A4076F /* QAVariationsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QAVariationsView.swift; path = ABTastyQAssistant/Views/QAVariationsView.swift; sourceTree = "<group>"; };
-		689399DA0AD0DE254E2D3264F3E739BE /* FSVisitor+Reconcilliation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSVisitor+Reconcilliation.swift"; path = "FlagShip/Source/Core/FSVisitor+Reconcilliation.swift"; sourceTree = "<group>"; };
-		6D241CCDC79F6CBFB5502959EC2ED70E /* QATargetingEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QATargetingEvaluator.swift; path = ABTastyQAssistant/Tools/QATargetingEvaluator.swift; sourceTree = "<group>"; };
-		73062B00011C65501AC06F63BB735674 /* QAVariationViewCtrl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QAVariationViewCtrl.swift; path = ABTastyQAssistant/Views/QAVariationViewCtrl.swift; sourceTree = "<group>"; };
+		3AE8FB2CBF3C32E6A619B49990E413A0 /* FlagShip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlagShip.release.xcconfig; sourceTree = "<group>"; };
+		3B3479431DDF9D3B2D0768DD4F609A67 /* FSTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSTools.swift; path = FlagShip/Source/Tools/FSTools.swift; sourceTree = "<group>"; };
+		3BEE9B60B5AE4D630218EFD259700860 /* ABTastyQAssistant-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABTastyQAssistant-umbrella.h"; sourceTree = "<group>"; };
+		3C574D037033585C8360BCED279059C3 /* FSConfigManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSConfigManager.swift; path = FlagShip/Source/Configs/FSConfigManager.swift; sourceTree = "<group>"; };
+		3DC32DE38CE11D87139BD08A85703912 /* QAContextViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QAContextViewController.swift; sourceTree = "<group>"; };
+		3FCEFB67E2742AB402ABEE1AE94D8E5B /* FSTroubleshooting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSTroubleshooting.swift; path = FlagShip/Source/Models/FSTroubleshooting.swift; sourceTree = "<group>"; };
+		424CC7A1E1F2E7F56DE40EC2EF41FE9D /* ABTastyQAssistant-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ABTastyQAssistant-dummy.m"; sourceTree = "<group>"; };
+		43C90AA921DCD1B0FB970A66F0535B51 /* FSVisitorExposed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSVisitorExposed.swift; path = FlagShip/Source/Core/FSVisitorExposed.swift; sourceTree = "<group>"; };
+		443A150399E87FA5001AF244569E5855 /* ABTastyQAssistant.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ABTastyQAssistant.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		44459E900F61F92EB93C2EDDBA7FBC1F /* FSDecisionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSDecisionManager.swift; path = FlagShip/Source/Decision/FSDecisionManager.swift; sourceTree = "<group>"; };
+		44832BE99E36926BB133DF86AF086A42 /* FSModification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSModification.swift; path = FlagShip/Source/Models/FSModification.swift; sourceTree = "<group>"; };
+		450A03AD360C345401B9CB0F2250B3F7 /* FSDefaultCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSDefaultCache.swift; path = FlagShip/Source/Cache/FSDefaultCache.swift; sourceTree = "<group>"; };
+		4BBDA2C2147A08C528671AABD781B7F2 /* FSWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSWindow.swift; path = FlagShip/Source/FSEmotionAI/FSWindow.swift; sourceTree = "<group>"; };
+		4E62E03AA41DDB1079A6247EF75B9ED6 /* FSDefaultStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSDefaultStrategy.swift; path = FlagShip/Source/Strategy/FSDefaultStrategy.swift; sourceTree = "<group>"; };
+		5094451C153283E3A9D5A9742A3C8551 /* FSVisitor+Reconcilliation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSVisitor+Reconcilliation.swift"; path = "FlagShip/Source/Core/FSVisitor+Reconcilliation.swift"; sourceTree = "<group>"; };
+		530B505022898D6AF849154C7155DE7E /* Data+PrettyPrint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+PrettyPrint.swift"; path = "FlagShip/Source/Tools/Data+PrettyPrint.swift"; sourceTree = "<group>"; };
+		53D600E1962FE75725CBD8E6C1FDFE6E /* FSVisitorBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSVisitorBuilder.swift; path = FlagShip/Source/Core/FSVisitorBuilder.swift; sourceTree = "<group>"; };
+		540D6C8425D4B275B00D760A77C523D6 /* FSAccountSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSAccountSettings.swift; path = FlagShip/Source/Models/FSAccountSettings.swift; sourceTree = "<group>"; };
+		572AB095CB33540610857EFCE36F1251 /* UIFont+Lato.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+Lato.swift"; sourceTree = "<group>"; };
+		57A2858EDC7E52D9A5728684602C6C61 /* FSSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSSegment.swift; path = FlagShip/Source/Models/Tracking/FSSegment.swift; sourceTree = "<group>"; };
+		59A122C3AED99297F1CE16DBF8DEFBC2 /* FSNotReadyStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSNotReadyStrategy.swift; path = FlagShip/Source/Strategy/FSNotReadyStrategy.swift; sourceTree = "<group>"; };
+		5AD8E7F61FCB574A6632F62D83230C87 /* FlagshipConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagshipConstants.swift; path = FlagShip/Source/Logger/FlagshipConstants.swift; sourceTree = "<group>"; };
+		64A858B193F12718EAAC7C888FF2D927 /* FSDataUsageTracking+Criticals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSDataUsageTracking+Criticals.swift"; path = "FlagShip/Source/Troubleshooting/FSDataUsageTracking+Criticals.swift"; sourceTree = "<group>"; };
+		64B96E49460062DEEE853A012954A453 /* FlagshipLogManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagshipLogManager.swift; path = FlagShip/Source/Logger/FlagshipLogManager.swift; sourceTree = "<group>"; };
+		662749982219B8396487A89B64D895FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		69FC7E4AD735584DD5BEFF61146804E3 /* FSStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSStorage.swift; path = FlagShip/Source/Storage/FSStorage.swift; sourceTree = "<group>"; };
+		6B410F9B5C1C1E0F92390DD2686BACF1 /* FSSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSSettings.swift; path = FlagShip/Source/API/FSSettings.swift; sourceTree = "<group>"; };
+		6C1501A3B722CC5571FBB881F0BDBB74 /* QAVariationViewCtrl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QAVariationViewCtrl.swift; sourceTree = "<group>"; };
+		6C9CAAC75A985D0D45A5F342FFD2BE93 /* Lato-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		707B3230264A6CB375465FCDCE06A10C /* FSContinuousTrackingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSContinuousTrackingManager.swift; path = FlagShip/Source/Tracking/TrackingStrategies/FSContinuousTrackingManager.swift; sourceTree = "<group>"; };
 		753A55679DF7F6DE4EA042A40B7CD54C /* Pods-ABTastyQAssistant_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABTastyQAssistant_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7737F291F5F5A7C08953B955CA89F52F /* FSStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSStatus.swift; path = FlagShip/Source/Core/FSStatus.swift; sourceTree = "<group>"; };
+		7550EDDBB89B085382E7B2FB06084038 /* FSQAssistantStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSQAssistantStrategy.swift; path = FlagShip/Source/Strategy/FSQAssistantStrategy.swift; sourceTree = "<group>"; };
+		769E743A1F45CB8334147088F1FC230C /* FlagShip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlagShip-dummy.m"; sourceTree = "<group>"; };
+		78A0E624FA4F16E8DC351B1B661889C0 /* ABTastyQAssistant-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ABTastyQAssistant-Info.plist"; sourceTree = "<group>"; };
+		78ED0751DC3C6D77BDA9BA915A2002AF /* Fonts */ = {isa = PBXFileReference; includeInIndex = 1; path = Fonts; sourceTree = "<group>"; };
 		7C209E3827BE1C20BC6677E8A7BAF880 /* Pods-ABTastyQAssistant_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABTastyQAssistant_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7D1D7124B71DBA6894171D3C9E6EE1EF /* FSBucketCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSBucketCache.swift; path = FlagShip/Source/Storage/FSBucketCache.swift; sourceTree = "<group>"; };
-		7E17FDAF758277A8A765B45EA7E6F057 /* FSTrackingManagerConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSTrackingManagerConfig.swift; path = FlagShip/Source/Configs/FSTrackingManagerConfig.swift; sourceTree = "<group>"; };
-		7E95C7D1AD938C05CDA5CE742B0C2721 /* ABTastyQAssistant-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ABTastyQAssistant-dummy.m"; sourceTree = "<group>"; };
 		8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		82460EF2E2B44C3116E2081CC74E5B9E /* FSLogManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSLogManager.swift; path = FlagShip/Source/Logger/FSLogManager.swift; sourceTree = "<group>"; };
-		85850BED0766F6C87EF2778D6BC54F99 /* Lato-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Lato-Regular.ttf"; path = "ABTastyQAssistant/Assets/Fonts/Lato-Regular.ttf"; sourceTree = "<group>"; };
-		8C2468BE1300F6BFE1683C3B056C6D96 /* FSBucket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSBucket.swift; path = FlagShip/Source/Models/FSBucket.swift; sourceTree = "<group>"; };
-		8CDD610524606F0D20B7A2207428CABD /* FSContinuousTrackingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSContinuousTrackingManager.swift; path = FlagShip/Source/Tracking/TrackingStrategies/FSContinuousTrackingManager.swift; sourceTree = "<group>"; };
-		8D05487FC8E9FB8D792F26E79BA298CD /* ResourceBundle-ABTastyQAssistant-ABTastyQAssistant-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ABTastyQAssistant-ABTastyQAssistant-Info.plist"; sourceTree = "<group>"; };
-		8E2F5D8E39A6977A49A5FC503F169EF4 /* FSGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSGenerator.swift; path = FlagShip/Source/Tools/FSGenerator.swift; sourceTree = "<group>"; };
-		8E4B2C79A74BEB82982BE8D5C8DFAF25 /* FlagShip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlagShip.release.xcconfig; sourceTree = "<group>"; };
-		8FA9D8324C13B8B7E281BDE6B5E62CFA /* FSBatch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSBatch.swift; path = FlagShip/Source/Models/Tracking/FSBatch.swift; sourceTree = "<group>"; };
-		90912826B434EEACCD90C8ADB53E149A /* ABTastyQAssistant-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABTastyQAssistant-prefix.pch"; sourceTree = "<group>"; };
-		90AFEC26475482BC25286832427DB583 /* FSSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSSettings.swift; path = FlagShip/Source/API/FSSettings.swift; sourceTree = "<group>"; };
-		91366FEB205E4610E55E4D3CD51F46FF /* FSDataUsageTracking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSDataUsageTracking.swift; path = FlagShip/Source/Troubleshooting/FSDataUsageTracking.swift; sourceTree = "<group>"; };
-		91A72459F8E2740CBBC76013170B4F8A /* QAVariationSectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QAVariationSectionView.swift; path = ABTastyQAssistant/Views/QAVariationSectionView.swift; sourceTree = "<group>"; };
-		934280B3B8CF31E577225CDDD3B55263 /* FSFlag+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSFlag+Additions.swift"; path = "FlagShip/Source/Core/Flag/FSFlag+Additions.swift"; sourceTree = "<group>"; };
-		9720298F4C1B1D3AA9CF096F312CC870 /* ABTastyQAssistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABTastyQAssistant.debug.xcconfig; sourceTree = "<group>"; };
-		972EA116E486860524E86DAB2F2F916E /* FSConstant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSConstant.swift; path = FlagShip/Source/API/FSConstant.swift; sourceTree = "<group>"; };
-		97C7EFD0BAE59F929E1E0D59788D7856 /* FSVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSVisitor.swift; path = FlagShip/Source/Core/FSVisitor.swift; sourceTree = "<group>"; };
-		97EEDF053563F039E0DE3DFF569DC966 /* QATargetingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QATargetingView.swift; path = ABTastyQAssistant/Views/QATargetingView.swift; sourceTree = "<group>"; };
+		82E9105627A176C6C2FD02E96001B2BD /* QAModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QAModels.swift; sourceTree = "<group>"; };
+		86F65B0AE60A58EADF069ABCDFB61CC2 /* FSDataUsageTracking+Tools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSDataUsageTracking+Tools.swift"; path = "FlagShip/Source/Troubleshooting/FSDataUsageTracking+Tools.swift"; sourceTree = "<group>"; };
+		871E030B8A592EB1AA2B0583744F7C7F /* FSDataReportUsage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSDataReportUsage.swift; path = FlagShip/Source/Troubleshooting/FSDataReportUsage.swift; sourceTree = "<group>"; };
+		87DAE84F24FBA7625CC433E2CD69280B /* QAVariationViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QAVariationViewCell.swift; sourceTree = "<group>"; };
+		88516D0C775E3A108015D5A4D0474F92 /* FSExposedFlag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSExposedFlag.swift; path = FlagShip/Source/Core/FSExposedFlag.swift; sourceTree = "<group>"; };
+		89C39CBB3EC935D23C93D44DABF479C2 /* FSBatch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSBatch.swift; path = FlagShip/Source/Models/Tracking/FSBatch.swift; sourceTree = "<group>"; };
+		8CB300CE37B895633322E4383EC22CEB /* FSTrackingManagerConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSTrackingManagerConfig.swift; path = FlagShip/Source/Configs/FSTrackingManagerConfig.swift; sourceTree = "<group>"; };
+		8FB29ABF3014F042DC3E7C67E97DFC2A /* FSContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSContext.swift; path = FlagShip/Source/Models/FSContext.swift; sourceTree = "<group>"; };
+		9136458E17755DAC422F80F822009220 /* FSPollingScore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPollingScore.swift; path = FlagShip/Source/FSEmotionAI/FSPollingScore.swift; sourceTree = "<group>"; };
+		92C4126CD6DDB47A8254922654BA587A /* FlagshipContextManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagshipContextManager.swift; path = FlagShip/Source/Audience/FlagshipContextManager.swift; sourceTree = "<group>"; };
+		980846A36940DF419E03F037F01D34A3 /* FSEmotionAI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSEmotionAI.swift; path = FlagShip/Source/FSEmotionAI/FSEmotionAI.swift; sourceTree = "<group>"; };
 		9883BF81162740CAC56EF1CE2702AB57 /* Pods-ABTastyQAssistant_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ABTastyQAssistant_Example"; path = Pods_ABTastyQAssistant_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98FDFAF7955FBED15026401612BFD645 /* FSITrackingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSITrackingManager.swift; path = FlagShip/Source/Tracking/FSITrackingManager.swift; sourceTree = "<group>"; };
+		99241A873570CDCB6208B96F906ADF24 /* FSCacheManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSCacheManager.swift; path = FlagShip/Source/Cache/FSCacheManager.swift; sourceTree = "<group>"; };
+		996FB6DD0BD642E0428DA4489C4289E2 /* FSTargets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSTargets.swift; path = FlagShip/Source/Models/FSTargets.swift; sourceTree = "<group>"; };
 		9A2F9EBA1580A3D25DA3F61CF226378B /* Pods-ABTastyQAssistant_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABTastyQAssistant_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9B5BB9DE27A8AE7119E9F424E6AC1712 /* FSTrackingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSTrackingManager.swift; path = FlagShip/Source/Tracking/FSTrackingManager.swift; sourceTree = "<group>"; };
+		9AFCA17ADB958C47B8E050DA14134EAF /* FSBucket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSBucket.swift; path = FlagShip/Source/Models/FSBucket.swift; sourceTree = "<group>"; };
+		9C10E1C83460C56FB2A52E4DC27BC91E /* FSVisitor+Flags.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSVisitor+Flags.swift"; path = "FlagShip/Source/Core/FSVisitor+Flags.swift"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F3A2B4206E00B0AB2C7226D4E2C36B9 /* FSError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSError.swift; path = FlagShip/Source/Logger/FSError.swift; sourceTree = "<group>"; };
-		A0E95EE8C2DBA0C61E1544424A5A0F24 /* FSVisitor+EmotionAI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSVisitor+EmotionAI.swift"; path = "FlagShip/Source/Core/FSVisitor+EmotionAI.swift"; sourceTree = "<group>"; };
-		A1E86AA37617A463353FC5CD65FB2250 /* FSBucketingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSBucketingManager.swift; path = FlagShip/Source/Decision/Bucketing/FSBucketingManager.swift; sourceTree = "<group>"; };
-		A2253E90BDAECFCF7DECF183F2A8CAED /* FSVisitor+Flags.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSVisitor+Flags.swift"; path = "FlagShip/Source/Core/FSVisitor+Flags.swift"; sourceTree = "<group>"; };
+		9F861DD3E31FD3E359D292A67F895CFB /* FSEmotionEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSEmotionEvent.swift; path = FlagShip/Source/FSEmotionAI/FSEmotionEvent.swift; sourceTree = "<group>"; };
+		A045DC5C8E16B7DD1D8D116C93535B7B /* FSPoolQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPoolQueue.swift; path = FlagShip/Source/Tracking/Batch/FSPoolQueue.swift; sourceTree = "<group>"; };
+		A190F82E68E39EB8A95DE30C53EA2F6D /* QACampaignTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QACampaignTableViewCell.swift; sourceTree = "<group>"; };
+		A1C5BE37EF1ABC16D4052E04CF00ABCF /* FSVisitor+EmotionAI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSVisitor+EmotionAI.swift"; path = "FlagShip/Source/Core/FSVisitor+EmotionAI.swift"; sourceTree = "<group>"; };
+		A34F43AAE43FA978F5C8A7C5FF9C078A /* FlagShipVersion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagShipVersion.swift; path = FlagShip/Source/Tools/FlagShipVersion.swift; sourceTree = "<group>"; };
+		A428EA7552E10BE40C0A3F9502E1AB2C /* FlagShip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlagShip.debug.xcconfig; sourceTree = "<group>"; };
+		A42DD81E6442A3E4B1A6564733CE7720 /* FSHits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSHits.swift; path = FlagShip/Source/Models/Tracking/FSHits.swift; sourceTree = "<group>"; };
+		A459A1273DBABFF49A79A30AB8735B3B /* QAVariationSectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QAVariationSectionView.swift; sourceTree = "<group>"; };
 		A5D973BFE9D37D7295C2ECF4D632B9D2 /* Pods-ABTastyQAssistant_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABTastyQAssistant_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A6F5FF49C9423560FD5F27597438A291 /* FSService+Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSService+Request.swift"; path = "FlagShip/Source/API/FSService+Request.swift"; sourceTree = "<group>"; };
-		AC1BFD5A687DC7402DB2847CA50FA0D8 /* FSEmotionPageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSEmotionPageView.swift; path = FlagShip/Source/FSEmotionAI/FSEmotionPageView.swift; sourceTree = "<group>"; };
-		AE88A0EABC9BF43A205F5681F9FE65B8 /* FSSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSSegment.swift; path = FlagShip/Source/Models/Tracking/FSSegment.swift; sourceTree = "<group>"; };
+		A684ED1F340182C253193BA44BE8D4D1 /* FSPeriodicTrackingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPeriodicTrackingManager.swift; path = FlagShip/Source/Tracking/TrackingStrategies/FSPeriodicTrackingManager.swift; sourceTree = "<group>"; };
+		A835949CE5C6272E9D68AC90002F3622 /* QAColorPalette.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QAColorPalette.swift; sourceTree = "<group>"; };
+		ABA49F27356B82C35391FE74A7B1F190 /* ABTastyQAssistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABTastyQAssistant.debug.xcconfig; sourceTree = "<group>"; };
+		ABB387EC2B1E06D229EB7331743A8EF3 /* FSLogManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSLogManager.swift; path = FlagShip/Source/Logger/FSLogManager.swift; sourceTree = "<group>"; };
+		AC4148038DD365329ABFA8B16162BA24 /* FSPanicStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPanicStrategy.swift; path = FlagShip/Source/Strategy/FSPanicStrategy.swift; sourceTree = "<group>"; };
 		AF1B56C5AABE020FF0325AD3EE066870 /* Pods-ABTastyQAssistant_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABTastyQAssistant_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B0E1F4914F0AB50DBE8D2AEE2D34DDDE /* Data+PrettyPrint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+PrettyPrint.swift"; path = "FlagShip/Source/Tools/Data+PrettyPrint.swift"; sourceTree = "<group>"; };
-		B6704DF653ED1D9450D683E526B4DC4B /* FSVisitor+Campaigns.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSVisitor+Campaigns.swift"; path = "FlagShip/Source/Core/FSVisitor+Campaigns.swift"; sourceTree = "<group>"; };
-		BAEAB4FFB53F2C2CB8B1D2845C2AD915 /* murmurhash3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = murmurhash3.swift; path = FlagShip/Source/Tools/murmurhash3.swift; sourceTree = "<group>"; };
-		BB235380C1CBC00A8E4E214AE5D43ED4 /* FSPoolQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPoolQueue.swift; path = FlagShip/Source/Tracking/Batch/FSPoolQueue.swift; sourceTree = "<group>"; };
-		BCA5F80777FCDA0F3BE49401597AF5ED /* FlagShip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlagShip.modulemap; sourceTree = "<group>"; };
-		BD30564E61FE467DEB1A8FA9D6C4A317 /* FSDefaultCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSDefaultCache.swift; path = FlagShip/Source/Cache/FSDefaultCache.swift; sourceTree = "<group>"; };
-		C37ED5ED2D3F1E0C0ED43911F21B8AF7 /* FSTracking+Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSTracking+Codable.swift"; path = "FlagShip/Source/Models/Tracking/FSTracking+Codable.swift"; sourceTree = "<group>"; };
-		C5111653CB09330A9F9A4F3BFDC9FD16 /* Bundle+Fonts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Fonts.swift"; path = "ABTastyQAssistant/Tools/Bundle+Fonts.swift"; sourceTree = "<group>"; };
-		C68169832EBF816345369BDCE06065E1 /* Lato-Italic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Lato-Italic.ttf"; path = "ABTastyQAssistant/Assets/Fonts/Lato-Italic.ttf"; sourceTree = "<group>"; };
-		C71755C0C1D6D18BB121E46D2DE7959F /* FSCampaigns.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSCampaigns.swift; path = FlagShip/Source/Models/FSCampaigns.swift; sourceTree = "<group>"; };
+		AF76B907CFE5D112F8083D586943CD43 /* QAVariationSectionView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = QAVariationSectionView.xib; sourceTree = "<group>"; };
+		B2B8F2580726720E75A6E78FE059EF5E /* FSCacheVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSCacheVisitor.swift; path = FlagShip/Source/Models/FSCacheVisitor.swift; sourceTree = "<group>"; };
+		B8C457326D3E05B17DCCCA3F726864D5 /* FSVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSVisitor.swift; path = FlagShip/Source/Core/FSVisitor.swift; sourceTree = "<group>"; };
+		BD95CFCE754A7D82D88AE896DCA01CFA /* QAAllocationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QAAllocationView.swift; sourceTree = "<group>"; };
+		BDE2A4B143609E9063740225D40B4774 /* FlagShip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlagShip-prefix.pch"; sourceTree = "<group>"; };
+		BF33B99FEDAC03CDA46D96D3E541980E /* ABTastyQAssistant.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ABTastyQAssistant.modulemap; sourceTree = "<group>"; };
+		C0A363EF7D67422812C66297687C40BB /* BundleImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BundleImageView.swift; sourceTree = "<group>"; };
+		C203A22B10C02F43802A255E52E0E7FF /* ABTastyQAssistant.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = ABTastyQAssistant.xcassets; sourceTree = "<group>"; };
+		C3181C1D999D4781A9F362F6AE38DB93 /* FlagShip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlagShip.modulemap; sourceTree = "<group>"; };
+		C7E77FC43A87617AD689CE06B91FF75A /* FSFlag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSFlag.swift; path = FlagShip/Source/Core/Flag/FSFlag.swift; sourceTree = "<group>"; };
+		C89C3D6AAF2D20FDAE9C660A21F8A6B3 /* FlagshipConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagshipConfig.swift; path = FlagShip/Source/Configs/FlagshipConfig.swift; sourceTree = "<group>"; };
 		C95704C4AE4465E549ED17EEEEFD6ED9 /* Pods-ABTastyQAssistant_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABTastyQAssistant_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CC5A58B74EB76E667B36926FE9A54F87 /* FSTracking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSTracking.swift; path = FlagShip/Source/Models/Tracking/FSTracking.swift; sourceTree = "<group>"; };
-		CE010C9D7ACB237895CC8255D0D20FBB /* FSCampaign.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSCampaign.swift; path = FlagShip/Source/Models/FSCampaign.swift; sourceTree = "<group>"; };
-		D052F0B18F45EC3684D429DDD2C3D4B3 /* FSDataUsageTracking+Criticals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSDataUsageTracking+Criticals.swift"; path = "FlagShip/Source/Troubleshooting/FSDataUsageTracking+Criticals.swift"; sourceTree = "<group>"; };
-		D31D5FCA0030E45E307ECE4B0DCD6E74 /* QAColorPalette.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QAColorPalette.swift; path = ABTastyQAssistant/Tools/QAColorPalette.swift; sourceTree = "<group>"; };
-		D3B62A84176FCC56702821BDED785E80 /* QACampaignDetailsViewCtrl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QACampaignDetailsViewCtrl.swift; path = ABTastyQAssistant/Controllers/QACampaignDetailsViewCtrl.swift; sourceTree = "<group>"; };
+		CC1EB2FD26B3A8E2A3F1DE337606AE29 /* FSConstant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSConstant.swift; path = FlagShip/Source/API/FSConstant.swift; sourceTree = "<group>"; };
+		CCCC17DE2AB10002A6B1B657EBB91235 /* FSCacheHit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSCacheHit.swift; path = FlagShip/Source/Models/Tracking/FSCacheHit.swift; sourceTree = "<group>"; };
+		D0686A70345ACA2504ED591AE57A28D6 /* FSBucketCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSBucketCache.swift; path = FlagShip/Source/Storage/FSBucketCache.swift; sourceTree = "<group>"; };
+		D146B9A641C72C6BC260AE9D3FB62C37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D570EDA18DD185A60D8DC5A4BAFCF6DE /* FSCacheDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSCacheDelegate.swift; path = FlagShip/Source/Cache/FSCacheDelegate.swift; sourceTree = "<group>"; };
 		D58B6ADA0602B6B32AD48EFE474CE0BB /* Pods-ABTastyQAssistant_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABTastyQAssistant_Example-Info.plist"; sourceTree = "<group>"; };
-		D7E0A92DA1EFD079923CFD99D9BEC01A /* FSPollingScore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPollingScore.swift; path = FlagShip/Source/FSEmotionAI/FSPollingScore.swift; sourceTree = "<group>"; };
-		DEAA312D14234831082399AF8657DE31 /* FlagShip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlagShip-prefix.pch"; sourceTree = "<group>"; };
+		D6BB4B7B45CF988DCA30C91FBA6274CF /* FSStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSStatus.swift; path = FlagShip/Source/Core/FSStatus.swift; sourceTree = "<group>"; };
+		D74B1B0AFEB7B0D2FC2086EE39BC706F /* FSVisitorDbMgt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSVisitorDbMgt.swift; path = FlagShip/Source/Storage/FSVisitorDbMgt.swift; sourceTree = "<group>"; };
+		D8D4EE8F222A7E54F575D9D98638BB5A /* FSModifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSModifications.swift; path = FlagShip/Source/Models/FSModifications.swift; sourceTree = "<group>"; };
+		DB2EB440263033FD6D4791C390ECBF7B /* FSITrackingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSITrackingManager.swift; path = FlagShip/Source/Tracking/FSITrackingManager.swift; sourceTree = "<group>"; };
+		DB4991B74BBA6565138A484AA58A8343 /* FSTrackingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSTrackingManager.swift; path = FlagShip/Source/Tracking/FSTrackingManager.swift; sourceTree = "<group>"; };
+		DBB61B461C370436C275F89391297F36 /* QAVariationsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QAVariationsView.swift; sourceTree = "<group>"; };
+		DC8B20CDA3BD2094A535947341056904 /* QACampaignDetailsViewCtrl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QACampaignDetailsViewCtrl.swift; sourceTree = "<group>"; };
+		DD677A249FD126D7EE5471AF87EB5286 /* ABTastyQAssistant-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABTastyQAssistant-prefix.pch"; sourceTree = "<group>"; };
+		DDD8219C21E6B2C8CDF359DF91D52974 /* FSDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSDevice.swift; path = FlagShip/Source/Audience/FSDevice.swift; sourceTree = "<group>"; };
+		DE416A84B3DD9ECD5DEA9C25216FB4CB /* FSFlagMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSFlagMetadata.swift; path = FlagShip/Source/Core/FSFlagMetadata.swift; sourceTree = "<group>"; };
+		E07989F6C4E8B1C6E5B45B40E2AA16CB /* FSTracking+Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSTracking+Codable.swift"; path = "FlagShip/Source/Models/Tracking/FSTracking+Codable.swift"; sourceTree = "<group>"; };
+		E10DADF49E1A36BF4B1B6AC5F16D4119 /* FSService+Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSService+Request.swift"; path = "FlagShip/Source/API/FSService+Request.swift"; sourceTree = "<group>"; };
+		E1A66ADD1712826EB5C4DDC8CF37ED19 /* QAVariationsView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = QAVariationsView.xib; sourceTree = "<group>"; };
 		E503BC575BEDC3C57C1926175F24FD50 /* Pods-ABTastyQAssistant_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABTastyQAssistant_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E5875301E4C3FC9155ED25E6F8E357A5 /* Pods-ABTastyQAssistant_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABTastyQAssistant_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		E666D979D35674BA59D458D68D7E1332 /* FSFlagMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSFlagMetadata.swift; path = FlagShip/Source/Core/FSFlagMetadata.swift; sourceTree = "<group>"; };
-		E8744FB723899CA67750B06C50C58F42 /* FSHits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSHits.swift; path = FlagShip/Source/Models/Tracking/FSHits.swift; sourceTree = "<group>"; };
-		EA18990D8A1A078752AF5D6656A982BD /* FSTroubleshooting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSTroubleshooting.swift; path = FlagShip/Source/Models/FSTroubleshooting.swift; sourceTree = "<group>"; };
+		E6192222E71E29EAD2529FD040AC0281 /* FSTargetingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSTargetingManager.swift; path = FlagShip/Source/Decision/Bucketing/FSTargetingManager.swift; sourceTree = "<group>"; };
+		E6B29782E81B6F3E5BC0CF7F2FA3C26C /* Flagship+EmotionAI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Flagship+EmotionAI.swift"; path = "FlagShip/Source/Core/Flagship+EmotionAI.swift"; sourceTree = "<group>"; };
+		EBB2DDB9F522C64933E4D790B0899723 /* FSBucketingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSBucketingManager.swift; path = FlagShip/Source/Decision/Bucketing/FSBucketingManager.swift; sourceTree = "<group>"; };
 		ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		ED0119196D4BF4F29B445385A429F716 /* FlagShip */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlagShip; path = FlagShip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE21556695AF8263B9D35E6DBA79A58D /* FSBatchManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSBatchManager.swift; path = FlagShip/Source/Tracking/Batch/FSBatchManager.swift; sourceTree = "<group>"; };
-		EF1A6069F5857A453E805FB27312C37E /* FSStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSStorage.swift; path = FlagShip/Source/Storage/FSStorage.swift; sourceTree = "<group>"; };
+		EEAEC741D54F66885A926C4FD23CCCD9 /* QAEventsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QAEventsViewController.swift; sourceTree = "<group>"; };
 		F0664B0399E3E69144B2CC7A53A20ECA /* Pods-ABTastyQAssistant_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABTastyQAssistant_Tests-Info.plist"; sourceTree = "<group>"; };
-		F18B705F606DD814C40DB5497F3215A8 /* FSService+Bucketing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSService+Bucketing.swift"; path = "FlagShip/Source/API/FSService+Bucketing.swift"; sourceTree = "<group>"; };
-		F3341FDF498B176CE94962D38C55F408 /* ABTastyQAssistant.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = ABTastyQAssistant.xcassets; path = ABTastyQAssistant/Assets/ABTastyQAssistant.xcassets; sourceTree = "<group>"; };
-		F54C565A04B1B66A3CF1AB94A4BBF110 /* FSCacheHit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSCacheHit.swift; path = FlagShip/Source/Models/Tracking/FSCacheHit.swift; sourceTree = "<group>"; };
-		F6784A496FE4412C193F50555A65B55F /* FSModifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSModifications.swift; path = FlagShip/Source/Models/FSModifications.swift; sourceTree = "<group>"; };
-		F95C7F9D8D19C33759E269B2E2D55541 /* QAVariationsView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = QAVariationsView.xib; path = ABTastyQAssistant/Views/QAVariationsView.xib; sourceTree = "<group>"; };
-		F97DE96516AC1236343726B5F6B8F2DE /* FSVisitorExposed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSVisitorExposed.swift; path = FlagShip/Source/Core/FSVisitorExposed.swift; sourceTree = "<group>"; };
-		FAC304D175B6A8BC3602C88ABD6B8DF5 /* FlagshipContextManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagshipContextManager.swift; path = FlagShip/Source/Audience/FlagshipContextManager.swift; sourceTree = "<group>"; };
+		F23305A0A2C43E5E67DA0898E24AD392 /* FSEmotionPageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSEmotionPageView.swift; path = FlagShip/Source/FSEmotionAI/FSEmotionPageView.swift; sourceTree = "<group>"; };
+		F516CFFA9DFABF2BD0C80171427600AF /* murmurhash3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = murmurhash3.swift; path = FlagShip/Source/Tools/murmurhash3.swift; sourceTree = "<group>"; };
+		F592D6819B768D7ADCF0EC996D5522B6 /* FSVisitor+objc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FSVisitor+objc.swift"; path = "FlagShip/Source/Core/FSVisitor+objc.swift"; sourceTree = "<group>"; };
+		F60755265CACDB1D6FD8A6D4F44D09EC /* FSBatchManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSBatchManager.swift; path = FlagShip/Source/Tracking/Batch/FSBatchManager.swift; sourceTree = "<group>"; };
+		F7DCBE0E2F65E85912E5034A699CC9E1 /* ABTastyQAssistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABTastyQAssistant.release.xcconfig; sourceTree = "<group>"; };
+		F8DEC863578989A5B7C654AC56BE123C /* FlagshipContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagshipContext.swift; path = FlagShip/Source/Audience/FlagshipContext.swift; sourceTree = "<group>"; };
 		FB281AB9BF14B022703B383160D98840 /* Pods-ABTastyQAssistant_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ABTastyQAssistant_Tests.modulemap"; sourceTree = "<group>"; };
-		FB2A456129D1179D7E2B939BE67EDC7A /* FSNoConsentStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSNoConsentStrategy.swift; path = FlagShip/Source/Strategy/FSNoConsentStrategy.swift; sourceTree = "<group>"; };
-		FC031612197B115994350E9E21AA1780 /* FSQAssistantStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSQAssistantStrategy.swift; path = FlagShip/Source/Strategy/FSQAssistantStrategy.swift; sourceTree = "<group>"; };
-		FE651F62448C6B92D11F4BEA2E24ABEF /* UIFont+Lato.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+Lato.swift"; path = "ABTastyQAssistant/Tools/UIFont+Lato.swift"; sourceTree = "<group>"; };
+		FCD816B676AE705548EC2738AA889740 /* BucketingResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BucketingResponse.swift; sourceTree = "<group>"; };
+		FE86BA77BB00ABB765FFA9F1BC0EA091 /* QAAssistant.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = QAAssistant.storyboard; sourceTree = "<group>"; };
+		FFBB8FD85BFEE2E71C6F4E3FC6474AAD /* FSDataUsageTracking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSDataUsageTracking.swift; path = FlagShip/Source/Troubleshooting/FSDataUsageTracking.swift; sourceTree = "<group>"; };
+		FFCD02F288AD86DC341832B03C199C18 /* QATargetingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QATargetingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -354,18 +357,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E9D382724664DCC0029586DCCA0F9C3 /* Frameworks */ = {
+		39CA2641557A6867A68DF944560AEBCF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6BDEF6A41E9684C70B0B344DD4AB5E74 /* Frameworks */ = {
+		56F1D0C3C49F49FBD1CDADA4EAB46693 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50792008B9000A7CCCFD64E2FACF749B /* Foundation.framework in Frameworks */,
+				CC6B4102D0510B324D28604D78D07154 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +429,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		2128367E9806E0790FF5307E78954A1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA7E3E64ACDA979D29DD288B20153734 /* FlagShip */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		24F3CFD75D7D7192F5C88F280F7C981A /* Pods-ABTastyQAssistant_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -443,197 +454,263 @@
 			path = "Target Support Files/Pods-ABTastyQAssistant_Example";
 			sourceTree = "<group>";
 		};
-		6F2B8A2B7B098D398812D2CDCDFA94B4 /* Resources */ = {
+		3259EA04CCCA7B8BC68D4A34E346668D /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				F3341FDF498B176CE94962D38C55F408 /* ABTastyQAssistant.xcassets */,
-				5C53ACFA034EC3256BF7606C646D9C9B /* Fonts */,
-				60B3C84ECD9F42FA9AF2692A2B0AFB26 /* Lato-Bold.ttf */,
-				C68169832EBF816345369BDCE06065E1 /* Lato-Italic.ttf */,
-				85850BED0766F6C87EF2778D6BC54F99 /* Lato-Regular.ttf */,
-				67A71CC81AB20368A4F87B433D7C66F4 /* QAAssistant.storyboard */,
-				4FF9E52E85E91104689F1909EFCFC46A /* QAVariationSectionView.xib */,
-				F95C7F9D8D19C33759E269B2E2D55541 /* QAVariationsView.xib */,
+				6C9CAAC75A985D0D45A5F342FFD2BE93 /* Lato-Bold.ttf */,
+				052AEF530D2566B7031CFD6F33EE2A68 /* Lato-Italic.ttf */,
+				11209A34E751A2D08D30213C717C3A8D /* Lato-Regular.ttf */,
 			);
-			name = Resources;
+			name = Fonts;
+			path = Fonts;
 			sourceTree = "<group>";
 		};
-		7DE72F76C74947EF2C275EDFDB730DF2 /* Pods */ = {
+		337168EE555D2769BEEB69D9D4434DF1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				88223A45629CA19480905161FB9F41B9 /* ABTastyQAssistant */,
-				9A63860D9E5428C4383BE43BE65465F4 /* FlagShip */,
+				BF33B99FEDAC03CDA46D96D3E541980E /* ABTastyQAssistant.modulemap */,
+				424CC7A1E1F2E7F56DE40EC2EF41FE9D /* ABTastyQAssistant-dummy.m */,
+				78A0E624FA4F16E8DC351B1B661889C0 /* ABTastyQAssistant-Info.plist */,
+				DD677A249FD126D7EE5471AF87EB5286 /* ABTastyQAssistant-prefix.pch */,
+				3BEE9B60B5AE4D630218EFD259700860 /* ABTastyQAssistant-umbrella.h */,
+				ABA49F27356B82C35391FE74A7B1F190 /* ABTastyQAssistant.debug.xcconfig */,
+				F7DCBE0E2F65E85912E5034A699CC9E1 /* ABTastyQAssistant.release.xcconfig */,
+				35FBFDD674E658763D9D9BF0237A8376 /* ResourceBundle-ABTastyQAssistant-ABTastyQAssistant-Info.plist */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ABTastyQAssistant";
 			sourceTree = "<group>";
 		};
-		88223A45629CA19480905161FB9F41B9 /* ABTastyQAssistant */ = {
+		35CA11FDB9B5188EBB5C004DA2AE5D40 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				2BC76EFEBBB8FF902E27D105080C524B /* ABTastyQAAssistant.swift */,
-				4A6A6C66770A9017E5A83D15DB7A07E3 /* BucketingResponse.swift */,
-				C5111653CB09330A9F9A4F3BFDC9FD16 /* Bundle+Fonts.swift */,
-				5E6D6AEF41BD1E405C7727D5AA99E465 /* BundleImageView.swift */,
-				114D0FAF4EB62AFB38B8DD2C5CD1DA7A /* QAAllocationView.swift */,
-				D3B62A84176FCC56702821BDED785E80 /* QACampaignDetailsViewCtrl.swift */,
-				3EBF4BE0ABDF272CD02647D1DF1EB403 /* QACampaignsTableViewCtrl.swift */,
-				464BA20F474D76ADEFC5189101A89AE9 /* QACampaignTableViewCell.swift */,
-				D31D5FCA0030E45E307ECE4B0DCD6E74 /* QAColorPalette.swift */,
-				2AFF71691A86E724C924E1549B6E6848 /* QAContextViewController.swift */,
-				31AC79480E29515EE2FE526123060917 /* QAEventsViewController.swift */,
-				50DD587877A113BD376F2EEEF645DADC /* QAModels.swift */,
-				217EB70AC63A41CA7FCA171FA0A0E8A8 /* QAssistantHomeViewController.swift */,
-				3020CA1A879ABCE7C7E71FB4944FB10A /* QAssistantService.swift */,
-				6D241CCDC79F6CBFB5502959EC2ED70E /* QATargetingEvaluator.swift */,
-				97EEDF053563F039E0DE3DFF569DC966 /* QATargetingView.swift */,
-				91A72459F8E2740CBBC76013170B4F8A /* QAVariationSectionView.swift */,
-				6829D410A9BB56A103D3CDCDA7A4076F /* QAVariationsView.swift */,
-				4D44667A771A7A281DE3A8222DE599CC /* QAVariationViewCell.swift */,
-				73062B00011C65501AC06F63BB735674 /* QAVariationViewCtrl.swift */,
-				FE651F62448C6B92D11F4BEA2E24ABEF /* UIFont+Lato.swift */,
-				6F2B8A2B7B098D398812D2CDCDFA94B4 /* Resources */,
-				CAA8E28190E0CA6DD248B7FDC344AEDD /* Support Files */,
+				FE86BA77BB00ABB765FFA9F1BC0EA091 /* QAAssistant.storyboard */,
+				DC8B20CDA3BD2094A535947341056904 /* QACampaignDetailsViewCtrl.swift */,
+				1F9F82BA7BB49A3DBA9FD3A941B6D6F7 /* QACampaignsTableViewCtrl.swift */,
+				3DC32DE38CE11D87139BD08A85703912 /* QAContextViewController.swift */,
+				EEAEC741D54F66885A926C4FD23CCCD9 /* QAEventsViewController.swift */,
+				1527A1E86D008639A2811FC1B06C669E /* QAssistantHomeViewController.swift */,
+			);
+			name = Controllers;
+			path = ABTastyQAssistant/Controllers;
+			sourceTree = "<group>";
+		};
+		3F65309246EF37A659D8E8EDA1B205A5 /* ABTastyQAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				34C358E2B7E39B28589CFE1D942E9835 /* ABTastyQAAssistant.swift */,
+				E7933D6C792332E7BC4E70EBAE2745B5 /* Assets */,
+				35CA11FDB9B5188EBB5C004DA2AE5D40 /* Controllers */,
+				64AE295A77C0F79C539E6D783E07B8F6 /* Models */,
+				9A211488F9DCB73E893917A73B9AC965 /* Pod */,
+				C67905D8568F5958D711F9F6EC896878 /* Services */,
+				337168EE555D2769BEEB69D9D4434DF1 /* Support Files */,
+				491D7B761DACB39A626088267CABD7CC /* Tools */,
+				5689C84B3E2AC3E0DC9E2A5839BF8DAE /* Views */,
 			);
 			name = ABTastyQAssistant;
-			path = ABTastyQAssistant;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		9A63860D9E5428C4383BE43BE65465F4 /* FlagShip */ = {
+		4562CF805DFF47307DECB51CB4015F6B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B0E1F4914F0AB50DBE8D2AEE2D34DDDE /* Data+PrettyPrint.swift */,
-				3B9C784AA1754AF4079BFA8832D9088E /* decode-json-swift.swift */,
-				62000791728C80AF062C89BB2AD8E714 /* Flagship.swift */,
-				5584AFA3A73281581E5D894AA1DEAF71 /* Flagship+EmotionAI.swift */,
-				10EA618DC246EDFA88AD5BA84D21B58F /* FlagshipConfig.swift */,
-				43EBCA850A13C6000F261ACD7957C2E3 /* FlagshipConstants.swift */,
-				0B8A5EB579C696AA22F82405F2429D26 /* FlagshipContext.swift */,
-				FAC304D175B6A8BC3602C88ABD6B8DF5 /* FlagshipContextManager.swift */,
-				018063FD9AB4958F1D80AF25722403B4 /* FlagshipLogManager.swift */,
-				659DFA847202D834B541B7D7BA47B75F /* FlagShipVersion.swift */,
-				4348F0FBA2ADE5815DD44ADFA1E8D059 /* FSAccountSettings.swift */,
-				8FA9D8324C13B8B7E281BDE6B5E62CFA /* FSBatch.swift */,
-				EE21556695AF8263B9D35E6DBA79A58D /* FSBatchManager.swift */,
-				8C2468BE1300F6BFE1683C3B056C6D96 /* FSBucket.swift */,
-				7D1D7124B71DBA6894171D3C9E6EE1EF /* FSBucketCache.swift */,
-				A1E86AA37617A463353FC5CD65FB2250 /* FSBucketingManager.swift */,
-				503A265B4E5B0BEF96815D41295F7A8F /* FSCacheDelegate.swift */,
-				F54C565A04B1B66A3CF1AB94A4BBF110 /* FSCacheHit.swift */,
-				271FF6E44F23B645637746521636EA15 /* FSCacheManager.swift */,
-				2E3928128753C9DAC4D29E5D35CB5822 /* FSCacheVisitor.swift */,
-				CE010C9D7ACB237895CC8255D0D20FBB /* FSCampaign.swift */,
-				C71755C0C1D6D18BB121E46D2DE7959F /* FSCampaigns.swift */,
-				11A0D0EF1A122511CD6607B9C8545043 /* FSConfigManager.swift */,
-				972EA116E486860524E86DAB2F2F916E /* FSConstant.swift */,
-				120D81F6CDCCEC84C72ADFEECA47BBC2 /* FSContext.swift */,
-				8CDD610524606F0D20B7A2207428CABD /* FSContinuousTrackingManager.swift */,
-				15300CE6E75DBD67F6A42871BE611EB5 /* FSDataReportUsage.swift */,
-				91366FEB205E4610E55E4D3CD51F46FF /* FSDataUsageTracking.swift */,
-				D052F0B18F45EC3684D429DDD2C3D4B3 /* FSDataUsageTracking+Criticals.swift */,
-				414CCE507F03960E62193CD2EE87F3FB /* FSDataUsageTracking+EmotionAI.swift */,
-				12882C9A97F168295343FC5E4387EC52 /* FSDataUsageTracking+Tools.swift */,
-				633484EE5AD4B2C3F480C76C5C31BA01 /* FSDecisionManager.swift */,
-				BD30564E61FE467DEB1A8FA9D6C4A317 /* FSDefaultCache.swift */,
-				0646A62B42DB74F2EF97A6AA37A57547 /* FSDefaultStrategy.swift */,
-				6495024777F526273A8594C47E134E3B /* FSDevice.swift */,
-				62903B63981B979F2328F1024C0EA99C /* FSEmotionAI.swift */,
-				51277AC3208AA31F3C69C4173C6A0EB8 /* FSEmotionEvent.swift */,
-				AC1BFD5A687DC7402DB2847CA50FA0D8 /* FSEmotionPageView.swift */,
-				9F3A2B4206E00B0AB2C7226D4E2C36B9 /* FSError.swift */,
-				029E383B6562AF908F3D55796B7EEDD4 /* FSExposedFlag.swift */,
-				57DE33BD25CB04C7AD215127B3FB8773 /* FSFlag.swift */,
-				934280B3B8CF31E577225CDDD3B55263 /* FSFlag+Additions.swift */,
-				E666D979D35674BA59D458D68D7E1332 /* FSFlagMetadata.swift */,
-				8E2F5D8E39A6977A49A5FC503F169EF4 /* FSGenerator.swift */,
-				E8744FB723899CA67750B06C50C58F42 /* FSHits.swift */,
-				98FDFAF7955FBED15026401612BFD645 /* FSITrackingManager.swift */,
-				82460EF2E2B44C3116E2081CC74E5B9E /* FSLogManager.swift */,
-				159B21F87847C25ACEAFFD6231C3609F /* FSModification.swift */,
-				F6784A496FE4412C193F50555A65B55F /* FSModifications.swift */,
-				FB2A456129D1179D7E2B939BE67EDC7A /* FSNoConsentStrategy.swift */,
-				60AFB208198C94D7FB2CC5EEF4BE4B61 /* FSNotReadyStrategy.swift */,
-				393E31D8D6E2A611A9AC86310755F250 /* FSPanicStrategy.swift */,
-				5938BFE4474353FC172E35D77D9D27FF /* FSPeriodicTrackingManager.swift */,
-				D7E0A92DA1EFD079923CFD99D9BEC01A /* FSPollingScore.swift */,
-				3A62AE14FC118787BCA91C6A531F9F2F /* FSPollingScript.swift */,
-				BB235380C1CBC00A8E4E214AE5D43ED4 /* FSPoolQueue.swift */,
-				393B960248DD206256E39742A49CC669 /* FSQAMessageService.swift */,
-				FC031612197B115994350E9E21AA1780 /* FSQAssistantStrategy.swift */,
-				2A9BC5865B33D574E6832E70148F6EB7 /* FSQLiteWrapper.swift */,
-				AE88A0EABC9BF43A205F5681F9FE65B8 /* FSSegment.swift */,
-				34FFA0AA095E18F567A9AB90CA03129A /* FSService.swift */,
-				F18B705F606DD814C40DB5497F3215A8 /* FSService+Bucketing.swift */,
-				A6F5FF49C9423560FD5F27597438A291 /* FSService+Request.swift */,
-				90AFEC26475482BC25286832427DB583 /* FSSettings.swift */,
-				7737F291F5F5A7C08953B955CA89F52F /* FSStatus.swift */,
-				EF1A6069F5857A453E805FB27312C37E /* FSStorage.swift */,
-				5C440B387080204015F957D467588777 /* FSStorageManager.swift */,
-				1C24A97AE0017D3D1591FDE8E40A0FB8 /* FSTargetingManager.swift */,
-				16B5C5FEFE1CE880876B482835C71717 /* FSTargets.swift */,
-				57C55176FAAA30A55416790B534FFC3B /* FSTools.swift */,
-				CC5A58B74EB76E667B36926FE9A54F87 /* FSTracking.swift */,
-				C37ED5ED2D3F1E0C0ED43911F21B8AF7 /* FSTracking+Codable.swift */,
-				6239C7B0AB40BD9EB49D75B9CB384CA4 /* FSTrackingDbMgt.swift */,
-				9B5BB9DE27A8AE7119E9F424E6AC1712 /* FSTrackingManager.swift */,
-				7E17FDAF758277A8A765B45EA7E6F057 /* FSTrackingManagerConfig.swift */,
-				EA18990D8A1A078752AF5D6656A982BD /* FSTroubleshooting.swift */,
-				97C7EFD0BAE59F929E1E0D59788D7856 /* FSVisitor.swift */,
-				B6704DF653ED1D9450D683E526B4DC4B /* FSVisitor+Campaigns.swift */,
-				A0E95EE8C2DBA0C61E1544424A5A0F24 /* FSVisitor+EmotionAI.swift */,
-				A2253E90BDAECFCF7DECF183F2A8CAED /* FSVisitor+Flags.swift */,
-				60B77373580AFD78D97AE925AE444023 /* FSVisitor+objc.swift */,
-				689399DA0AD0DE254E2D3264F3E739BE /* FSVisitor+Reconcilliation.swift */,
-				0071448E5FD1AF99F0491E705A01EA46 /* FSVisitorBuilder.swift */,
-				499AA0334DB405B96DCFCC9CDA204E9F /* FSVisitorDbMgt.swift */,
-				F97DE96516AC1236343726B5F6B8F2DE /* FSVisitorExposed.swift */,
-				52D3595E64F0070128AAB78908DF1233 /* FSWindow.swift */,
-				BAEAB4FFB53F2C2CB8B1D2845C2AD915 /* murmurhash3.swift */,
-				A4D87D169AC7B8F4F242626CC6C3804E /* Support Files */,
-			);
-			name = FlagShip;
-			path = FlagShip;
-			sourceTree = "<group>";
-		};
-		A4D87D169AC7B8F4F242626CC6C3804E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BCA5F80777FCDA0F3BE49401597AF5ED /* FlagShip.modulemap */,
-				46BCE99B128FCC5A21FBD93FF64A42F0 /* FlagShip-dummy.m */,
-				2442D5D1741E4EFAE1C4F92339592B3D /* FlagShip-Info.plist */,
-				DEAA312D14234831082399AF8657DE31 /* FlagShip-prefix.pch */,
-				636D6AFE390FEA9692F364CDF1401A87 /* FlagShip-umbrella.h */,
-				24BE7D7E28D0984BE21A43A0163870E9 /* FlagShip.debug.xcconfig */,
-				8E4B2C79A74BEB82982BE8D5C8DFAF25 /* FlagShip.release.xcconfig */,
+				C3181C1D999D4781A9F362F6AE38DB93 /* FlagShip.modulemap */,
+				769E743A1F45CB8334147088F1FC230C /* FlagShip-dummy.m */,
+				21EE168B49184F78635319C22C34E015 /* FlagShip-Info.plist */,
+				BDE2A4B143609E9063740225D40B4774 /* FlagShip-prefix.pch */,
+				28A5EC3AA0312A22558FCD726A0EE22E /* FlagShip-umbrella.h */,
+				A428EA7552E10BE40C0A3F9502E1AB2C /* FlagShip.debug.xcconfig */,
+				3AE8FB2CBF3C32E6A619B49990E413A0 /* FlagShip.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FlagShip";
 			sourceTree = "<group>";
 		};
-		CAA8E28190E0CA6DD248B7FDC344AEDD /* Support Files */ = {
+		491D7B761DACB39A626088267CABD7CC /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				11720C33E4A7773189DF06B45C6DECFE /* ABTastyQAssistant.modulemap */,
-				7E95C7D1AD938C05CDA5CE742B0C2721 /* ABTastyQAssistant-dummy.m */,
-				637CDD2242530212EDB6AF04439CBEDC /* ABTastyQAssistant-Info.plist */,
-				90912826B434EEACCD90C8ADB53E149A /* ABTastyQAssistant-prefix.pch */,
-				419B08363EA342BCE6B6139BE4D79791 /* ABTastyQAssistant-umbrella.h */,
-				9720298F4C1B1D3AA9CF096F312CC870 /* ABTastyQAssistant.debug.xcconfig */,
-				0F666C797C85ADEFBB8870F92382C66E /* ABTastyQAssistant.release.xcconfig */,
-				8D05487FC8E9FB8D792F26E79BA298CD /* ResourceBundle-ABTastyQAssistant-ABTastyQAssistant-Info.plist */,
+				2E4264CF7B845FE90472DB5A6B9DC1A5 /* Bundle+Fonts.swift */,
+				A835949CE5C6272E9D68AC90002F3622 /* QAColorPalette.swift */,
+				2591DEEA35CB2CCF6E785F49C1AC7A0E /* QATargetingEvaluator.swift */,
+				572AB095CB33540610857EFCE36F1251 /* UIFont+Lato.swift */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ABTastyQAssistant";
+			name = Tools;
+			path = ABTastyQAssistant/Tools;
+			sourceTree = "<group>";
+		};
+		5689C84B3E2AC3E0DC9E2A5839BF8DAE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C0A363EF7D67422812C66297687C40BB /* BundleImageView.swift */,
+				BD95CFCE754A7D82D88AE896DCA01CFA /* QAAllocationView.swift */,
+				A190F82E68E39EB8A95DE30C53EA2F6D /* QACampaignTableViewCell.swift */,
+				FFCD02F288AD86DC341832B03C199C18 /* QATargetingView.swift */,
+				A459A1273DBABFF49A79A30AB8735B3B /* QAVariationSectionView.swift */,
+				AF76B907CFE5D112F8083D586943CD43 /* QAVariationSectionView.xib */,
+				DBB61B461C370436C275F89391297F36 /* QAVariationsView.swift */,
+				E1A66ADD1712826EB5C4DDC8CF37ED19 /* QAVariationsView.xib */,
+				87DAE84F24FBA7625CC433E2CD69280B /* QAVariationViewCell.swift */,
+				6C1501A3B722CC5571FBB881F0BDBB74 /* QAVariationViewCtrl.swift */,
+			);
+			name = Views;
+			path = ABTastyQAssistant/Views;
+			sourceTree = "<group>";
+		};
+		64AE295A77C0F79C539E6D783E07B8F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FCD816B676AE705548EC2738AA889740 /* BucketingResponse.swift */,
+				82E9105627A176C6C2FD02E96001B2BD /* QAModels.swift */,
+			);
+			name = Models;
+			path = ABTastyQAssistant/Models;
+			sourceTree = "<group>";
+		};
+		9A211488F9DCB73E893917A73B9AC965 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				443A150399E87FA5001AF244569E5855 /* ABTastyQAssistant.podspec */,
+				662749982219B8396487A89B64D895FD /* LICENSE */,
+				D146B9A641C72C6BC260AE9D3FB62C37 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BA7E3E64ACDA979D29DD288B20153734 /* FlagShip */ = {
+			isa = PBXGroup;
+			children = (
+				530B505022898D6AF849154C7155DE7E /* Data+PrettyPrint.swift */,
+				2CAFF603F0E67414521E9982C92C472C /* decode-json-swift.swift */,
+				3386C79479AAD0134833F327CAEDEB83 /* Flagship.swift */,
+				E6B29782E81B6F3E5BC0CF7F2FA3C26C /* Flagship+EmotionAI.swift */,
+				C89C3D6AAF2D20FDAE9C660A21F8A6B3 /* FlagshipConfig.swift */,
+				5AD8E7F61FCB574A6632F62D83230C87 /* FlagshipConstants.swift */,
+				F8DEC863578989A5B7C654AC56BE123C /* FlagshipContext.swift */,
+				92C4126CD6DDB47A8254922654BA587A /* FlagshipContextManager.swift */,
+				64B96E49460062DEEE853A012954A453 /* FlagshipLogManager.swift */,
+				A34F43AAE43FA978F5C8A7C5FF9C078A /* FlagShipVersion.swift */,
+				540D6C8425D4B275B00D760A77C523D6 /* FSAccountSettings.swift */,
+				89C39CBB3EC935D23C93D44DABF479C2 /* FSBatch.swift */,
+				F60755265CACDB1D6FD8A6D4F44D09EC /* FSBatchManager.swift */,
+				9AFCA17ADB958C47B8E050DA14134EAF /* FSBucket.swift */,
+				D0686A70345ACA2504ED591AE57A28D6 /* FSBucketCache.swift */,
+				EBB2DDB9F522C64933E4D790B0899723 /* FSBucketingManager.swift */,
+				D570EDA18DD185A60D8DC5A4BAFCF6DE /* FSCacheDelegate.swift */,
+				CCCC17DE2AB10002A6B1B657EBB91235 /* FSCacheHit.swift */,
+				99241A873570CDCB6208B96F906ADF24 /* FSCacheManager.swift */,
+				B2B8F2580726720E75A6E78FE059EF5E /* FSCacheVisitor.swift */,
+				0A26D9983E2CE03B70E6F4A8E52815FC /* FSCampaign.swift */,
+				3876D7407A6B17499D3684B5980BD2F3 /* FSCampaigns.swift */,
+				3C574D037033585C8360BCED279059C3 /* FSConfigManager.swift */,
+				CC1EB2FD26B3A8E2A3F1DE337606AE29 /* FSConstant.swift */,
+				8FB29ABF3014F042DC3E7C67E97DFC2A /* FSContext.swift */,
+				707B3230264A6CB375465FCDCE06A10C /* FSContinuousTrackingManager.swift */,
+				871E030B8A592EB1AA2B0583744F7C7F /* FSDataReportUsage.swift */,
+				FFBB8FD85BFEE2E71C6F4E3FC6474AAD /* FSDataUsageTracking.swift */,
+				64A858B193F12718EAAC7C888FF2D927 /* FSDataUsageTracking+Criticals.swift */,
+				1F65B3057A6015B57C258A22884A2AF5 /* FSDataUsageTracking+EmotionAI.swift */,
+				86F65B0AE60A58EADF069ABCDFB61CC2 /* FSDataUsageTracking+Tools.swift */,
+				44459E900F61F92EB93C2EDDBA7FBC1F /* FSDecisionManager.swift */,
+				450A03AD360C345401B9CB0F2250B3F7 /* FSDefaultCache.swift */,
+				4E62E03AA41DDB1079A6247EF75B9ED6 /* FSDefaultStrategy.swift */,
+				DDD8219C21E6B2C8CDF359DF91D52974 /* FSDevice.swift */,
+				980846A36940DF419E03F037F01D34A3 /* FSEmotionAI.swift */,
+				9F861DD3E31FD3E359D292A67F895CFB /* FSEmotionEvent.swift */,
+				F23305A0A2C43E5E67DA0898E24AD392 /* FSEmotionPageView.swift */,
+				08736A5BB47CD1CBA1A2FDB056F373A4 /* FSError.swift */,
+				88516D0C775E3A108015D5A4D0474F92 /* FSExposedFlag.swift */,
+				C7E77FC43A87617AD689CE06B91FF75A /* FSFlag.swift */,
+				10586EB7707AADC89792472CE82C35FE /* FSFlag+Additions.swift */,
+				DE416A84B3DD9ECD5DEA9C25216FB4CB /* FSFlagMetadata.swift */,
+				1D8D15517CFE0CDB59767778B1BF21B6 /* FSGenerator.swift */,
+				A42DD81E6442A3E4B1A6564733CE7720 /* FSHits.swift */,
+				DB2EB440263033FD6D4791C390ECBF7B /* FSITrackingManager.swift */,
+				ABB387EC2B1E06D229EB7331743A8EF3 /* FSLogManager.swift */,
+				44832BE99E36926BB133DF86AF086A42 /* FSModification.swift */,
+				D8D4EE8F222A7E54F575D9D98638BB5A /* FSModifications.swift */,
+				2D73D4526C1FFA626F68B0173E377D53 /* FSNoConsentStrategy.swift */,
+				59A122C3AED99297F1CE16DBF8DEFBC2 /* FSNotReadyStrategy.swift */,
+				AC4148038DD365329ABFA8B16162BA24 /* FSPanicStrategy.swift */,
+				A684ED1F340182C253193BA44BE8D4D1 /* FSPeriodicTrackingManager.swift */,
+				9136458E17755DAC422F80F822009220 /* FSPollingScore.swift */,
+				04D6A2DFDB721720A7D8196F103DB8BB /* FSPollingScript.swift */,
+				A045DC5C8E16B7DD1D8D116C93535B7B /* FSPoolQueue.swift */,
+				1AC5D05B8622A1CA5384F8F346B34900 /* FSQAMessageService.swift */,
+				7550EDDBB89B085382E7B2FB06084038 /* FSQAssistantStrategy.swift */,
+				25B99FFA9D4E206214BEF0F86E51B588 /* FSQLiteWrapper.swift */,
+				57A2858EDC7E52D9A5728684602C6C61 /* FSSegment.swift */,
+				051C3DDF16A3269B186FC45A62F42A6D /* FSService.swift */,
+				2C1370D263B12D859136F99D4A48FF06 /* FSService+Bucketing.swift */,
+				E10DADF49E1A36BF4B1B6AC5F16D4119 /* FSService+Request.swift */,
+				6B410F9B5C1C1E0F92390DD2686BACF1 /* FSSettings.swift */,
+				D6BB4B7B45CF988DCA30C91FBA6274CF /* FSStatus.swift */,
+				69FC7E4AD735584DD5BEFF61146804E3 /* FSStorage.swift */,
+				3A3484713DA79C40C57477A1E99739AE /* FSStorageManager.swift */,
+				E6192222E71E29EAD2529FD040AC0281 /* FSTargetingManager.swift */,
+				996FB6DD0BD642E0428DA4489C4289E2 /* FSTargets.swift */,
+				3B3479431DDF9D3B2D0768DD4F609A67 /* FSTools.swift */,
+				2FC76653A44A28CE60BAAA0A9239B7F8 /* FSTracking.swift */,
+				E07989F6C4E8B1C6E5B45B40E2AA16CB /* FSTracking+Codable.swift */,
+				197B4FC07147ED9AE5B64293670C2774 /* FSTrackingDbMgt.swift */,
+				DB4991B74BBA6565138A484AA58A8343 /* FSTrackingManager.swift */,
+				8CB300CE37B895633322E4383EC22CEB /* FSTrackingManagerConfig.swift */,
+				3FCEFB67E2742AB402ABEE1AE94D8E5B /* FSTroubleshooting.swift */,
+				B8C457326D3E05B17DCCCA3F726864D5 /* FSVisitor.swift */,
+				09891D857C0A6E3181226F3FCD025A5B /* FSVisitor+Campaigns.swift */,
+				A1C5BE37EF1ABC16D4052E04CF00ABCF /* FSVisitor+EmotionAI.swift */,
+				9C10E1C83460C56FB2A52E4DC27BC91E /* FSVisitor+Flags.swift */,
+				F592D6819B768D7ADCF0EC996D5522B6 /* FSVisitor+objc.swift */,
+				5094451C153283E3A9D5A9742A3C8551 /* FSVisitor+Reconcilliation.swift */,
+				53D600E1962FE75725CBD8E6C1FDFE6E /* FSVisitorBuilder.swift */,
+				D74B1B0AFEB7B0D2FC2086EE39BC706F /* FSVisitorDbMgt.swift */,
+				43C90AA921DCD1B0FB970A66F0535B51 /* FSVisitorExposed.swift */,
+				4BBDA2C2147A08C528671AABD781B7F2 /* FSWindow.swift */,
+				F516CFFA9DFABF2BD0C80171427600AF /* murmurhash3.swift */,
+				4562CF805DFF47307DECB51CB4015F6B /* Support Files */,
+			);
+			name = FlagShip;
+			path = FlagShip;
+			sourceTree = "<group>";
+		};
+		C67905D8568F5958D711F9F6EC896878 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2AE814EE21126DE50D0CB832AD74AE2F /* QAssistantService.swift */,
+			);
+			name = Services;
+			path = ABTastyQAssistant/Services;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DF24D0140EE7AAD32FCDF1579CE56F63 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				7DE72F76C74947EF2C275EDFDB730DF2 /* Pods */,
+				2128367E9806E0790FF5307E78954A1E /* Pods */,
 				16AE48EF01AC83ED4F54E8B113C0A3B6 /* Products */,
 				1838B5C8E8B0D9571E6679FDB5949952 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		DF24D0140EE7AAD32FCDF1579CE56F63 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F65309246EF37A659D8E8EDA1B205A5 /* ABTastyQAssistant */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E7933D6C792332E7BC4E70EBAE2745B5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C203A22B10C02F43802A255E52E0E7FF /* ABTastyQAssistant.xcassets */,
+				78ED0751DC3C6D77BDA9BA915A2002AF /* Fonts */,
+				3259EA04CCCA7B8BC68D4A34E346668D /* Fonts */,
+			);
+			name = Assets;
+			path = ABTastyQAssistant/Assets;
 			sourceTree = "<group>";
 		};
 		F31A979DA5D1772B869DF800DD564F8F /* Pods-ABTastyQAssistant_Tests */ = {
@@ -656,6 +733,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		076480F636C12892DE95A7FD1A1E5AEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81BC136978B306C0AE132F389632172 /* FlagShip-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		29938F170DCB05FC6B24B6DDED6B2A91 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -680,24 +765,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E63F59FBCDD95B0F1AC688F0BF66077E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1401232FC804BEDCD5A85D47B99941BE /* FlagShip-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		03D127D44D65E4C5FBDF4F1C1D0CA8B7 /* ABTastyQAssistant-ABTastyQAssistant */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 286F5E3C833A8E94691123C6479146FD /* Build configuration list for PBXNativeTarget "ABTastyQAssistant-ABTastyQAssistant" */;
+			buildConfigurationList = 77F7F518B7C61A44C8A7D6E135E41CF4 /* Build configuration list for PBXNativeTarget "ABTastyQAssistant-ABTastyQAssistant" */;
 			buildPhases = (
-				D009E6B274D0A61144DFC08170A5DD9C /* Sources */,
-				4E9D382724664DCC0029586DCCA0F9C3 /* Frameworks */,
-				229FAF565886B5464813232921649A38 /* Resources */,
+				A2868308C642139C639E831E06CC39E5 /* Sources */,
+				39CA2641557A6867A68DF944560AEBCF /* Frameworks */,
+				4A76C2E4C985F7ABFBEA657D76104167 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -713,15 +790,15 @@
 			buildConfigurationList = DC27DCE878605D3B065082AE752FC923 /* Build configuration list for PBXNativeTarget "ABTastyQAssistant" */;
 			buildPhases = (
 				E2DAEC97C0BCD1B399F4F9C66DF54259 /* Headers */,
-				6FCF2AD22B38AE3DD9D66A3BAE6505DD /* Sources */,
+				030999C2A9C530D87D9E0E947C60BE3C /* Sources */,
 				17A566CB894423BA5CB81E602DFD06BA /* Frameworks */,
 				B96DD16BB8D61236486A2BB1D385CF25 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1D33C6EA4194D333298B4A1A242E853C /* PBXTargetDependency */,
-				011643FEED1C4EE9E31819027D119D94 /* PBXTargetDependency */,
+				FBC289BA71589432CC30D7783FFFB254 /* PBXTargetDependency */,
+				0CE2647C395199B6F2AD564EACFE7204 /* PBXTargetDependency */,
 			);
 			name = ABTastyQAssistant;
 			productName = ABTastyQAssistant;
@@ -740,8 +817,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				FE237CEA85808DEF2FBC63B7568DA3ED /* PBXTargetDependency */,
-				6159837F97F18D768AAB74677E399888 /* PBXTargetDependency */,
+				8A2DFEBD9D2C225ED89989C984BBEFB1 /* PBXTargetDependency */,
+				BED1D95D843A3A622549FA3403F9ACDE /* PBXTargetDependency */,
 			);
 			name = "Pods-ABTastyQAssistant_Tests";
 			productName = Pods_ABTastyQAssistant_Tests;
@@ -750,12 +827,12 @@
 		};
 		D899975D25DAC4B611F10D83547B7094 /* FlagShip */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 549C15D83A79DCB3A2C33846ABE7FBC6 /* Build configuration list for PBXNativeTarget "FlagShip" */;
+			buildConfigurationList = 14BB29FAE5DE102C82A32BE9433FA383 /* Build configuration list for PBXNativeTarget "FlagShip" */;
 			buildPhases = (
-				E63F59FBCDD95B0F1AC688F0BF66077E /* Headers */,
-				C91A33E47FD8417419C709A3A811455A /* Sources */,
-				6BDEF6A41E9684C70B0B344DD4AB5E74 /* Frameworks */,
-				2561092D21425D049471DF8253EC376A /* Resources */,
+				076480F636C12892DE95A7FD1A1E5AEF /* Headers */,
+				E2CA4130FF3FB844BF2B3ABD151AC245 /* Sources */,
+				56F1D0C3C49F49FBD1CDADA4EAB46693 /* Frameworks */,
+				8F22DAA41591A8CCD2200FCB6C32FBC9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -778,8 +855,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				F0023042B69822738BC49AB0DC5EC96A /* PBXTargetDependency */,
-				038F625853A7CF91770B40ACDB7F9882 /* PBXTargetDependency */,
+				0D86677F6DFB7F1FEF9D838B945BBFB9 /* PBXTargetDependency */,
+				5BD9CFC56892D8400E45A17B8E48F80A /* PBXTargetDependency */,
 			);
 			name = "Pods-ABTastyQAssistant_Example";
 			productName = Pods_ABTastyQAssistant_Example;
@@ -827,29 +904,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		229FAF565886B5464813232921649A38 /* Resources */ = {
+		4A76C2E4C985F7ABFBEA657D76104167 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99C7711D96C7833B84C0B9B4876FBD73 /* ABTastyQAssistant.xcassets in Resources */,
-				AF175DBDEA9B344F42DC28C6949733AA /* Fonts in Resources */,
-				5AC429402F7C6ECC8F5CA13C5FE41008 /* Lato-Bold.ttf in Resources */,
-				D7FAAE7374C362CFA489925DDE3EFDD6 /* Lato-Italic.ttf in Resources */,
-				216358AA37357EBBEA2812AAD31D0C03 /* Lato-Regular.ttf in Resources */,
-				B1F07958C14ADFB6EF276FA902B7B10C /* QAAssistant.storyboard in Resources */,
-				35DC9C2B240EFAA20DCFA046593816CE /* QAVariationSectionView.xib in Resources */,
-				0D5DBA4E06AEC0B4A2221F1D16E9D1F3 /* QAVariationsView.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2561092D21425D049471DF8253EC376A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				5BD756135AC7F448401EC03FDDAB43B5 /* ABTastyQAssistant.xcassets in Resources */,
+				0ABA3AC4ED231D9AD1581AE7687CF344 /* Fonts in Resources */,
+				B88B0EAEA3A58B7F9F0F7CB52A505B30 /* Lato-Bold.ttf in Resources */,
+				6A97AE1008F580E5362DAA55BB1E1F94 /* Lato-Italic.ttf in Resources */,
+				D909D3D95DE1BA5EBD56FAB2D57D2D8E /* Lato-Regular.ttf in Resources */,
+				4FF8D5141F71F0A327D903B31A5A717B /* QAAssistant.storyboard in Resources */,
+				1C7D9FBEC5D3AB33614606A38891FCE4 /* QAVariationSectionView.xib in Resources */,
+				630627A2B7B07E273D205A3C1A872190 /* QAVariationsView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		60B67E19A41C796AC272DF0FE2594B2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F22DAA41591A8CCD2200FCB6C32FBC9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -867,40 +944,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		030999C2A9C530D87D9E0E947C60BE3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D326F56FFAE4E01DC83413EA487C252F /* ABTastyQAAssistant.swift in Sources */,
+				F3140ADB610282AFC50262B9B9F1491A /* ABTastyQAssistant-dummy.m in Sources */,
+				DA1E3C5390ACAA9C69A0A48B22C6CD76 /* BucketingResponse.swift in Sources */,
+				714386DDA38DA56A14DA27C411176EA2 /* Bundle+Fonts.swift in Sources */,
+				1CB17E3C5881B0648DB48935CC030E8F /* BundleImageView.swift in Sources */,
+				2FEAADD731B2BE088ECB21CFD3B47CF4 /* QAAllocationView.swift in Sources */,
+				B042DD52DC9C20B01E323299EAF620D2 /* QACampaignDetailsViewCtrl.swift in Sources */,
+				FCF6129CD0E8A32F11B097A102913215 /* QACampaignsTableViewCtrl.swift in Sources */,
+				777A4A9C27FEB800D298C4D72107FD87 /* QACampaignTableViewCell.swift in Sources */,
+				2B96532BA55465B5B7FCA195D0D8148E /* QAColorPalette.swift in Sources */,
+				3369571F48748A7BBA23179E7203481E /* QAContextViewController.swift in Sources */,
+				93AC5312CE8DECBB83C59ED8DDABBF49 /* QAEventsViewController.swift in Sources */,
+				FCABA25B74FB649CEE373670CEE8DD89 /* QAModels.swift in Sources */,
+				1C9636CDBF45169F1F93F033886C48C8 /* QAssistantHomeViewController.swift in Sources */,
+				598C39B544B93D402E2AED40A8BEE284 /* QAssistantService.swift in Sources */,
+				728396B063A35E5AD94B38B86EF1547F /* QATargetingEvaluator.swift in Sources */,
+				26F28939AD77C170B38F5D4475AC2CA0 /* QATargetingView.swift in Sources */,
+				4B1D294821D5ABD22BC38FCFB4A68589 /* QAVariationSectionView.swift in Sources */,
+				955C8C91DD8E39C085D78723E345510C /* QAVariationsView.swift in Sources */,
+				F34C70ECD943B7A16D17702D1D7982EA /* QAVariationViewCell.swift in Sources */,
+				02B6398107F90E51C06A95E35572A751 /* QAVariationViewCtrl.swift in Sources */,
+				06885B135824B3A57F58BC1B880A5A62 /* UIFont+Lato.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4C2E2C2A3D133C820FE5E797F57A3D74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B101CC7BDD92ACB0D0C9B5959A1C3792 /* Pods-ABTastyQAssistant_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6FCF2AD22B38AE3DD9D66A3BAE6505DD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				264EFB93BC39C1E1D2869392D2E4F4C5 /* ABTastyQAAssistant.swift in Sources */,
-				5DD2EC23EC9657D1282A5CA21B334918 /* ABTastyQAssistant-dummy.m in Sources */,
-				8A75A9241252C57E3228284FEB94B0E8 /* BucketingResponse.swift in Sources */,
-				7FD9124F62D8636F140C24D3BE0A04F8 /* Bundle+Fonts.swift in Sources */,
-				B170052A9D8AE759297A012AE80FC209 /* BundleImageView.swift in Sources */,
-				B6866C7188C1605B5A0B0E40A18B2150 /* QAAllocationView.swift in Sources */,
-				785094388D93E9DAB2399D2AF254FA3D /* QACampaignDetailsViewCtrl.swift in Sources */,
-				EBB661D6315FCDB52A2A54BB8489BE4E /* QACampaignsTableViewCtrl.swift in Sources */,
-				FCB02D22AB646F873ABEB682994D4E51 /* QACampaignTableViewCell.swift in Sources */,
-				4BE4472C24BE53C171976FA078F88D96 /* QAColorPalette.swift in Sources */,
-				A0CE0BCC9712CFBE0E539C3A809E9461 /* QAContextViewController.swift in Sources */,
-				EC4A30D5BA5705F14C04DAA5A4150BD6 /* QAEventsViewController.swift in Sources */,
-				02D7031AA093CA89F09F594E5EF1336F /* QAModels.swift in Sources */,
-				F3A275FE879520144289DBD2BAE3E239 /* QAssistantHomeViewController.swift in Sources */,
-				E42C3A2B1BE33F5A3BAFA8810EDCF955 /* QAssistantService.swift in Sources */,
-				D03F08F94B03F511CB23F8239CA780B7 /* QATargetingEvaluator.swift in Sources */,
-				63A08F0A24320400776BA5383625D530 /* QATargetingView.swift in Sources */,
-				5BA461CEFDD6B9153AE313A7D998FE2A /* QAVariationSectionView.swift in Sources */,
-				04FF27D850EFC4F78C9D5A1D6B1D8976 /* QAVariationsView.swift in Sources */,
-				0234949CD477F88533C690D4D4FD5860 /* QAVariationViewCell.swift in Sources */,
-				555018745FFF6F7F32518301221F444D /* QAVariationViewCtrl.swift in Sources */,
-				8C8AA71D01BB0D51E5BACD6167679468 /* UIFont+Lato.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -912,153 +989,153 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C91A33E47FD8417419C709A3A811455A /* Sources */ = {
+		A2868308C642139C639E831E06CC39E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF680B213B5531AE9B3236C4CC3D37E7 /* Data+PrettyPrint.swift in Sources */,
-				D16B4C55125EA9A85ECC3F129EFF2102 /* decode-json-swift.swift in Sources */,
-				F16C5C2493BA22BE78B0772999D2554B /* Flagship.swift in Sources */,
-				A1DC62E32AFFEF084813BC759B0E5C2B /* Flagship+EmotionAI.swift in Sources */,
-				2062200C00AEBCB7F28C289959B6B10B /* FlagShip-dummy.m in Sources */,
-				590F9480276F6D5BD5338047BC5E466D /* FlagshipConfig.swift in Sources */,
-				591E0B8052261B8D4DCC5A0847CEE545 /* FlagshipConstants.swift in Sources */,
-				3DC2C6CE0F8A8D5BBB7884C6F78BF6CF /* FlagshipContext.swift in Sources */,
-				18D819F3BBC14A030DA4EAD3A63254E7 /* FlagshipContextManager.swift in Sources */,
-				07F594038A88F03E62B3B4D4DBC0C670 /* FlagshipLogManager.swift in Sources */,
-				6A2D48A8BBBA774EA45001B0437BFC55 /* FlagShipVersion.swift in Sources */,
-				F567CEA6C59531D660DFD19906A16E74 /* FSAccountSettings.swift in Sources */,
-				32DAD235963C6DA463B75EF7695EDD31 /* FSBatch.swift in Sources */,
-				19CFFCF9109C8A11E7ECB4E1C235BC18 /* FSBatchManager.swift in Sources */,
-				F90B79BCFE29D20D438D6AA1E30BD740 /* FSBucket.swift in Sources */,
-				A8074C70D05A6E98CE1AB738E9A37CA9 /* FSBucketCache.swift in Sources */,
-				B4DFB081978C782888FF416DBDB71273 /* FSBucketingManager.swift in Sources */,
-				1613BE5E2ED2DA6B23D1ECB15A8C59B0 /* FSCacheDelegate.swift in Sources */,
-				829ED325F05D342904D5C4A0C4CFEB1D /* FSCacheHit.swift in Sources */,
-				4C3D7AC4146EB4388607A32D3A1CE959 /* FSCacheManager.swift in Sources */,
-				34B40C4231A3CF51BCE74EBE0DBF908C /* FSCacheVisitor.swift in Sources */,
-				26D8A3DB415429F11241E3CD1AACF0F4 /* FSCampaign.swift in Sources */,
-				CD581601C288A92259B2D3FA7EDDD788 /* FSCampaigns.swift in Sources */,
-				B381FC47065007CFC64649A28CDE138A /* FSConfigManager.swift in Sources */,
-				4EC922F5C151B082C6346D2D53F81441 /* FSConstant.swift in Sources */,
-				F0ED23032D1C1054BE6916A2C76F2E1C /* FSContext.swift in Sources */,
-				DD61687F14FBA292C0E062754CC10F8F /* FSContinuousTrackingManager.swift in Sources */,
-				11BEBF4109C8B2F66CB24D025F12F977 /* FSDataReportUsage.swift in Sources */,
-				CF6B294A4700B8A9E248E9522502DFAF /* FSDataUsageTracking.swift in Sources */,
-				E98D70A488E4D0622CB6BBEF52FD841D /* FSDataUsageTracking+Criticals.swift in Sources */,
-				B7611D73AFB492CB6120EA7C2F474A20 /* FSDataUsageTracking+EmotionAI.swift in Sources */,
-				EED0DBCB0EFC487DF4A5463D99919BD6 /* FSDataUsageTracking+Tools.swift in Sources */,
-				BA0F63A0A88F4C0A923656D1D4CF7B2C /* FSDecisionManager.swift in Sources */,
-				C6734D1B65A4DE7A15D8FB88E2FBF4B6 /* FSDefaultCache.swift in Sources */,
-				8617FF73081DEC8ADAB13C4A183EF1EC /* FSDefaultStrategy.swift in Sources */,
-				864E204D2A5979E089BA14808EB7B447 /* FSDevice.swift in Sources */,
-				D1EBFA4121477C145926B853EC8C4AB1 /* FSEmotionAI.swift in Sources */,
-				1BCA7A2D91868B37BB478E749047D673 /* FSEmotionEvent.swift in Sources */,
-				ED5D771D2BEAF0BB1FE95E7FFBA80C8A /* FSEmotionPageView.swift in Sources */,
-				A6F4D97A97D47A5955819D743758FED6 /* FSError.swift in Sources */,
-				CB963491DEE6ADC6C6AFA346A0928FC1 /* FSExposedFlag.swift in Sources */,
-				05F2D0C0DD4DF725929380AF0D7A7475 /* FSFlag.swift in Sources */,
-				31231EBE715639433837D3D918C85BE6 /* FSFlag+Additions.swift in Sources */,
-				C11F77D4AFF7E072D77B541E115E6446 /* FSFlagMetadata.swift in Sources */,
-				B0E22A2E1638BFAF59814CA102264269 /* FSGenerator.swift in Sources */,
-				5998F7ECE034A14CF49B68B59D5F6CDE /* FSHits.swift in Sources */,
-				0488E9E316E6C728570D0DF534FD4160 /* FSITrackingManager.swift in Sources */,
-				B7A31C232D29713A71A7A63ED3FF6C83 /* FSLogManager.swift in Sources */,
-				AFD9778A7A9CEBE2A6990B0577ED4C7B /* FSModification.swift in Sources */,
-				AAF86F3BDE0DF9226BAC41595BC71D78 /* FSModifications.swift in Sources */,
-				618352BF47685DD65AC3CBF80A87CD4C /* FSNoConsentStrategy.swift in Sources */,
-				F98F68A5676E4319C4CDEB58EB239263 /* FSNotReadyStrategy.swift in Sources */,
-				8F414914B61D9013F144702DE12D85DA /* FSPanicStrategy.swift in Sources */,
-				40280CC2633447A30EBDE5C5FE253829 /* FSPeriodicTrackingManager.swift in Sources */,
-				5FD9CB7DBF71B1AA4C8B6D48B30EECBA /* FSPollingScore.swift in Sources */,
-				87784ECAEC2321CB9BA6FE44706E61A2 /* FSPollingScript.swift in Sources */,
-				E8DE22754E5ABF79432561FF10F33282 /* FSPoolQueue.swift in Sources */,
-				487C0D2414A03578A0DDCF90577051F3 /* FSQAMessageService.swift in Sources */,
-				5EC078FBA459D4C8FB2483FED8F4497E /* FSQAssistantStrategy.swift in Sources */,
-				6CFEB59CE1F9E98BBB370F6279B0F266 /* FSQLiteWrapper.swift in Sources */,
-				C8C9748BAFD2F9AFE5B37CD2F85E1146 /* FSSegment.swift in Sources */,
-				5F044B45BE0A5C684A7B52E650538A89 /* FSService.swift in Sources */,
-				53B1FDA8E78608E52025EE2D2759B255 /* FSService+Bucketing.swift in Sources */,
-				59466EF042E88403694281B26D8E1DB9 /* FSService+Request.swift in Sources */,
-				5C3A44DC06196B467EBFA5C5DAF65270 /* FSSettings.swift in Sources */,
-				DD563AC6311C7BFD2973D0907C2504A6 /* FSStatus.swift in Sources */,
-				752BBFA542679FEE6976EBC9E9AF9D56 /* FSStorage.swift in Sources */,
-				9B46E4D2C0A4D226B0CFB3DCEA80DAE5 /* FSStorageManager.swift in Sources */,
-				25CF71A8F2D696EF22B0955EB5B15F2C /* FSTargetingManager.swift in Sources */,
-				E4D3EB4D839B0845E91C4A562CA8F735 /* FSTargets.swift in Sources */,
-				ED404E68B93DFC2B6CF1DC799B84382A /* FSTools.swift in Sources */,
-				E50592743A2A41CF5765D3800344F062 /* FSTracking.swift in Sources */,
-				16B55D2B5D03F1CBB78699592C03409C /* FSTracking+Codable.swift in Sources */,
-				F0D357CF4DBF99B0CF668AC47749F237 /* FSTrackingDbMgt.swift in Sources */,
-				74E1DA155ABBD3515CD1C43B408EEE3A /* FSTrackingManager.swift in Sources */,
-				6E2D8638E6EFF2A7B1FEAE579B5C3331 /* FSTrackingManagerConfig.swift in Sources */,
-				7929F8E4C17F162B87C9E31B12C15A1C /* FSTroubleshooting.swift in Sources */,
-				BEF853D658ADEF6DA8CA9F57FB135F1F /* FSVisitor.swift in Sources */,
-				5CA385EBF4DD01B93BFAAF3BED57CB67 /* FSVisitor+Campaigns.swift in Sources */,
-				4E0D93623B31416F06355EF487136BB3 /* FSVisitor+EmotionAI.swift in Sources */,
-				0C8CDE4FF76937B8190B2B6921DB3138 /* FSVisitor+Flags.swift in Sources */,
-				E5E8C4BD65AC8F9797B0828021DF35E8 /* FSVisitor+objc.swift in Sources */,
-				4D74BAD2FB7F6E30BCAFB7F11928E276 /* FSVisitor+Reconcilliation.swift in Sources */,
-				4AF8B0C5FFCE830326B80FC8457222C3 /* FSVisitorBuilder.swift in Sources */,
-				D4EDB27D7183C522BC6A905F24B51426 /* FSVisitorDbMgt.swift in Sources */,
-				C669FBFE1490191B3A957D07BDC657C1 /* FSVisitorExposed.swift in Sources */,
-				1FBAC8DDAC91B89A89521627A29B7346 /* FSWindow.swift in Sources */,
-				332B3DE7F468DEDC5CFC21C71585CD64 /* murmurhash3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D009E6B274D0A61144DFC08170A5DD9C /* Sources */ = {
+		E2CA4130FF3FB844BF2B3ABD151AC245 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				631188CF9D06A4FF5F6246692F5D6665 /* Data+PrettyPrint.swift in Sources */,
+				3203043A7CAAFFDA32F2D9ECC5700D78 /* decode-json-swift.swift in Sources */,
+				7B59ECD7A437982FE9FFAF7D15D12366 /* Flagship.swift in Sources */,
+				42DB3DA6063C7B7C1456F2FFF155ECA7 /* Flagship+EmotionAI.swift in Sources */,
+				93DDBB0C4A87EDB32463B9DE53115A19 /* FlagShip-dummy.m in Sources */,
+				8DE6BBF8C0EC68B63C1D283CE8B4305B /* FlagshipConfig.swift in Sources */,
+				8D489F9AA4095085299912E5F3061287 /* FlagshipConstants.swift in Sources */,
+				2610DEB9DEC589CD1323B211D7229766 /* FlagshipContext.swift in Sources */,
+				BBE3DC2E8CB0E85B86D0D2D637EA2417 /* FlagshipContextManager.swift in Sources */,
+				17F5852DA74911E771291BF980F0B768 /* FlagshipLogManager.swift in Sources */,
+				CFB2701C57578118A999675490D71599 /* FlagShipVersion.swift in Sources */,
+				5764B5196FCBE871A0974056C0EE3F48 /* FSAccountSettings.swift in Sources */,
+				9140137A190F479B8514B47B735092CE /* FSBatch.swift in Sources */,
+				55AEDDFF8229F49C9744C3502C334398 /* FSBatchManager.swift in Sources */,
+				9377E956754E89D3BA484E7F8C288780 /* FSBucket.swift in Sources */,
+				6273CA8B3D438D437885984CDE87D4F4 /* FSBucketCache.swift in Sources */,
+				99C0FC8E7E4E9F1401B3CEB78EEE027C /* FSBucketingManager.swift in Sources */,
+				ED8B25AD0F835D7379943454EC5B857F /* FSCacheDelegate.swift in Sources */,
+				3850F444EADB00F2DE8507AAD8AA511B /* FSCacheHit.swift in Sources */,
+				6F31EE2D1D74EE9D582CE68AD4BA0AED /* FSCacheManager.swift in Sources */,
+				E1F3E5C23A05DDFAA0529938DA0F6F39 /* FSCacheVisitor.swift in Sources */,
+				E4F7590FE265852A0D40AD3AECCFAA2F /* FSCampaign.swift in Sources */,
+				8BA782EF523DC9AA802427FAE749C12F /* FSCampaigns.swift in Sources */,
+				149D47032FA599BB2C2C1CE36FFCE75E /* FSConfigManager.swift in Sources */,
+				2DDE38D9EB25F18B2D988FCE061C0B32 /* FSConstant.swift in Sources */,
+				44E0EEEA9968A2A38F6C8DD0F156A691 /* FSContext.swift in Sources */,
+				03590B8937890756C965D1D01EF431D4 /* FSContinuousTrackingManager.swift in Sources */,
+				967DD88F1688B4964E16BEB019680EF6 /* FSDataReportUsage.swift in Sources */,
+				CAC82F54BFC4524366A2668826C67458 /* FSDataUsageTracking.swift in Sources */,
+				6AC7C927013845273590F2ABA6A6F554 /* FSDataUsageTracking+Criticals.swift in Sources */,
+				4767685F0EBA7C88F7D9ABFB85E2F151 /* FSDataUsageTracking+EmotionAI.swift in Sources */,
+				FCDF724956CA1B4C0345214566DD6516 /* FSDataUsageTracking+Tools.swift in Sources */,
+				58ADAA17FF13B3DEB7F4DF8BC98933A1 /* FSDecisionManager.swift in Sources */,
+				009C0F37AE390899A4F57DD457F84019 /* FSDefaultCache.swift in Sources */,
+				FB58F614A886ED007D29737A045A2BB4 /* FSDefaultStrategy.swift in Sources */,
+				36245CBBDEA9D00778700B50A630C402 /* FSDevice.swift in Sources */,
+				2A03C9C177EE516244A13F8AC6FF0AA1 /* FSEmotionAI.swift in Sources */,
+				0A2E2740A5BD77FA67F7AAEE2886D07F /* FSEmotionEvent.swift in Sources */,
+				76705A6F51ED3E90E4E9DCE74B04689E /* FSEmotionPageView.swift in Sources */,
+				3DBAC8C239DA9E2379CFDE5EB58D031E /* FSError.swift in Sources */,
+				113D6CE32B56306706222B1207B82326 /* FSExposedFlag.swift in Sources */,
+				7769C797D52485F0F4A0F3DD90814EA0 /* FSFlag.swift in Sources */,
+				5041C770C265D0881011992EEBFC5849 /* FSFlag+Additions.swift in Sources */,
+				585340F83E6A183DD8D1F650133CBC7B /* FSFlagMetadata.swift in Sources */,
+				6187AD0FFD8FDF4B92C8B079557DE59D /* FSGenerator.swift in Sources */,
+				FBD1A730E1E05EFAAF8A3FE0410BC049 /* FSHits.swift in Sources */,
+				39533DCCAA2913DEEDD77E01E28EB96C /* FSITrackingManager.swift in Sources */,
+				2FDC86DE31CE8E7A40AD816F0E67AB4D /* FSLogManager.swift in Sources */,
+				01D8CE4A1F698DE735F4CDA0659D9F88 /* FSModification.swift in Sources */,
+				A35901040AAAC40DDD94FFA84CE0B71C /* FSModifications.swift in Sources */,
+				47EF168774EE3609260CAF7C71B136B8 /* FSNoConsentStrategy.swift in Sources */,
+				5EDF19806065C3C52909A824E1801EED /* FSNotReadyStrategy.swift in Sources */,
+				374D47BC16CD8BC220FCEAEDE7500391 /* FSPanicStrategy.swift in Sources */,
+				B3EC28E49C8AEFDDD01AF1F415233A85 /* FSPeriodicTrackingManager.swift in Sources */,
+				814D5A079B5B927D90A4F7AFB4A25B6D /* FSPollingScore.swift in Sources */,
+				5FCF978FC6CAC212263D00676F621894 /* FSPollingScript.swift in Sources */,
+				BDDCC2E6E25A43B63B2D44149330115F /* FSPoolQueue.swift in Sources */,
+				EC37ACCAC9BDC469F623BA244662FFFE /* FSQAMessageService.swift in Sources */,
+				3B2EC830AF55FC43D013A20FD1F750FF /* FSQAssistantStrategy.swift in Sources */,
+				7715E90F986CE1EFF44DBE7EC99BBA37 /* FSQLiteWrapper.swift in Sources */,
+				D9F16A96C0BB3DE4FE200BC8C27B0777 /* FSSegment.swift in Sources */,
+				4832E03607263E4A5314A19CC5AA4681 /* FSService.swift in Sources */,
+				929DCA734C91D9053C4B6003A0A3D3C0 /* FSService+Bucketing.swift in Sources */,
+				E0D4CCC13094B0892E18AAB1933FC88C /* FSService+Request.swift in Sources */,
+				1E2B96BBF56A6E51AA7A58412EB8082A /* FSSettings.swift in Sources */,
+				F4C68DCD95EEC054F5CF3B3A9121C446 /* FSStatus.swift in Sources */,
+				C047979128A0E40CECBAD6EAACC0E2CC /* FSStorage.swift in Sources */,
+				1B423DC679A387E3EF7DCCCB2404FEF1 /* FSStorageManager.swift in Sources */,
+				C49D3FA562B57FE7817AEEBCA2B12A83 /* FSTargetingManager.swift in Sources */,
+				2603C2EE4E67F647407A724B77F7C598 /* FSTargets.swift in Sources */,
+				05A9D7618DB22BC4489C9927D7B2ADAA /* FSTools.swift in Sources */,
+				360EC2CE9EA1BE4D7F82A31320AA5992 /* FSTracking.swift in Sources */,
+				0D4909A309396C39A4ED2683800CD7B4 /* FSTracking+Codable.swift in Sources */,
+				B479A8E51A67C8EBAAB40766175AEA4D /* FSTrackingDbMgt.swift in Sources */,
+				0CFFF9485F97101A445B5A5B7B313E81 /* FSTrackingManager.swift in Sources */,
+				D114E01C649F4A21E535055C20A2E5B7 /* FSTrackingManagerConfig.swift in Sources */,
+				7B67F98491DC11D7C6A894578E521C7A /* FSTroubleshooting.swift in Sources */,
+				054EC8915DC47FCE1343D2ED5E725339 /* FSVisitor.swift in Sources */,
+				26E9F3901100E045ABB21CCA91394365 /* FSVisitor+Campaigns.swift in Sources */,
+				32BC9CF2213EC2439962A986405FFE1C /* FSVisitor+EmotionAI.swift in Sources */,
+				F1812366DAF900410512481D107CA215 /* FSVisitor+Flags.swift in Sources */,
+				D3C0559E27954EFF2ED3D5EE33DFBF2B /* FSVisitor+objc.swift in Sources */,
+				BD79AB59D822E8685586E3FA8495FDA5 /* FSVisitor+Reconcilliation.swift in Sources */,
+				954CAA83967699B1113057D765B08591 /* FSVisitorBuilder.swift in Sources */,
+				2A74314864235A675DC95C9B36498E82 /* FSVisitorDbMgt.swift in Sources */,
+				B0F019F402449EA93A253355684BC4D1 /* FSVisitorExposed.swift in Sources */,
+				3E9440F79E785C84336F7D3CD53ACAE6 /* FSWindow.swift in Sources */,
+				667197BA4042166BA021F89698D39D10 /* murmurhash3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		011643FEED1C4EE9E31819027D119D94 /* PBXTargetDependency */ = {
+		0CE2647C395199B6F2AD564EACFE7204 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FlagShip;
 			target = D899975D25DAC4B611F10D83547B7094 /* FlagShip */;
-			targetProxy = A240CE6C8426B10BA4C31EE197DB7A18 /* PBXContainerItemProxy */;
+			targetProxy = 0F5817128DC7AE047E749C8742808FAF /* PBXContainerItemProxy */;
 		};
-		038F625853A7CF91770B40ACDB7F9882 /* PBXTargetDependency */ = {
+		0D86677F6DFB7F1FEF9D838B945BBFB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ABTastyQAssistant;
+			target = 2B20FDC5F922F4125E7DE169906DB70D /* ABTastyQAssistant */;
+			targetProxy = D85A661FDF99DD6C02BFE1058CC8458E /* PBXContainerItemProxy */;
+		};
+		5BD9CFC56892D8400E45A17B8E48F80A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FlagShip;
 			target = D899975D25DAC4B611F10D83547B7094 /* FlagShip */;
-			targetProxy = 64935C9DD2F74DDC3282F15E5D4F950D /* PBXContainerItemProxy */;
+			targetProxy = A045BA1CCB668F655BB511A48062F4CC /* PBXContainerItemProxy */;
 		};
-		1D33C6EA4194D333298B4A1A242E853C /* PBXTargetDependency */ = {
+		8A2DFEBD9D2C225ED89989C984BBEFB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ABTastyQAssistant;
+			target = 2B20FDC5F922F4125E7DE169906DB70D /* ABTastyQAssistant */;
+			targetProxy = C12B3AED78A32E6B8AA4B66C34BB77FF /* PBXContainerItemProxy */;
+		};
+		BED1D95D843A3A622549FA3403F9ACDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlagShip;
+			target = D899975D25DAC4B611F10D83547B7094 /* FlagShip */;
+			targetProxy = 398168E35601677E6D6FC87B10696325 /* PBXContainerItemProxy */;
+		};
+		FBC289BA71589432CC30D7783FFFB254 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "ABTastyQAssistant-ABTastyQAssistant";
 			target = 03D127D44D65E4C5FBDF4F1C1D0CA8B7 /* ABTastyQAssistant-ABTastyQAssistant */;
-			targetProxy = 1C4CDCB3D36B5A5463D72ACFF97AFDD7 /* PBXContainerItemProxy */;
-		};
-		6159837F97F18D768AAB74677E399888 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FlagShip;
-			target = D899975D25DAC4B611F10D83547B7094 /* FlagShip */;
-			targetProxy = D968208103D000DAA51D742F98E02BD8 /* PBXContainerItemProxy */;
-		};
-		F0023042B69822738BC49AB0DC5EC96A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ABTastyQAssistant;
-			target = 2B20FDC5F922F4125E7DE169906DB70D /* ABTastyQAssistant */;
-			targetProxy = D265E67B21BAAD7A2BED7D4AB296BDBB /* PBXContainerItemProxy */;
-		};
-		FE237CEA85808DEF2FBC63B7568DA3ED /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ABTastyQAssistant;
-			target = 2B20FDC5F922F4125E7DE169906DB70D /* ABTastyQAssistant */;
-			targetProxy = FB315C4A7556F1722A234B37709A8E30 /* PBXContainerItemProxy */;
+			targetProxy = 4E57E587DF5FD378B09D86A8498BDFFD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0875772620829CA3C8DF1E7E469FA024 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9720298F4C1B1D3AA9CF096F312CC870 /* ABTastyQAssistant.debug.xcconfig */;
+			baseConfigurationReference = ABA49F27356B82C35391FE74A7B1F190 /* ABTastyQAssistant.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1092,45 +1169,26 @@
 			};
 			name = Debug;
 		};
-		12829E1BE03BC3A289E81203D6545951 /* Debug */ = {
+		13F84388B368F4F200F172022AEF1339 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24BE7D7E28D0984BE21A43A0163870E9 /* FlagShip.debug.xcconfig */;
+			baseConfigurationReference = ABA49F27356B82C35391FE74A7B1F190 /* ABTastyQAssistant.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/FlagShip/FlagShip-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/FlagShip/FlagShip-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FlagShip/FlagShip.modulemap";
-				PRODUCT_MODULE_NAME = FlagShip;
-				PRODUCT_NAME = FlagShip;
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ABTastyQAssistant";
+				IBSC_MODULE = ABTastyQAssistant;
+				INFOPLIST_FILE = "Target Support Files/ABTastyQAssistant/ResourceBundle-ABTastyQAssistant-ABTastyQAssistant-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_NAME = ABTastyQAssistant;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
 		32539CFEB775A04F231023CB51FF5F0C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F666C797C85ADEFBB8870F92382C66E /* ABTastyQAssistant.release.xcconfig */;
+			baseConfigurationReference = F7DCBE0E2F65E85912E5034A699CC9E1 /* ABTastyQAssistant.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1162,23 +1220,6 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		45CE01B2491AC0EAA8CA2D7E9F4FA757 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F666C797C85ADEFBB8870F92382C66E /* ABTastyQAssistant.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ABTastyQAssistant";
-				IBSC_MODULE = ABTastyQAssistant;
-				INFOPLIST_FILE = "Target Support Files/ABTastyQAssistant/ResourceBundle-ABTastyQAssistant-ABTastyQAssistant-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				PRODUCT_NAME = ABTastyQAssistant;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -1419,26 +1460,9 @@
 			};
 			name = Release;
 		};
-		A4ABD29B7A2EDD9C2D171E1BE7B68F15 /* Debug */ = {
+		A5FD0F4BE4B59D03CB98AD9F8F0CCCC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9720298F4C1B1D3AA9CF096F312CC870 /* ABTastyQAssistant.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ABTastyQAssistant";
-				IBSC_MODULE = ABTastyQAssistant;
-				INFOPLIST_FILE = "Target Support Files/ABTastyQAssistant/ResourceBundle-ABTastyQAssistant-ABTastyQAssistant-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				PRODUCT_NAME = ABTastyQAssistant;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		B63B2FD4E893986509D24DCFD67BB009 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E4B2C79A74BEB82982BE8D5C8DFAF25 /* FlagShip.release.xcconfig */;
+			baseConfigurationReference = A428EA7552E10BE40C0A3F9502E1AB2C /* FlagShip.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1467,11 +1491,10 @@
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		C2B769C927FA3204B1671522187E47CA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1510,14 +1533,68 @@
 			};
 			name = Release;
 		};
+		D9396ECBB85258FA860F6AE752803CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AE8FB2CBF3C32E6A619B49990E413A0 /* FlagShip.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/FlagShip/FlagShip-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/FlagShip/FlagShip-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FlagShip/FlagShip.modulemap";
+				PRODUCT_MODULE_NAME = FlagShip;
+				PRODUCT_NAME = FlagShip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E37BF24F6228907AC7606ED08C42A88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7DCBE0E2F65E85912E5034A699CC9E1 /* ABTastyQAssistant.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ABTastyQAssistant";
+				IBSC_MODULE = ABTastyQAssistant;
+				INFOPLIST_FILE = "Target Support Files/ABTastyQAssistant/ResourceBundle-ABTastyQAssistant-ABTastyQAssistant-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_NAME = ABTastyQAssistant;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		286F5E3C833A8E94691123C6479146FD /* Build configuration list for PBXNativeTarget "ABTastyQAssistant-ABTastyQAssistant" */ = {
+		14BB29FAE5DE102C82A32BE9433FA383 /* Build configuration list for PBXNativeTarget "FlagShip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A4ABD29B7A2EDD9C2D171E1BE7B68F15 /* Debug */,
-				45CE01B2491AC0EAA8CA2D7E9F4FA757 /* Release */,
+				A5FD0F4BE4B59D03CB98AD9F8F0CCCC5 /* Debug */,
+				D9396ECBB85258FA860F6AE752803CC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1531,11 +1608,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		549C15D83A79DCB3A2C33846ABE7FBC6 /* Build configuration list for PBXNativeTarget "FlagShip" */ = {
+		77F7F518B7C61A44C8A7D6E135E41CF4 /* Build configuration list for PBXNativeTarget "ABTastyQAssistant-ABTastyQAssistant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12829E1BE03BC3A289E81203D6545951 /* Debug */,
-				B63B2FD4E893986509D24DCFD67BB009 /* Release */,
+				13F84388B368F4F200F172022AEF1339 /* Debug */,
+				E37BF24F6228907AC7606ED08C42A88B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
